@@ -1,33 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
-<style type="text/css">
-	.aave0{clip-path:url(#SVGID_2_);}
-	.aave1{fill:url(#SVGID_3_);}
-	.aave2{fill:#FFFFFF;}
-</style>
-<g>
-	<g>
-		<defs>
-			<rect id="SVGID_1_" width="800" height="800"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g id="b" class="aave0">
-			
-				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-696.2277" y1="0.4415" x2="-696.9717" y2="1.0675" gradientTransform="matrix(776 0 0 776 540962 -186)">
-				<stop  offset="0" style="stop-color:#B6509E"/>
-				<stop  offset="1" style="stop-color:#2EBAC6"/>
-			</linearGradient>
-			<circle class="aave1" cx="400" cy="400" r="388"/>
-			<path class="aave2" d="M569.8,554.6L438.6,237.4c-7.4-16.4-18.4-24.4-32.9-24.4h-11.6c-14.5,0-25.5,8-32.9,24.4l-57.1,138.2h-43.2
-				c-12.9,0.1-23.4,10.5-23.5,23.5v0.3c0.1,12.9,10.6,23.4,23.5,23.5h23.2l-54.5,131.7c-1,2.9-1.6,5.9-1.6,9
-				c0,7.4,2.3,13.2,6.4,17.7s10,6.7,17.4,6.7c4.9-0.1,9.6-1.6,13.5-4.5c4.2-2.9,7.1-7.1,9.4-11.9l60-148.8h41.6
-				c12.9-0.1,23.4-10.5,23.5-23.5v-0.6c-0.1-12.9-10.6-23.4-23.5-23.5h-22.2l45.8-114.1l124.8,310.4c2.3,4.8,5.2,9,9.4,11.9
-				c3.9,2.9,8.7,4.4,13.5,4.5c7.4,0,13.2-2.2,17.4-6.7s6.4-10.3,6.4-17.7C571.5,560.5,571,557.4,569.8,554.6z"/>
-		</g>
-	</g>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_741_46)">
+<path d="M256 128C256 198.692 198.692 256 128 256C57.3075 256 0 198.692 0 128C0 57.3075 57.3075 0 128 0C198.692 0 256 57.3075 256 128Z" fill="#31B9C6"/>
+<mask id="mask0_741_46" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="5" width="246" height="246">
+<path d="M251 5H5V251H251V5Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_741_46)">
+<path d="M128 247.31C193.893 247.31 247.31 193.894 247.31 128C247.31 62.1071 193.893 8.69019 128 8.69019C62.107 8.69019 8.69009 62.1071 8.69009 128C8.69009 193.894 62.107 247.31 128 247.31Z" fill="url(#paint0_linear_741_46)"/>
+<path d="M180.213 175.539L139.869 78.0003C137.594 72.9573 134.211 70.4973 129.753 70.4973H126.186C121.727 70.4973 118.344 72.9573 116.069 78.0003L98.5109 120.497H85.2269C81.2601 120.527 78.0314 123.725 78.0006 127.723V127.815C78.0314 131.782 81.2601 135.011 85.2269 135.041H92.3609L75.6021 175.539C75.2946 176.431 75.1101 177.353 75.1101 178.307C75.1101 180.582 75.8174 182.366 77.0781 183.749C78.3389 185.133 80.1531 185.81 82.4286 185.81C83.9354 185.779 85.3806 185.318 86.5799 184.426C87.8714 183.534 88.7631 182.243 89.4704 180.767L107.92 135.011H120.712C124.679 134.98 127.908 131.782 127.938 127.784V127.6C127.908 123.633 124.679 120.404 120.712 120.374H113.886L127.969 85.2881L166.345 180.736C167.052 182.212 167.944 183.503 169.236 184.395C170.435 185.287 171.911 185.748 173.387 185.779C175.662 185.779 177.446 185.102 178.737 183.719C180.029 182.335 180.705 180.551 180.705 178.276C180.736 177.353 180.582 176.4 180.213 175.539Z" fill="white"/>
 </g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_741_46" x1="216.962" y1="53.1559" x2="39.428" y2="202.532" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B6509E"/>
+<stop offset="1" stop-color="#2EBAC6"/>
+</linearGradient>
+<clipPath id="clip0_741_46">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
 </svg>

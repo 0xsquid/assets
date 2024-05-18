@@ -1,9 +1,15 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_741_46)">
-<rect width="256" height="256" fill="url(#pattern0)"/>
+<path d="M256 128C256 198.692 198.692 256 128 256C57.3075 256 0 198.692 0 128C0 57.3075 57.3075 0 128 0C198.692 0 256 57.3075 256 128Z" fill="#172767"/>
+<mask id="mask0_741_46" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="9" y="9" width="238" height="238">
+<path d="M247 9H9V247H247V9Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_741_46)">
+<path d="M247 9H9V247H247V9Z" fill="url(#pattern0_741_46)"/>
+</g>
 </g>
 <defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<pattern id="pattern0_741_46" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_741_46" transform="scale(0.00390625)"/>
 </pattern>
 <clipPath id="clip0_741_46">
