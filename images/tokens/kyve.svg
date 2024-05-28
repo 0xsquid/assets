@@ -1,58 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 425.2 425.2">
-  <defs>
-    <style>
-      .cls-1 {
-        clip-path: url(#clippath);
-      }
-
-      .cls-2 {
-        fill: none;
-      }
-
-      .cls-2, .cls-3, .cls-4, .cls-5 {
-        stroke-width: 0px;
-      }
-
-      .cls-6 {
-        mask: url(#mask);
-      }
-
-      .cls-3 {
-        fill: url(#Unbenannter_Verlauf);
-        fill-opacity: .5;
-      }
-
-      .cls-4 {
-        fill: #141c1b;
-      }
-
-      .cls-5 {
-        fill: #fff;
-      }
-    </style>
-    <clipPath id="clippath">
-      <circle class="cls-2" cx="212.6" cy="212.6" r="212.6"/>
-    </clipPath>
-    <mask id="mask" x="-126.4" y="-7.4" width="677" height="659" maskUnits="userSpaceOnUse">
-      <g id="mask0_7293_9714" data-name="mask0 7293 9714">
-        <rect class="cls-4" x="-7.4" y="-7.4" width="440" height="440"/>
-      </g>
-    </mask>
-    <linearGradient id="Unbenannter_Verlauf" data-name="Unbenannter Verlauf" x1="212.1" y1="262.49" x2="212.1" y2="-226.51" gradientTransform="translate(0 425.09) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#58c6b2"/>
-      <stop offset="1" stop-color="#106757"/>
-    </linearGradient>
-  </defs>
-  <g id="Ebene_1-2" data-name="Ebene 1">
-    <g class="cls-1">
-      <g>
-        <rect class="cls-4" x="-7.4" y="-7.4" width="440" height="440"/>
-        <g class="cls-6">
-          <ellipse class="cls-3" cx="212.1" cy="407.1" rx="338.5" ry="244.5"/>
-        </g>
-        <path class="cls-5" d="m152.02,330.6h-44.42l50.14-235h44.42l-20.53,96.35h8.08l76.06-96.35h51.83v4.03l-89.52,111.46v6.04l56.54,111.46v2.01h-49.13l-49.13-96.35h-14.13l-20.19,96.35Z"/>
-      </g>
-    </g>
-  </g>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1350_157)">
+<mask id="mask0_1350_157" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+<path d="M128 256C198.692 256 256 198.692 256 128C256 57.3076 198.692 0 128 0C57.3076 0 0 57.3076 0 128C0 198.692 57.3076 256 128 256Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1350_157)">
+<path d="M260.455 -4.45508H-4.45532V260.456H260.455V-4.45508Z" fill="#141C1B"/>
+<path d="M127.699 392.309C240.255 392.309 331.5 326.403 331.5 245.103C331.5 163.803 240.255 97.897 127.699 97.897C15.143 97.897 -76.1016 163.803 -76.1016 245.103C-76.1016 326.403 15.143 392.309 127.699 392.309Z" fill="url(#paint0_linear_1350_157)" fill-opacity="0.5"/>
+<path d="M91.5266 199.044H64.7827L94.9705 57.5581H121.714L109.354 115.568H114.219L160.012 57.5581H191.217V59.9844L137.32 127.091V130.728L171.361 197.834V199.044H141.781L112.202 141.035H103.694L91.5387 199.044H91.5266Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1350_157" x1="127.699" y1="97.897" x2="127.699" y2="392.309" gradientUnits="userSpaceOnUse">
+<stop stop-color="#58C6B2"/>
+<stop offset="1" stop-color="#106757"/>
+</linearGradient>
+<clipPath id="clip0_1350_157">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
 </svg>
