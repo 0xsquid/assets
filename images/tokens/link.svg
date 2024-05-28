@@ -1,20 +1,25 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_741_46)">
-<path d="M256 128C256 198.692 198.692 256 128 256C57.3075 256 0 198.692 0 128C0 57.3075 57.3075 0 128 0C198.692 0 256 57.3075 256 128Z" fill="white"/>
-<mask id="mask0_741_46" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="29" y="29" width="198" height="198">
+<g clip-path="url(#clip0_1350_168)">
+<mask id="mask0_1350_168" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+<path d="M256 0H0V256H256V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1350_168)">
+<path d="M256 128C256 198.692 198.692 256 128 256C57.3075 256 0 198.692 0 128C0 57.3075 57.3075 0 128 0C198.692 0 256 57.3075 256 128Z" fill="#2A5ADA"/>
+<mask id="mask1_1350_168" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="29" y="29" width="198" height="198">
 <path d="M227 29.8364H29.8363V227H227V29.8364Z" fill="white"/>
 </mask>
-<g mask="url(#mask0_741_46)">
-<mask id="mask1_741_46" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="43" y="29" width="172" height="198">
+<g mask="url(#mask1_1350_168)">
+<mask id="mask2_1350_168" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="43" y="29" width="172" height="198">
 <path d="M214.338 29.8364H43.4026V227H214.338V29.8364Z" fill="white"/>
 </mask>
-<g mask="url(#mask1_741_46)">
-<path d="M128.87 29.8364L110.782 40.2373L61.491 68.7265L43.4026 79.1273V177.709L61.491 188.11L111.234 216.599L129.323 227L147.411 216.599L196.25 188.11L214.338 177.709V79.1273L196.25 68.7265L146.959 40.2373L128.87 29.8364ZM79.5794 156.907V99.929L128.87 71.4398L178.161 99.929V156.907L128.87 185.397L79.5794 156.907Z" fill="#2A5ADA"/>
+<g mask="url(#mask2_1350_168)">
+<path d="M128.87 29.8364L110.782 40.2373L61.491 68.7265L43.4026 79.1273V177.709L61.491 188.11L111.234 216.599L129.323 227L147.411 216.599L196.25 188.11L214.338 177.709V79.1273L196.25 68.7265L146.959 40.2373L128.87 29.8364ZM79.5794 156.907V99.929L128.87 71.4398L178.161 99.929V156.907L128.87 185.397L79.5794 156.907Z" fill="white"/>
+</g>
 </g>
 </g>
 </g>
 <defs>
-<clipPath id="clip0_741_46">
+<clipPath id="clip0_1350_168">
 <rect width="256" height="256" fill="white"/>
 </clipPath>
 </defs>
