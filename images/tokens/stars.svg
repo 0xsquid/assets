@@ -1,26 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1499.4 1499.4">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: url(#Nova_amostra_de_gradiente_1);
-        fill-rule: evenodd;
-      }
-
-      .cls-2 {
-        fill: url(#Nova_amostra_de_gradiente_1-2);
-      }
-    </style>
-    <linearGradient id="Nova_amostra_de_gradiente_1" data-name="Nova amostra de gradiente 1" x1="0" y1="749.7" x2="1499.4" y2="749.7" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fcf29f"/>
-      <stop offset=".64" stop-color="#91cec7"/>
-      <stop offset="1" stop-color="#6f98d0"/>
-    </linearGradient>
-    <linearGradient id="Nova_amostra_de_gradiente_1-2" data-name="Nova amostra de gradiente 1" x1="257.65" y1="736.83" x2="1327.64" y2="736.83" xlink:href="#Nova_amostra_de_gradiente_1"/>
-  </defs>
-  <circle cx="748.53" cy="753.43" r="703.34"/>
-  <g>
-    <path class="cls-1" d="m749.7,1432.76c377.24,0,683.06-305.82,683.06-683.06S1126.94,66.64,749.7,66.64,66.64,372.46,66.64,749.7s305.82,683.06,683.06,683.06Zm749.7-683.06c0,414.05-335.65,749.7-749.7,749.7S0,1163.75,0,749.7,335.65,0,749.7,0s749.7,335.65,749.7,749.7Z"/>
-    <path class="cls-2" d="m888.73,187.18l30.24,419.92,408.67,100.96-390.01,158.52,30.24,419.92-271.22-321.96-390.01,158.6,222.33-357.52-271.31-321.96,408.67,101.04,222.41-357.52Z"/>
-  </g>
+<svg width="409" height="409" viewBox="0 0 409 409" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1413_138)">
+<path d="M204.181 397.372C310.139 397.372 396.035 311.476 396.035 205.518C396.035 99.5596 310.139 13.6636 204.181 13.6636C98.2227 13.6636 12.3267 99.5596 12.3267 205.518C12.3267 311.476 98.2227 397.372 204.181 397.372Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M204.5 390.822C307.402 390.822 390.822 307.402 390.822 204.5C390.822 101.598 307.402 18.1778 204.5 18.1778C101.598 18.1778 18.1778 101.598 18.1778 204.5C18.1778 307.402 101.598 390.822 204.5 390.822ZM409 204.5C409 317.443 317.443 409 204.5 409C91.5572 409 0 317.443 0 204.5C0 91.5572 91.5572 0 204.5 0C317.443 0 409 91.5572 409 204.5Z" fill="#DB2877"/>
+<path d="M242.424 51.0581L250.673 165.602L362.148 193.142L255.763 236.382L264.012 350.926L190.029 263.103L83.644 306.365L144.29 208.843L70.2834 121.02L181.759 148.581L242.427 51.0581H242.424Z" fill="#DB2877"/>
+</g>
+<defs>
+<clipPath id="clip0_1413_138">
+<rect width="409" height="409" fill="white"/>
+</clipPath>
+</defs>
 </svg>
