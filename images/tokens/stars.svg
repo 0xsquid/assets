@@ -1,26 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1499.4 1499.4">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: url(#Nova_amostra_de_gradiente_1);
-        fill-rule: evenodd;
-      }
-
-      .cls-2 {
-        fill: url(#Nova_amostra_de_gradiente_1-2);
-      }
-    </style>
-    <linearGradient id="Nova_amostra_de_gradiente_1" data-name="Nova amostra de gradiente 1" x1="0" y1="749.7" x2="1499.4" y2="749.7" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fcf29f"/>
-      <stop offset=".64" stop-color="#91cec7"/>
-      <stop offset="1" stop-color="#6f98d0"/>
-    </linearGradient>
-    <linearGradient id="Nova_amostra_de_gradiente_1-2" data-name="Nova amostra de gradiente 1" x1="257.65" y1="736.83" x2="1327.64" y2="736.83" xlink:href="#Nova_amostra_de_gradiente_1"/>
-  </defs>
-  <circle cx="748.53" cy="753.43" r="703.34"/>
-  <g>
-    <path class="cls-1" d="m749.7,1432.76c377.24,0,683.06-305.82,683.06-683.06S1126.94,66.64,749.7,66.64,66.64,372.46,66.64,749.7s305.82,683.06,683.06,683.06Zm749.7-683.06c0,414.05-335.65,749.7-749.7,749.7S0,1163.75,0,749.7,335.65,0,749.7,0s749.7,335.65,749.7,749.7Z"/>
-    <path class="cls-2" d="m888.73,187.18l30.24,419.92,408.67,100.96-390.01,158.52,30.24,419.92-271.22-321.96-390.01,158.6,222.33-357.52-271.31-321.96,408.67,101.04,222.41-357.52Z"/>
-  </g>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1430_22)">
+<path d="M127.8 248.721C194.121 248.721 247.885 194.957 247.885 128.636C247.885 62.3155 194.121 8.55176 127.8 8.55176C61.4793 8.55176 7.71558 62.3155 7.71558 128.636C7.71558 194.957 61.4793 248.721 127.8 248.721Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M128 244.622C192.408 244.622 244.622 192.408 244.622 128C244.622 63.5919 192.408 11.3778 128 11.3778C63.5919 11.3778 11.3778 63.5919 11.3778 128C11.3778 192.408 63.5919 244.622 128 244.622ZM256 128C256 198.693 198.693 256 128 256C57.3072 256 0 198.693 0 128C0 57.3072 57.3072 0 128 0C198.693 0 256 57.3072 256 128Z" fill="url(#paint0_linear_1430_22)"/>
+<path d="M151.737 31.958L156.9 103.653L226.674 120.89L160.086 147.955L165.249 219.65L118.942 164.681L52.3541 191.759L90.3136 130.718L43.9915 75.7481L113.766 92.9992L151.739 31.958H151.737Z" fill="url(#paint1_linear_1430_22)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1430_22" x1="0" y1="128" x2="256" y2="128" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCF29F"/>
+<stop offset="0.64" stop-color="#91CEC7"/>
+<stop offset="1" stop-color="#6F98D0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1430_22" x1="43.9897" y1="125.802" x2="226.674" y2="125.802" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCF29F"/>
+<stop offset="0.64" stop-color="#91CEC7"/>
+<stop offset="1" stop-color="#6F98D0"/>
+</linearGradient>
+<clipPath id="clip0_1430_22">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
 </svg>

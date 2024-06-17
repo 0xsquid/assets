@@ -1,15 +1,16 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_741_46" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="254" height="254">
-<circle cx="128" cy="128" r="127" fill="url(#paint0_linear_741_46)"/>
+<circle cx="128" cy="128" r="48" fill="white"/>
+<mask id="mask0_1425_2057" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="254" height="254">
+<path d="M128 255C198.14 255 255 198.14 255 128C255 57.8598 198.14 1 128 1C57.8598 1 1 57.8598 1 128C1 198.14 57.8598 255 128 255Z" fill="url(#paint0_linear_1425_2057)"/>
 </mask>
-<g mask="url(#mask0_741_46)">
+<g mask="url(#mask0_1425_2057)">
 <path d="M175.625 1H80.375C36.5374 1 1 36.5374 1 80.375V175.625C1 219.463 36.5374 255 80.375 255H175.625C219.463 255 255 219.463 255 175.625V80.375C255 36.5374 219.463 1 175.625 1Z" fill="#FCFCFC"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M59.7674 170.811L102.629 127.953L59.7674 85.0876L85.169 59.686L128.031 102.552L170.892 59.686L196.294 85.0876L153.428 127.953L196.294 170.811L170.892 196.213L128.031 153.355L85.169 196.213L59.7674 170.811Z" fill="#7298FE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M59.7673 170.811L102.629 127.953L59.7673 85.0876L85.1689 59.686L128.031 102.552L170.892 59.686L196.294 85.0876L153.428 127.953L196.294 170.811L170.892 196.213L128.031 153.355L85.1689 196.213L59.7673 170.811Z" fill="#7298FE"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M88.0571 56.8792L128.031 16.9204L167.986 56.8792L146.542 78.3275L128.016 59.8015L109.49 78.3275L88.0571 56.8792Z" fill="#2855CC"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M88.0571 199.094L128.031 239.061L167.986 199.094L146.542 177.638L128.016 196.164L109.49 177.638L88.0571 199.094Z" fill="#2855CC"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear_741_46" x1="38" y1="38" x2="218" y2="218" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_1425_2057" x1="38" y1="38" x2="218" y2="218" gradientUnits="userSpaceOnUse">
 <stop/>
 <stop offset="1"/>
 </linearGradient>
