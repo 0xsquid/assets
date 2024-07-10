@@ -1,34 +1,26 @@
-<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_498_178)">
-<mask id="mask0_498_178" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="800">
-<circle cx="400" cy="400" r="400" fill="#D9D9D9"/>
-</mask>
-<g mask="url(#mask0_498_178)">
-<path d="M800 0H0V800H800V0Z" fill="black"/>
-<g filter="url(#filter0_di_498_178)">
-<path d="M637.485 439.321C587.837 584.433 449.105 611.857 332.369 591.485C303.617 586.471 218.461 559.987 195.68 487.431C193.637 481.006 181.068 438.694 202.121 397.636C235.115 333.386 322.628 326.647 371.334 322.886C443.449 317.245 492.94 339.654 502.995 344.355C521.063 352.818 533.161 361.75 541.174 367.078C527.976 353.601 473.772 288.567 353.894 285.276C247.056 282.142 176.983 343.415 163 356.109C212.648 211.153 351.38 183.572 468.116 203.944C496.868 208.959 582.024 235.443 604.805 307.999C606.848 314.424 619.417 356.735 598.364 397.793C565.37 462.044 477.857 468.782 429.152 472.7C356.879 478.342 307.545 455.932 297.49 451.231C279.265 442.455 267.167 433.679 259.154 428.351C272.194 441.828 326.556 506.863 446.277 510.153C553.429 513.288 623.502 452.014 637.485 439.321Z" fill="#AFEB00"/>
-</g>
-</g>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="64" rx="32" fill="#0D0D0D"/>
+<g filter="url(#filter0_bdi_2018_57)">
+<path d="M54.6887 36.1979C49.9081 50.1474 36.5494 52.7836 25.3088 50.8253C22.5402 50.3432 14.3404 47.7974 12.1468 40.8226C11.9501 40.205 10.7398 36.1376 12.7671 32.1908C15.9441 26.0145 24.3708 25.3667 29.0607 25.0052C36.0048 24.4629 40.7703 26.617 41.7385 27.069C43.4783 27.8824 44.6433 28.7411 45.4148 29.2533C44.144 27.9578 38.9246 21.7061 27.3814 21.3898C17.0939 21.0885 10.3465 26.9786 9 28.1988C13.7807 14.2644 27.1393 11.6131 38.38 13.5714C41.1485 14.0535 49.3483 16.5993 51.542 23.5741C51.7386 24.1917 52.9489 28.259 50.9217 32.2059C47.7446 38.3822 39.3179 39.03 34.628 39.4066C27.6688 39.9489 22.9184 37.7947 21.9502 37.3428C20.1953 36.4992 19.0303 35.6556 18.2588 35.1434C19.5145 36.4389 24.749 42.6906 36.2771 43.0069C46.5949 43.3082 53.3423 37.4181 54.6887 36.1979Z" fill="#AFEB00"/>
 </g>
 <defs>
-<filter id="filter0_di_498_178" x="106.464" y="155.598" width="587.558" height="512.515" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_bdi_2018_57" x="3.5041" y="8.87807" width="56.6793" height="49.3902" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="0.549723"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2018_57"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="14.1341"/>
-<feGaussianBlur stdDeviation="28.2682"/>
+<feOffset dy="1.37398"/>
+<feGaussianBlur stdDeviation="2.74795"/>
 <feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0.686275 0 0 0 0 0.921569 0 0 0 0 0 0 0 0 0.35 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_498_178"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_498_178" result="shape"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_2018_57" result="effect2_dropShadow_2018_57"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_2018_57" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset/>
-<feGaussianBlur stdDeviation="5.5"/>
+<feGaussianBlur stdDeviation="0.534655"/>
 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0.897872 0 0 0 0 1 0 0 0 0 0.6 0 0 0 1 0"/>
-<feBlend mode="normal" in2="shape" result="effect2_innerShadow_498_178"/>
+<feBlend mode="normal" in2="shape" result="effect3_innerShadow_2018_57"/>
 </filter>
-<clipPath id="clip0_498_178">
-<rect width="800" height="800" fill="white"/>
-</clipPath>
 </defs>
 </svg>
