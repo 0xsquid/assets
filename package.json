@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "convert": "bash scripts/convert.sh"
+    "convert": "bash scripts/convert.sh",
+    "convert:override": "bash scripts/convert.sh --override"
   }
 }
