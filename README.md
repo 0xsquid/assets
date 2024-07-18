@@ -26,6 +26,21 @@ Compare folders size
 yarn compare
 ```
 
+## Install rsvg-convert and cwebp
+
+Mac:
+
+```bash
+brew install librsvg webp
+```
+
+Linux:
+
+```bash
+sudo apt-get update
+sudo apt-get install librsvg2-bin webp
+```
+
 ## Folder Structure
 
 ```
