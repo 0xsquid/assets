@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Default size for the images
+SIZE=128
+
 # Define the directories
 MASTER_DIR="images/master"
 PNG_DIR="images/png"
@@ -31,12 +34,25 @@ cleanup() {
 # Trap SIGINT signal (Ctrl + C)
 trap cleanup SIGINT
 
-# Check if --override flag is provided
-if [[ "$1" == "--override" ]]; then
-    OVERRIDE=true
-fi
+# Parse arguments
+for arg in "$@"; do
+    case $arg in
+        --override)
+            OVERRIDE=true
+            shift # Remove --override from processing
+            ;;
+        --size=*)
+            SIZE="${arg#*=}"
+            shift # Remove --size=value from processing
+            ;;
+        *)
+            ;;
+    esac
+done
 
 # Create the output directories if they don't exist
+PNG_DIR="images/png$SIZE"
+WEBP_DIR="images/webp$SIZE"
 mkdir -p "$PNG_DIR"
 mkdir -p "$WEBP_DIR"
 
@@ -62,7 +78,7 @@ convert_files() {
                 echo "" >/dev/null
             else
                 # Convert SVG to PNG
-                rsvg-convert -w 128 -h 128 "$svg_file" -o "$output_dir_png/$subdir/$filename.png"
+                rsvg-convert -w "$SIZE" -h "$SIZE" "$svg_file" -o "$output_dir_png/$subdir/$filename.png"
                 if [ $? -eq 0 ]; then
                     print_color_message "Converted $svg_file to $output_dir_png/$subdir/$filename.png" "$GREEN"
                 else
