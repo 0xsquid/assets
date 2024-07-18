@@ -28,7 +28,7 @@ convert_files() {
             rsvg-convert -w 128 -h 128 "$svg_file" -o "$output_dir_png/$subdir/$filename.png"
 
             # Convert PNG to WebP
-            cwebp "$output_dir_png/$subdir/$filename.png" -o "$output_dir_webp/$subdir/$filename.webp"
+            cwebp "$output_dir_png/$subdir/$filename.png" -o "$output_dir_webp/$subdir/$filename.webp" -quiet
 
             echo "Converted $svg_file to $output_dir_png/$subdir/$filename.png and $output_dir_webp/$subdir/$filename.webp"
         fi
@@ -40,4 +40,4 @@ for dir in $(find "$MASTER_DIR" -type d); do
     convert_files "$dir" "$PNG_DIR" "$WEBP_DIR"
 done
 
-echo "Conversion and folder restructuring completed."
+echo "Conversion completed."
