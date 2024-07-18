@@ -1,6 +1,7 @@
 {
   "scripts": {
     "convert": "bash scripts/convert.sh",
-    "convert:override": "bash scripts/convert.sh --override"
+    "convert:override": "bash scripts/convert.sh --override",
+    "compare": "bash scripts/compare_folders_size.sh"
   }
 }
