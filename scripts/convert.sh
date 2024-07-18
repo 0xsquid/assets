@@ -4,6 +4,25 @@
 MASTER_DIR="images/master"
 PNG_DIR="images/png"
 WEBP_DIR="images/webp"
+OVERRIDE=false
+
+# Colors
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
+
+# Function to print messages in colors
+print_color_message() {
+    local message=$1
+    local color=$2
+    echo -e "${color}${message}${NC}"
+}
+
+# Check if --override flag is provided
+if [[ "$1" == "--override" ]]; then
+    OVERRIDE=true
+fi
 
 # Create the output directories if they don't exist
 mkdir -p "$PNG_DIR"
@@ -24,18 +43,29 @@ convert_files() {
             mkdir -p "$output_dir_png/$subdir"
             mkdir -p "$output_dir_webp/$subdir"
 
-            # Convert SVG to PNG
-            rsvg-convert -w 128 -h 128 "$svg_file" -o "$output_dir_png/$subdir/$filename.png"
+            # Check if file exists and OVERRIDE is false
+            if [[ -f "$output_dir_png/$subdir/$filename.png" && "$OVERRIDE" == false ]]; then
+                print_color_message "Skipped existing file: $output_dir_png/$subdir/$filename.png" "$YELLOW"
+            else
+                # Convert SVG to PNG
+                rsvg-convert -w 128 -h 128 "$svg_file" -o "$output_dir_png/$subdir/$filename.png"
+                print_color_message "Converted $svg_file to $output_dir_png/$subdir/$filename.png" "$GREEN"
+            fi
 
-            # Convert PNG to WebP
-            cwebp "$output_dir_png/$subdir/$filename.png" -o "$output_dir_webp/$subdir/$filename.webp" -quiet
-
-            echo "Converted $svg_file to $output_dir_png/$subdir/$filename.png and $output_dir_webp/$subdir/$filename.webp"
+            # Check if file exists and OVERRIDE is false
+            if [[ -f "$output_dir_webp/$subdir/$filename.webp" && "$OVERRIDE" == false ]]; then
+                print_color_message "Skipped existing file: $output_dir_webp/$subdir/$filename.webp" "$YELLOW"
+            else
+                # Convert PNG to WebP
+                cwebp "$output_dir_png/$subdir/$filename.png" -o "$output_dir_webp/$subdir/$filename.webp" -quiet
+                print_color_message "Converted $svg_file to $output_dir_webp/$subdir/$filename.webp" "$GREEN"
+            fi
         fi
     done
 }
 
 # Loop through all directories in the master folder
+echo "Starting conversion process..."
 for dir in $(find "$MASTER_DIR" -type d); do
     convert_files "$dir" "$PNG_DIR" "$WEBP_DIR"
 done
