@@ -12,7 +12,7 @@ Convert all SVGs in `/images/master` to PNGs and WebPs in `/images/png` and `/im
 yarn convert
 ```
 
-Override existing files:
+Override existing files in png and webp folders:
 
 ```bash
 yarn convert --override
