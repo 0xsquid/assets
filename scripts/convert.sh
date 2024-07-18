@@ -66,7 +66,7 @@ convert_files() {
                 if [ $? -eq 0 ]; then
                     print_color_message "Converted $svg_file to $output_dir_png/$subdir/$filename.png" "$GREEN"
                 else
-                    print_color_message "Error converting $svg_file" "$RED"
+                    print_color_message "Error converting $svg_file to PNG" "$RED"
                 fi
             fi
 
