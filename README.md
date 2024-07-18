@@ -43,10 +43,6 @@ sudo apt-get update
 sudo apt-get install librsvg2-bin webp
 ```
 
-sudo apt-get update
-sudo apt-get install potrace imagemagick
-
-
 ## Folder Structure
 
 ```
