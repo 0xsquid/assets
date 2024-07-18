@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "convert": "bash scripts/convert.sh"
+  }
+}
