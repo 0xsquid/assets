@@ -7,7 +7,6 @@ SIZE=128
 MASTER_DIR="images/master"
 PNG_DIR="images/png"
 WEBP_DIR="images/webp"
-OVERRIDE=false
 
 # ANSI color codes
 RED='\033[0;31m'
@@ -37,10 +36,6 @@ trap cleanup SIGINT
 # Parse arguments
 for arg in "$@"; do
     case $arg in
-        --override)
-            OVERRIDE=true
-            shift # Remove --override from processing
-            ;;
         --size=*)
             SIZE="${arg#*=}"
             shift # Remove --size=value from processing
@@ -71,10 +66,8 @@ convert_files() {
             mkdir -p "$output_dir_png/$subdir"
             mkdir -p "$output_dir_webp/$subdir"
 
-            # Check if file exists and OVERRIDE is false
-            if [[ -f "$output_dir_png/$subdir/$filename.png" && "$OVERRIDE" == false ]]; then
-                # print_color_message "Skipped existing file: $output_dir_png/$subdir/$filename.png" "$DIM_GREY"
-                # Print nothing (redirect output to /dev/null)
+            # Check if PNG file exists
+            if [ -f "$output_dir_png/$subdir/$filename.png" ]; then
                 echo "" >/dev/null
             else
                 # Convert SVG to PNG
@@ -86,10 +79,8 @@ convert_files() {
                 fi
             fi
 
-            # Check if file exists and OVERRIDE is false
-            if [[ -f "$output_dir_webp/$subdir/$filename.webp" && "$OVERRIDE" == false ]]; then
-                # print_color_message "Skipped existing file: $output_dir_webp/$subdir/$filename.webp" "$DIM_GREY"
-                # Print nothing (redirect output to /dev/null)
+            # Check if WebP file exists
+            if [ -f "$output_dir_webp/$subdir/$filename.webp" ]; then
                 echo "" >/dev/null
             else
                 # Convert PNG to WebP
