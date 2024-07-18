@@ -6,16 +6,18 @@ Token and chain images for front ends built with the Squid SDK
 
 ### Convert
 
-Convert all SVGs in `/images/master` to PNGs and WebPs in `/images/png` and `/images/webp` respectively.
+Convert all SVGs in `/images/master` to 128x128 PNGs and WebPs in `/images/png128` and `/images/webp128` by default.
 
 ```bash
 yarn convert
 ```
 
-Override existing files in png and webp folders:
+You can specify a different size by passing the `--size` argument:
+
+The following command will create 500x500 PNGs and WebPs in `/images/png500` and `/images/webp500` respectively.
 
 ```bash
-yarn convert --override
+yarn convert --size=500
 ```
 
 ### Compare
@@ -40,6 +42,10 @@ Linux:
 sudo apt-get update
 sudo apt-get install librsvg2-bin webp
 ```
+
+sudo apt-get update
+sudo apt-get install potrace imagemagick
+
 
 ## Folder Structure
 
