@@ -26,8 +26,9 @@ convert_files() {
 
             # Convert SVG to PNG
             rsvg-convert -w 128 -h 128 "$svg_file" -o "$output_dir_png/$subdir/$filename.png"
-            # Convert SVG to WebP
-            rsvg-convert -w 128 -h 128 "$svg_file" -o - | cwebp -o "$output_dir_webp/$subdir/$filename.webp"
+
+            # Convert PNG to WebP
+            cwebp "$output_dir_png/$subdir/$filename.png" -o "$output_dir_webp/$subdir/$filename.webp"
 
             echo "Converted $svg_file to $output_dir_png/$subdir/$filename.png and $output_dir_webp/$subdir/$filename.webp"
         fi
