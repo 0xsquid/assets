@@ -2,7 +2,31 @@
 
 Token and chain images for front ends built with the Squid SDK
 
-# Folder Structure
+## Scripts
+
+### Convert
+
+Convert all SVGs in `/images/master` to PNGs and WebPs in `/images/png` and `/images/webp` respectively.
+
+```bash
+yarn convert
+```
+
+Override existing files:
+
+```bash
+yarn convert --override
+```
+
+### Compare
+
+Compare folders size
+
+```bash
+yarn compare
+```
+
+## Folder Structure
 
 ```
 .
