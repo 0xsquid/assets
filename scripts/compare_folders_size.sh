@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# Define the directories
-MASTER_DIR="images/master"
-PNG_DIR="images/png"
-WEBP_DIR="images/webp"
+# Define the main directory
+MAIN_DIR="images"
 
 # Function to print folder sizes including total size
 print_folder_sizes() {
@@ -34,7 +32,9 @@ print_folder_sizes() {
     echo
 }
 
-# Print sizes for WEBP, PNG, and MASTER directories
-print_folder_sizes "$MASTER_DIR" "master"
-print_folder_sizes "$WEBP_DIR" "webp"
-print_folder_sizes "$PNG_DIR" "png"
+# Print sizes for all directories in the main directory
+for subdir in "$MAIN_DIR"/*; do
+    if [ -d "$subdir" ]; then
+        print_folder_sizes "$subdir" "$(basename "$subdir")"
+    fi
+done
