@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "convert": "bash scripts/convert.sh",
+    "compare": "bash scripts/compare_folders_size.sh"
+  }
+}
