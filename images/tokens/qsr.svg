@@ -1,24 +1,29 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_2_26" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="180">
-<path d="M139.985 0H40.0154C17.9155 0 0 17.9155 0 40.0154V139.985C0 162.084 17.9155 180 40.0154 180H139.985C162.084 180 180 162.084 180 139.985V40.0154C180 17.9155 162.084 0 139.985 0Z" fill="white"/>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1497_53" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="12" y="12" width="233" height="233">
+<path d="M245 128.5C245 192.841 192.841 245 128.5 245C64.1588 245 12 192.841 12 128.5C12 64.1588 64.1588 12 128.5 12C192.841 12 245 64.1588 245 128.5Z" fill="black"/>
 </mask>
-<g mask="url(#mask0_2_26)">
-<path d="M-0.184631 10.3732C-0.184631 4.54211 4.54243 -0.184952 10.3735 -0.184952H169.505C175.336 -0.184952 180.063 4.5421 180.063 10.3732V169.505C180.063 175.336 175.336 180.063 169.505 180.063H10.3736C4.54243 180.063 -0.184631 175.336 -0.184631 169.505V10.3732Z" fill="white"/>
-<path d="M0 0H180.289V180.289H0V0Z" fill="url(#paint0_diamond_2_26)"/>
+<g mask="url(#mask0_1497_53)">
+<mask id="mask1_1497_53" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="10" width="235" height="235">
+<path d="M192.98 10.9961H63.0175C34.2873 10.9961 10.9968 34.2865 10.9968 63.0168V192.979C10.9968 221.708 34.2873 244.999 63.0175 244.999H192.98C221.709 244.999 245 221.708 245 192.979V63.0168C245 34.2865 221.709 10.9961 192.98 10.9961Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_1497_53)">
+<path d="M10.7571 24.4816C10.7571 16.9011 16.9023 10.7559 24.4829 10.7559H231.357C238.937 10.7559 245.082 16.9011 245.082 24.4816V231.356C245.082 238.936 238.937 245.081 231.357 245.081H24.4829C16.9023 245.081 10.7571 238.936 10.7571 231.356V24.4816Z" fill="white"/>
+<path d="M10.9963 10.999H245.375V245.378H10.9963V10.999Z" fill="url(#paint0_radial_1497_53)"/>
 </g>
-<g clip-path="url(#clip0_2_26)">
-<path d="M85.3976 87.7312L0 45.6172V139.985C0 162.084 17.9156 180 40.0154 180H134.383L86.0638 88.3789C85.9157 88.0976 85.6826 87.87 85.3976 87.7293V87.7312Z" fill="black"/>
-<path d="M139.985 0H45.6172L94.5932 91.9487C94.7412 92.2281 94.9744 92.452 95.2575 92.5927L180.002 134.383V40.0154C180 17.9156 162.084 0 139.985 0Z" fill="black"/>
+<mask id="mask2_1497_53" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="10" y="10" width="235" height="236">
+<path d="M245 10.998H10.9968V245.001H245V10.998Z" fill="white"/>
+</mask>
+<g mask="url(#mask2_1497_53)">
+<path d="M122.015 125.048L10.9968 70.2988V192.979C10.9968 221.708 34.2874 244.999 63.0175 244.999H185.697L122.881 125.89C122.689 125.524 122.386 125.228 122.015 125.045V125.048Z" fill="black"/>
+<path d="M192.98 10.9961H70.3L133.97 130.531C134.162 130.894 134.465 131.185 134.833 131.368L245.003 185.696V63.0168C245 34.2867 221.709 10.9961 192.98 10.9961Z" fill="black"/>
+</g>
 </g>
 <defs>
-<radialGradient id="paint0_diamond_2_26" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(90.1445 90.1445) rotate(-135) scale(152.98 115.372)">
+<radialGradient id="paint0_radial_1497_53" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(128.186 128.188) rotate(-135) scale(198.877 149.986)">
 <stop offset="0.140625" stop-color="#FFFBD8"/>
 <stop offset="0.307292" stop-color="#5FECDB" stop-opacity="0.64"/>
 <stop offset="0.520833" stop-color="#4FBAF7"/>
 <stop offset="0.791667" stop-color="#A745F4"/>
 </radialGradient>
-<clipPath id="clip0_2_26">
-<rect width="180" height="180" fill="white"/>
-</clipPath>
 </defs>
 </svg>
