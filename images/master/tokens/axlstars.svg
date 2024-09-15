@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1499.4 1499.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Nova_amostra_de_gradiente_1);
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#Nova_amostra_de_gradiente_1-2);
+      }
+    </style>
+    <linearGradient id="Nova_amostra_de_gradiente_1" data-name="Nova amostra de gradiente 1" x1="0" y1="749.7" x2="1499.4" y2="749.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcf29f"/>
+      <stop offset=".64" stop-color="#91cec7"/>
+      <stop offset="1" stop-color="#6f98d0"/>
+    </linearGradient>
+    <linearGradient id="Nova_amostra_de_gradiente_1-2" data-name="Nova amostra de gradiente 1" x1="257.65" y1="736.83" x2="1327.64" y2="736.83" xlink:href="#Nova_amostra_de_gradiente_1"/>
+  </defs>
+  <circle cx="748.53" cy="753.43" r="703.34"/>
+  <g>
+    <path class="cls-1" d="m749.7,1432.76c377.24,0,683.06-305.82,683.06-683.06S1126.94,66.64,749.7,66.64,66.64,372.46,66.64,749.7s305.82,683.06,683.06,683.06Zm749.7-683.06c0,414.05-335.65,749.7-749.7,749.7S0,1163.75,0,749.7,335.65,0,749.7,0s749.7,335.65,749.7,749.7Z"/>
+    <path class="cls-2" d="m888.73,187.18l30.24,419.92,408.67,100.96-390.01,158.52,30.24,419.92-271.22-321.96-390.01,158.6,222.33-357.52-271.31-321.96,408.67,101.04,222.41-357.52Z"/>
+  </g>
+</svg>
