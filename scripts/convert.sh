@@ -51,12 +51,13 @@ WEBP_DIR="images/webp$SIZE"
 mkdir -p "$PNG_DIR"
 mkdir -p "$WEBP_DIR"
 
-# Function to convert SVG to PNG and WebP
+# Function to convert files (both SVG and PNG) to PNG and WebP
 convert_files() {
     local input_dir=$1
     local output_dir_png=$2
     local output_dir_webp=$3
 
+    # Convert SVG files
     for svg_file in "$input_dir"/*.svg; do
         if [ -f "$svg_file" ]; then
             local filename=$(basename "$svg_file" .svg)
@@ -66,10 +67,8 @@ convert_files() {
             mkdir -p "$output_dir_png/$subdir"
             mkdir -p "$output_dir_webp/$subdir"
 
-            # Check if PNG file exists
-            if [ -f "$output_dir_png/$subdir/$filename.png" ]; then
-                echo "" >/dev/null
-            else
+            # Omit conversion if PNG file already exists
+            if [ ! -f "$output_dir_png/$subdir/$filename.png" ]; then
                 # Convert SVG to PNG
                 rsvg-convert -w "$SIZE" -h "$SIZE" "$svg_file" -o "$output_dir_png/$subdir/$filename.png"
                 if [ $? -eq 0 ]; then
@@ -79,16 +78,48 @@ convert_files() {
                 fi
             fi
 
-            # Check if WebP file exists
-            if [ -f "$output_dir_webp/$subdir/$filename.webp" ]; then
-                echo "" >/dev/null
-            else
+            # Omit conversion if WebP file already exists
+            if [ ! -f "$output_dir_webp/$subdir/$filename.webp" ]; then
                 # Convert PNG to WebP
                 cwebp "$output_dir_png/$subdir/$filename.png" -o "$output_dir_webp/$subdir/$filename.webp" -quiet
                 if [ $? -eq 0 ]; then
                     print_color_message "Converted $svg_file to $output_dir_webp/$subdir/$filename.webp" "$GREEN"
                 else
                     print_color_message "Error converting $svg_file to WebP" "$RED"
+                fi
+            fi
+        fi
+    done
+
+    # Convert PNG files
+    for png_file in "$input_dir"/*.png; do
+        if [ -f "$png_file" ]; then
+            local filename=$(basename "$png_file" .png)
+            local subpath=${png_file#$MASTER_DIR/}
+            local subdir=$(dirname "$subpath")
+
+            mkdir -p "$output_dir_png/$subdir"
+            mkdir -p "$output_dir_webp/$subdir"
+
+            # Omit conversion if resized PNG file already exists
+            if [ ! -f "$output_dir_png/$subdir/$filename.png" ]; then
+                # Resize PNG
+                magick "$png_file" -resize "${SIZE}x${SIZE}" "$output_dir_png/$subdir/$filename.png"
+                if [ $? -eq 0 ]; then
+                    print_color_message "Resized $png_file to $output_dir_png/$subdir/$filename.png" "$GREEN"
+                else
+                    print_color_message "Error resizing $png_file" "$RED"
+                fi
+            fi
+
+            # Omit conversion if WebP file already exists
+            if [ ! -f "$output_dir_webp/$subdir/$filename.webp" ]; then
+                # Convert PNG to WebP
+                cwebp "$png_file" -o "$output_dir_webp/$subdir/$filename.webp" -quiet
+                if [ $? -eq 0 ]; then
+                    print_color_message "Converted $png_file to $output_dir_webp/$subdir/$filename.webp" "$GREEN"
+                else
+                    print_color_message "Error converting $png_file to WebP" "$RED"
                 fi
             fi
         fi
