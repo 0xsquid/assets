@@ -3,7 +3,7 @@ import fs from "fs"
 import path from "path"
 
 export function getTokenAssetsKey(token) {
-  return `${token.chainId}_${token.address.replaceAll("/", "")}`
+  return `${token.chainId}_${token.address.replaceAll("/", "").toLowerCase()}`
 }
 
 export function getAverageColor(url, { saveHighlight = false } = {}) {
