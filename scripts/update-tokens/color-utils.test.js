@@ -9,8 +9,6 @@ describe("getAverageColor", () => {
       "images/migration/png/solana-mainnet-beta_7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx.png"
     )
 
-    console.log({ colorA })
-
     assert.strictEqual(colorA, "rgb(228,189,123)")
 
     const colorB = await getAverageColor(

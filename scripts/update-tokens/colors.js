@@ -20,7 +20,6 @@ const getSquidAssets = async () => {
     const response = await fetch("https://api.uatsquidrouter.com/v2/sdk-info", {
       headers: {
         "Content-Type": "application/json",
-        // prod
         "X-integrator-id": "squid-swap-widget-v2"
       }
     })
