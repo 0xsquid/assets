@@ -1,6 +1,18 @@
 {
+  "type": "module",
   "scripts": {
     "convert": "bash scripts/convert.sh",
-    "compare": "bash scripts/compare_folders_size.sh"
+    "compare": "bash scripts/compare_folders_size.sh",
+    "setup:macos": "brew install librsvg webp imagemagick jq wget",
+    "setup:linux": "sudo apt-get update && sudo apt-get install librsvg2-bin webp imagemagick jq wget",
+    "update-tokens": "node scripts/update-tokens/fetch-new-tokens.js && bash scripts/update-tokens/save-new-tokens.sh && bash scripts/update-tokens/convert-webp-to-png.sh && node scripts/update-tokens/colors.js && bash scripts/update-tokens/delete-temp-pngs.sh",
+    "test:colors": "node scripts/update-tokens/color-utils.test.js"
+  },
+  "dependencies": {
+    "canvas": "2.11.2",
+    "chalk": "5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2"
   }
 }

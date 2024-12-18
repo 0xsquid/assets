@@ -33,14 +33,13 @@ yarn compare
 Mac:
 
 ```bash
-brew install librsvg webp imagemagick
+yarn setup:macos
 ```
 
 Linux:
 
 ```bash
-sudo apt-get update
-sudo apt-get install librsvg2-bin webp imagemagick
+yarn setup:linux
 ```
 
 ## Folder Structure
