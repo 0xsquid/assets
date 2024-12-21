@@ -47,7 +47,7 @@ for file in "$WEBP_FOLDER"/*.webp; do
 
     # Check if the key exists in colors.json
     if echo "$EXISTING_KEYS" | grep -q "^$base$"; then
-      echo -e "\nSkipping $file: Key '$base' exists in $COLORS_JSON"
+      # echo -e "\nSkipping $file: Key '$base' exists in $COLORS_JSON"
       continue
     fi
 

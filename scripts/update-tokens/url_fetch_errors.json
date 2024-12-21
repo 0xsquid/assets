@@ -1,4 +1,2018 @@
 {
   "chains": [],
-  "tokens": []
+  "tokens": [
+    {
+      "symbol": "DeAl",
+      "chainId": "8453",
+      "address": "0x88a60e1cd5d857973f399ce6f5b1750381a8160f",
+      "fileName": "images/migration/png/8453_0x88a60e1cd5d857973f399ce6f5b1750381a8160f.png",
+      "originalUrl": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/null.svg"
+    },
+    {
+      "symbol": "DeAl",
+      "chainId": "137",
+      "address": "0x281755b639be38528c19e1114434bde3357890be",
+      "fileName": "images/migration/png/137_0x281755b639be38528c19e1114434bde3357890be.png",
+      "originalUrl": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/null.svg"
+    },
+    {
+      "symbol": "DeAl",
+      "chainId": "81457",
+      "address": "0x281755b639be38528c19e1114434bde3357890be",
+      "fileName": "images/migration/png/81457_0x281755b639be38528c19e1114434bde3357890be.png",
+      "originalUrl": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/null.svg"
+    },
+    {
+      "symbol": "DeAl",
+      "chainId": "13371",
+      "address": "0x281755b639be38528c19e1114434bde3357890be",
+      "fileName": "images/migration/png/13371_0x281755b639be38528c19e1114434bde3357890be.png",
+      "originalUrl": "https://raw.githubusercontent.com/axelarnetwork/axelar-configs/main/images/tokens/null.svg"
+    },
+    {
+      "symbol": "URO",
+      "chainId": "solana-mainnet-beta",
+      "address": "FvgqHMfL9yn39V79huDPy3YUNDoYJpuLWng2JfmQpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_fvgqhmfl9yn39v79hudpy3yundoyjpulwng2jfmqpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmZmvNpAwq1rkrRyGguR25nb3Y15wMCBnA9WVsp3XmuK5V"
+    },
+    {
+      "symbol": "RIF",
+      "chainId": "solana-mainnet-beta",
+      "address": "GJtJuWD9qYcCkrwMBmtY1tpapV1sKfB2zUv9Q4aqpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_gjtjuwd9qycckrwmbmty1tpapv1skfb2zuv9q4aqpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmWhxjoSpGKFW3ruyZ3YNVGwW5uooqbccGNpMr82Eeqq8U"
+    },
+    {
+      "symbol": "SLERF",
+      "chainId": "solana-mainnet-beta",
+      "address": "7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3",
+      "fileName": "images/migration/png/solana-mainnet-beta_7bgbvyjrzx1ykz4oh9mjb8zscatkkwb8dzfx7loivkm3.png",
+      "originalUrl": "https://bafkreih44n5jgqpwuvimsxzroyebjunnm47jttqusb4ivagw3vsidil43y.ipfs.nftstorage.link"
+    },
+    {
+      "symbol": "WEN",
+      "chainId": "solana-mainnet-beta",
+      "address": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk",
+      "fileName": "images/migration/png/solana-mainnet-beta_wenwenvqqnya429ubcdr81zmd69brwqaabyy6p3lcpk.png",
+      "originalUrl": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/wen_logo.png"
+    },
+    {
+      "symbol": "GRIN",
+      "chainId": "solana-mainnet-beta",
+      "address": "7JofsgKgD3MerQDa7hEe4dfkY3c3nMnsThZzUuYyTFpE",
+      "fileName": "images/migration/png/solana-mainnet-beta_7jofsgkgd3merqda7hee4dfky3c3nmnsthzzuuyytfpe.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH"
+    },
+    {
+      "symbol": "HARAMBE",
+      "chainId": "solana-mainnet-beta",
+      "address": "Fch1oixTPri8zxBnmdCEADoJW2toyFHxqDZacQkwdvSP",
+      "fileName": "images/migration/png/solana-mainnet-beta_fch1oixtpri8zxbnmdceadojw2toyfhxqdzacqkwdvsp.png",
+      "originalUrl": "https://turquoise-worried-llama-208.mypinata.cloud/ipfs/QmSsf1AHHx56hyR66DrfvohdQ9mwNrXcZc3WYZb3xi9Tfs?pinataGatewayToken=IjmxGjT2wDVCW9f1Vtqqu4mFAuFmeTtF2KuGOPOUmuNDv0IzHYWPG90almZJn1qp"
+    },
+    {
+      "symbol": "SITCOM",
+      "chainId": "solana-mainnet-beta",
+      "address": "AK9yVoXKK1Cjww7HDyjYNyW5FujD3FJ2xbjMUStspump",
+      "fileName": "images/migration/png/solana-mainnet-beta_ak9yvoxkk1cjww7hdyjynyw5fujd3fj2xbjmustspump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmQT4afaTc3hJHtkPqH6k4J6Wx3SLYM36RMFWYAzFrCr7V"
+    },
+    {
+      "symbol": "SKBDI",
+      "chainId": "solana-mainnet-beta",
+      "address": "DPaQfq5sFnoqw2Sh9WMmmASFL9LNu6RdtDqwE1tab2tB",
+      "fileName": "images/migration/png/solana-mainnet-beta_dpaqfq5sfnoqw2sh9wmmmasfl9lnu6rdtdqwe1tab2tb.png",
+      "originalUrl": "https://i.degencdn.com/ipfs/bafybeie62hrgtq6vp5wyoquxlfftinudhq4k4z6bk2gf4x7jgb4ro2finu"
+    },
+    {
+      "symbol": "SENSUS",
+      "chainId": "solana-mainnet-beta",
+      "address": "F8tDt7QRAYicWQPK5LTh8kZR4zKJPdTiEq5dwCcVpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_f8tdt7qrayicwqpk5lth8kzr4zkjpdtieq5dwccvpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmYxDsZxBR3A8wMho48LZ4DFxKN9BanSQPoqBxoHBLTFKN"
+    },
+    {
+      "symbol": "tooker",
+      "chainId": "solana-mainnet-beta",
+      "address": "9EYScpiysGnEimnQPzazr7Jn9GVfxFYzgTEj85hV9L6U",
+      "fileName": "images/migration/png/solana-mainnet-beta_9eyscpiysgneimnqpzazr7jn9gvfxfyzgtej85hv9l6u.png",
+      "originalUrl": "file:///C:/Users/skooa/Downloads/tooker2.jpg"
+    },
+    {
+      "symbol": "BWB",
+      "chainId": "solana-mainnet-beta",
+      "address": "6FVyLVhQsShWVUsCq2FJRr1MrECGShc3QxBwWtgiVFwK",
+      "fileName": "images/migration/png/solana-mainnet-beta_6fvylvhqsshwvuscq2fjrr1mrecgshc3qxbwwtgivfwk.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "bop",
+      "chainId": "solana-mainnet-beta",
+      "address": "F5hqdbykXuksp8P78CAZenSvpPShAYKrP2U2MiZMdgFN",
+      "fileName": "images/migration/png/solana-mainnet-beta_f5hqdbykxuksp8p78cazensvppshaykrp2u2mizmdgfn.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmbcjE5ZYTS8cys7sGq1KjT3YgrxPfoXt6giGry3UZTN76"
+    },
+    {
+      "symbol": "VIBE",
+      "chainId": "solana-mainnet-beta",
+      "address": "8tSeXYSXzFvaDX1nbWrEFFaFuPHuWqpzksKYxQPvpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_8tsexysxzfvadx1nbwreffafuphuwqpzkskyxqpvpump.png"
+    },
+    {
+      "symbol": "SOLARIS",
+      "chainId": "solana-mainnet-beta",
+      "address": "3RfQPYVJgJbwyB3BzqqypCEWWryxjTfFDAcXQsckpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_3rfqpyvjgjbwyb3bzqqypcewwryxjtffdacxqsckpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmUt3aN9P8WCfsEzhioR18rCCbzW8cxMtZYZHdozXxWacy"
+    },
+    {
+      "symbol": "CHONK",
+      "chainId": "solana-mainnet-beta",
+      "address": "9tcChCm93yuM93GDiwnERZQrD7wgyU21pHPRFmnxpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_9tcchcm93yum93gdiwnerzqrd7wgyu21phprfmnxpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmdhEJ9MfYeNeVpYaQzs2dWSY3Uqvy4WEAJnidbrmAgzBv"
+    },
+    {
+      "symbol": "SOLCEX",
+      "chainId": "solana-mainnet-beta",
+      "address": "AMjzRn1TBQwQfNAjHFeBb7uGbbqbJB7FzXAnGgdFPk6K",
+      "fileName": "images/migration/png/solana-mainnet-beta_amjzrn1tbqwqfnajhfebb7ugbbqbjb7fzxanggdfpk6k.png",
+      "originalUrl": "https://i.imgur.com/YN1yUMM.png"
+    },
+    {
+      "symbol": "SOLCAT",
+      "chainId": "solana-mainnet-beta",
+      "address": "E99fN4tCRb1tQphXK1DU7prXji6hMzxETyPNJro19Fwz",
+      "fileName": "images/migration/png/solana-mainnet-beta_e99fn4tcrb1tqphxk1du7prxji6hmzxetypnjro19fwz.png",
+      "originalUrl": "https://i.imgur.com/6dJWbbL.jpeg"
+    },
+    {
+      "symbol": "jorkin",
+      "chainId": "solana-mainnet-beta",
+      "address": "7ty3ruNJebb8RYmzfpUommJnZnCwaoB8RNfqpjLMpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_7ty3runjebb8rymzfpuommjnzncwaob8rnfqpjlmpump.png"
+    },
+    {
+      "symbol": "BERRY",
+      "chainId": "solana-mainnet-beta",
+      "address": "D2tztvQKcmo7PUof8quQWAu3qXKwtiW1pLjvHLsUakv5",
+      "fileName": "images/migration/png/solana-mainnet-beta_d2tztvqkcmo7puof8quqwau3qxkwtiw1pljvhlsuakv5.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "BERN",
+      "chainId": "solana-mainnet-beta",
+      "address": "CKfatsPMUf8SkiURsDXs7eK6GWb4Jsd6UDbs7twMCWxo",
+      "fileName": "images/migration/png/solana-mainnet-beta_ckfatspmuf8skiursdxs7ek6gwb4jsd6udbs7twmcwxo.png",
+      "originalUrl": "https://i.imgur.com/nd9AVZ4.jpeg"
+    },
+    {
+      "symbol": "KNEE",
+      "chainId": "solana-mainnet-beta",
+      "address": "G4iW1MkMapQyJ7oUvQZ9HfLVMD3ziWkjDfYLk49epump",
+      "fileName": "images/migration/png/solana-mainnet-beta_g4iw1mkmapqyj7ouvqz9hflvmd3ziwkjdfylk49epump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmdywAGhsW7u1zQcha26pBi4pqT1BbebyS9gYyJ3Ee3pzN"
+    },
+    {
+      "symbol": "WAIT",
+      "chainId": "solana-mainnet-beta",
+      "address": "CbUPTbC4K7zdAEWxfa1nad4468xpX3LpWPhZVnzybhfN",
+      "fileName": "images/migration/png/solana-mainnet-beta_cbuptbc4k7zdaewxfa1nad4468xpx3lpwphzvnzybhfn.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmbuMdBTtBGAuyWYVm9mZFXNNozmyDtmSmaai1E1vrU3Yr"
+    },
+    {
+      "symbol": "wain",
+      "chainId": "solana-mainnet-beta",
+      "address": "GZT8cXcv2uCvFZFi8gGiryXrTXvLZ9RYkPjRuREypump",
+      "fileName": "images/migration/png/solana-mainnet-beta_gzt8cxcv2ucvfzfi8ggiryxrtxvlz9rykpjrureypump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmS73xwy7ffcB3VBY6yvZ89Tb6d9xZPTkFW8XktDsFuYDg"
+    },
+    {
+      "symbol": "rot",
+      "chainId": "solana-mainnet-beta",
+      "address": "APoM2sXUzdRHTkUjXSsdUheX1wPPdP4HFLotmtRNMU8P",
+      "fileName": "images/migration/png/solana-mainnet-beta_apom2sxuzdrhtkujxssduhex1wppdp4hflotmtrnmu8p.png",
+      "originalUrl": "https://coffee-deliberate-clam-397.mypinata.cloud/ipfs/QmStN7Jee4rR6qYaK8n9ckSRJShijfQgyFLA1mxsTCGfka"
+    },
+    {
+      "symbol": "ZYN",
+      "chainId": "solana-mainnet-beta",
+      "address": "PzuaVAUH2tfxGZcbBR6kMxeJsBngnsPLFotGJNCtcsd",
+      "fileName": "images/migration/png/solana-mainnet-beta_pzuavauh2tfxgzcbbr6kmxejsbngnsplfotgjnctcsd.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1734964928434294784/pjyf-A-E.jpg"
+    },
+    {
+      "symbol": "TOTO",
+      "chainId": "solana-mainnet-beta",
+      "address": "HJkdRUn3qnDSUq2LpFKgTEuoTD1wv5ug59X6PFUFj7oa",
+      "fileName": "images/migration/png/solana-mainnet-beta_hjkdrun3qndsuq2lpfkgteuotd1wv5ug59x6pfufj7oa.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmbrPt9i577EvSxxFgiecU66qD2rnwmYzMbgiD2KhXF6dR"
+    },
+    {
+      "symbol": "LOAFCAT",
+      "chainId": "solana-mainnet-beta",
+      "address": "LoafdJ3WSAvsrx3zppSGKA6sRvL9GrRrU1iRV7HkLkm",
+      "fileName": "images/migration/png/solana-mainnet-beta_loafdj3wsavsrx3zppsgka6srvl9grrru1irv7hklkm.png",
+      "originalUrl": "https://gateway.irys.xyz/VqP_RTEhYdVgdKl2MPAzls3t5512bwJfJyJLgIW4rfg"
+    },
+    {
+      "symbol": "Kekec",
+      "chainId": "solana-mainnet-beta",
+      "address": "DexxZWtZd8hdmeth9gKYXgTWa1VYdMVrWFBZ9RXXXhBn",
+      "fileName": "images/migration/png/solana-mainnet-beta_dexxzwtzd8hdmeth9gkyxgtwa1vydmvrwfbz9rxxxhbn.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "STFX",
+      "chainId": "solana-mainnet-beta",
+      "address": "HrqHpE4NQbSTjVtFSTm9i8omFfytggsS9UkccHWHWntx",
+      "fileName": "images/migration/png/solana-mainnet-beta_hrqhpe4nqbstjvtfstm9i8omffytggss9ukcchwhwntx.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "jam",
+      "chainId": "solana-mainnet-beta",
+      "address": "51zudBR4NmATG35goida4dLQH5YPn9k8hVkLcizNpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_51zudbr4nmatg35goida4dlqh5ypn9k8hvklciznpump.png"
+    },
+    {
+      "symbol": "Goku",
+      "chainId": "solana-mainnet-beta",
+      "address": "6W8FHYE6jnw1dktabRRiZpQRQFPSFhTeLczdvBNPzVeo",
+      "fileName": "images/migration/png/solana-mainnet-beta_6w8fhye6jnw1dktabrrizpqrqfpsfhtelczdvbnpzveo.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmZn79Wzz5seKzLV14xEUkGPea5SdNapCxRHPRmV3BGCvN"
+    },
+    {
+      "symbol": "Kiri",
+      "chainId": "solana-mainnet-beta",
+      "address": "3Ei8SaoL4JWZv1XsWePqiAjVtb7QtpJbV2TSuURmpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_3ei8saol4jwzv1xswepqiajvtb7qtpjbv2tsuurmpump.png",
+      "originalUrl": "https://image-cdn.solana.fm/images/?imageUrl=https://cf-ipfs.com/ipfs/QmfWZCpARKwUEBvauQgUfty5oQzUaWApHe7NeKoy2RqeZz"
+    },
+    {
+      "symbol": "APU",
+      "chainId": "solana-mainnet-beta",
+      "address": "26s3UGB9hund1qspApy1zYgCritxAooGg7o63BMn89Yq",
+      "fileName": "images/migration/png/solana-mainnet-beta_26s3ugb9hund1qspapy1zygcritxaoogg7o63bmn89yq.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "smole",
+      "chainId": "solana-mainnet-beta",
+      "address": "9Ttyez3xiruyj6cqaR495hbBkJU6SUWdV6AmQ9MvbyyS",
+      "fileName": "images/migration/png/solana-mainnet-beta_9ttyez3xiruyj6cqar495hbbkju6suwdv6amq9mvbyys.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmcXAf2KasPyu8UtLnafsj3MR3YSjPH4huRc4NQ8YSanoX"
+    },
+    {
+      "symbol": "STONKS",
+      "chainId": "solana-mainnet-beta",
+      "address": "8P6WDZ59qwMrTgXWaxFN5J19dGwvY2XEavCyRdA25PNm",
+      "fileName": "images/migration/png/solana-mainnet-beta_8p6wdz59qwmrtgxwaxfn5j19dgwvy2xeavcyrda25pnm.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "CLAP",
+      "chainId": "solana-mainnet-beta",
+      "address": "9b8jL2wcVjBFpieC5TUR76BDJ6sW8Eghd3fyq5VJmzir",
+      "fileName": "images/migration/png/solana-mainnet-beta_9b8jl2wcvjbfpiec5tur76bdj6sw8eghd3fyq5vjmzir.png",
+      "originalUrl": "https://i.imgur.com/wwZzz3o.png"
+    },
+    {
+      "symbol": "VCAT",
+      "chainId": "solana-mainnet-beta",
+      "address": "VP9UaBXLM4KYRvyjisu65rz8BU5xNAbewU7LVmyU2x4",
+      "fileName": "images/migration/png/solana-mainnet-beta_vp9uabxlm4kyrvyjisu65rz8bu5xnabewu7lvmyu2x4.png",
+      "originalUrl": "https://bafybeial7nesuvpbffl6mvptgf33abr762iojb634ig3p6o6cdo2mlwe6a.ipfs.nftstorage.link"
+    },
+    {
+      "symbol": "BIAO",
+      "chainId": "solana-mainnet-beta",
+      "address": "3W52uCb8NW8ruMF9mmJX3oKiYAjdPai4633srsZFQCS6",
+      "fileName": "images/migration/png/solana-mainnet-beta_3w52ucb8nw8rumf9mmjx3okiyajdpai4633srszfqcs6.png",
+      "originalUrl": "https://i.imgur.com/BNautKe.png"
+    },
+    {
+      "symbol": "WOJAK",
+      "chainId": "solana-mainnet-beta",
+      "address": "6bn6rKWbTRAQwizwqEfcmpAtoAMnqzfG7F8DYMK5reYn",
+      "fileName": "images/migration/png/solana-mainnet-beta_6bn6rkwbtraqwizwqefcmpatoamnqzfg7f8dymk5reyn.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "UP",
+      "chainId": "solana-mainnet-beta",
+      "address": "8aZuUoqr9rBLjikz7kvpajm1JRqhoWiLMnrNtnRNpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_8azuuoqr9rbljikz7kvpajm1jrqhowilmnrntnrnpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmSytScCUQe7i6mt5zugTbn3PZqrbBwhWoyKgNEcsqrbHN"
+    },
+    {
+      "symbol": "ANUS",
+      "chainId": "solana-mainnet-beta",
+      "address": "9hjZ8UTNrNWt3YUTHVpvzdQjNbp64NbKSDsbLqKR6BZc",
+      "fileName": "images/migration/png/solana-mainnet-beta_9hjz8utnrnwt3yuthvpvzdqjnbp64nbksdsblqkr6bzc.png",
+      "originalUrl": "https://bafybeicromesquwqsz526xkpdd6gnm73qtjpgx5einphk5b5aohc2awkpu.ipfs.nftstorage.link"
+    },
+    {
+      "symbol": "GMRX",
+      "chainId": "solana-mainnet-beta",
+      "address": "76VxJbMFoCXBcn2rqPQX2UsUfpupq2gVwGSq5LyYMhr2",
+      "fileName": "images/migration/png/solana-mainnet-beta_76vxjbmfocxbcn2rqpqx2usufpupq2gvwgsq5lyymhr2.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "SOFAC",
+      "chainId": "solana-mainnet-beta",
+      "address": "9cC36bMZCt9fF53eLBQCago1czw5L9GRHZBL5adWEyAu",
+      "fileName": "images/migration/png/solana-mainnet-beta_9cc36bmzct9ff53elbqcago1czw5l9grhzbl5adweyau.png",
+      "originalUrl": "https://i.imgur.com/RaDKfpC.png"
+    },
+    {
+      "symbol": "ADHD",
+      "chainId": "solana-mainnet-beta",
+      "address": "9af4jTBxfxNm1smV9xMZaXZ677FsD67wVkuSEdiYpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_9af4jtbxfxnm1smv9xmzaxz677fsd67wvkusediypump.png"
+    },
+    {
+      "symbol": "CLAY",
+      "chainId": "solana-mainnet-beta",
+      "address": "AYtg18TFRQs1mCQ29zWY3aSwxwTcW1uTdZ65dL3WiBQu",
+      "fileName": "images/migration/png/solana-mainnet-beta_aytg18tfrqs1mcq29zwy3aswxwtcw1utdz65dl3wibqu.png",
+      "originalUrl": "https://i.imgur.com/dd9tpCS.png"
+    },
+    {
+      "symbol": "HUHCAT",
+      "chainId": "solana-mainnet-beta",
+      "address": "6Ra49aqZTbEurJB1UQgAj1TjvbqajGP5um7gsTym8tWm",
+      "fileName": "images/migration/png/solana-mainnet-beta_6ra49aqztbeurjb1uqgaj1tjvbqajgp5um7gstym8twm.png",
+      "originalUrl": "https://media.discordapp.net/attachments/1226868639815438386/1227643314057117756/huh_cat.png?ex=662926ee&is=6616b1ee&hm=bff710efabde7ee7387b4c9de572bd44afe221f2f0bcd70e85ec92fe5b90ee3c&=&format=webp&quality=lossless&width=1352&height=1352"
+    },
+    {
+      "symbol": "doodoo",
+      "chainId": "solana-mainnet-beta",
+      "address": "JDwzFSxcUvLubUb9xAuuZNvh4bbcEJcuM9TezpmRHVWF",
+      "fileName": "images/migration/png/solana-mainnet-beta_jdwzfsxcuvlubub9xauuznvh4bbcejcum9tezpmrhvwf.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "CIRCLE",
+      "chainId": "solana-mainnet-beta",
+      "address": "EkHr62PC6Y1axrLS7cR8YC4BZeW19mtHxQLCLMrf9vnq",
+      "fileName": "images/migration/png/solana-mainnet-beta_ekhr62pc6y1axrls7cr8yc4bzew19mthxqlclmrf9vnq.png",
+      "originalUrl": "https://gateway.irys.xyz/gcHO4HXSSGvzSMKMnXmMmkK5Brmy4iUOmW6Wjz0Wr_E"
+    },
+    {
+      "symbol": "CCRU",
+      "chainId": "solana-mainnet-beta",
+      "address": "BVoFXcjNSQ8fHGNc2aeS52rLXwag52PHK2aQJsrkpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_bvofxcjnsq8fhgnc2aes52rlxwag52phk2aqjsrkpump.png",
+      "originalUrl": "https://image-cdn.solana.fm/images/?imageUrl=https://cf-ipfs.com/ipfs/QmW4mZ1ptJgUnfBeZnNpCK1Y87rrrE9ETqZg2GxB27MdYT"
+    },
+    {
+      "symbol": "LOAF",
+      "chainId": "solana-mainnet-beta",
+      "address": "3de2yRhtD4VbJBb8EQAQffYMPLU4EnSHT1eveBwiL3tn",
+      "fileName": "images/migration/png/solana-mainnet-beta_3de2yrhtd4vbjbb8eqaqffymplu4ensht1evebwil3tn.png",
+      "originalUrl": "https://gateway.irys.xyz/Lmk3-TaRro9q4OfgYd89V-XTMotmbElXKhSwNo-kClg"
+    },
+    {
+      "symbol": "qunt",
+      "chainId": "solana-mainnet-beta",
+      "address": "FdvezWNEEYDPEQKK9FwCqMnaoYvse1f3m28w6okkZDmz",
+      "fileName": "images/migration/png/solana-mainnet-beta_fdvezwneeydpeqkk9fwcqmnaoyvse1f3m28w6okkzdmz.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "CRUNCH",
+      "chainId": "solana-mainnet-beta",
+      "address": "9iVJR1tjDgNHw88xtXXGaU2We2fR8qEm75ZSgztqDkag",
+      "fileName": "images/migration/png/solana-mainnet-beta_9ivjr1tjdgnhw88xtxxgau2we2fr8qem75zsgztqdkag.png",
+      "originalUrl": "https://crunchcatsol-d457d.firebaseapp.com/images/babycrunch.gif"
+    },
+    {
+      "symbol": "LIGMA",
+      "chainId": "solana-mainnet-beta",
+      "address": "node3SHFNF7h6N9jbztfVcXrZcvAJdns1xAV8CbYFLG",
+      "fileName": "images/migration/png/solana-mainnet-beta_node3shfnf7h6n9jbztfvcxrzcvajdns1xav8cbyflg.png",
+      "originalUrl": "https://emerald-kind-bug-210.mypinata.cloud/ipfs/QmYnCMmoUcUiUk2UnnMcQrqZg88S7ASceV78Es5fqwe2Mb"
+    },
+    {
+      "symbol": "KWIF",
+      "chainId": "solana-mainnet-beta",
+      "address": "6Rwcmkz9yiYVM5EzyMcr4JsQPGEAWhcUvLvfBperYnUt",
+      "fileName": "images/migration/png/solana-mainnet-beta_6rwcmkz9yiyvm5ezymcr4jsqpgeawhcuvlvfbperynut.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmXhsKYCkm12d7Y72tRw2G1bvtkrVnikr7rR4QMpMzGDue"
+    },
+    {
+      "symbol": "AIRENE",
+      "chainId": "solana-mainnet-beta",
+      "address": "5SzHH6NKpByimEpb8SrgkZhe6MgKmmuUgLTRJHMp6C48",
+      "fileName": "images/migration/png/solana-mainnet-beta_5szhh6nkpbyimepb8srgkzhe6mgkmmuugltrjhmp6c48.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "CAW",
+      "chainId": "solana-mainnet-beta",
+      "address": "9niFQK8MsParjSxhYQ3Ys2a6zHmsEuKSB1M7wwdvZ7bj",
+      "fileName": "images/migration/png/solana-mainnet-beta_9nifqk8msparjsxhyq3ys2a6zhmseuksb1m7wwdvz7bj.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "SPINCAT",
+      "chainId": "solana-mainnet-beta",
+      "address": "PUPLWzMfACfkSDe2btZg2axsxum2fvfM5tjKjHQJFnu",
+      "fileName": "images/migration/png/solana-mainnet-beta_puplwzmfacfksde2btzg2axsxum2fvfm5tjkjhqjfnu.png",
+      "originalUrl": "https://media.tenor.com/VkGE6OgHhTMAAAAi/maxwell-maxwell-cat.gif"
+    },
+    {
+      "symbol": "YOURAI",
+      "chainId": "solana-mainnet-beta",
+      "address": "FjK6rqU6QzUeNtmK6QQ78cCuS5AHAhcm4HgJkdsvXaep",
+      "fileName": "images/migration/png/solana-mainnet-beta_fjk6rqu6qzuentmk6qq78ccus5ahahcm4hgjkdsvxaep.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "test",
+      "chainId": "solana-mainnet-beta",
+      "address": "4Hcm1TfA1MvVhCQHvJCcKL7ymUhJZAV7P439H5ZHnKRh",
+      "fileName": "images/migration/png/solana-mainnet-beta_4hcm1tfa1mvvhcqhvjcckl7ymuhjzav7p439h5zhnkrh.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "NAMI",
+      "chainId": "solana-mainnet-beta",
+      "address": "Em9zr2tgSmGgRbz3kxyQeRXjRi9oc13wMu6cKam4zWFW",
+      "fileName": "images/migration/png/solana-mainnet-beta_em9zr2tgsmggrbz3kxyqerxjri9oc13wmu6ckam4zwfw.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "CHIPPY",
+      "chainId": "solana-mainnet-beta",
+      "address": "3T9mBXQzfAn8Rf1LKDutvGMTd1EruJbFh3cM7MSMq3Py",
+      "fileName": "images/migration/png/solana-mainnet-beta_3t9mbxqzfan8rf1lkdutvgmtd1erujbfh3cm7msmq3py.png",
+      "originalUrl": "https://i.imgur.com/gZihYiE.png"
+    },
+    {
+      "symbol": "ROCKY",
+      "chainId": "solana-mainnet-beta",
+      "address": "4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z",
+      "fileName": "images/migration/png/solana-mainnet-beta_4icezcreynop2zammckrhanzkt6xg9bpijmcqv7mpw6z.png",
+      "originalUrl": "https://i.ibb.co/vByytc0/rockylogo-transparent-1.png"
+    },
+    {
+      "symbol": "HAPPI",
+      "chainId": "solana-mainnet-beta",
+      "address": "aBvs3Zv9JYmvUCKqRJvGctDQSCt6R7NAMELid3FeqsQ",
+      "fileName": "images/migration/png/solana-mainnet-beta_abvs3zv9jymvuckqrjvgctdqsct6r7namelid3feqsq.png",
+      "originalUrl": "https://bafybeiemgqcqgeu4mqvrmdncrlch7zhwbvb2xlsfnovuqcp4hb4jhsjsfm.ipfs.nftstorage.link"
+    },
+    {
+      "symbol": "MDT",
+      "chainId": "solana-mainnet-beta",
+      "address": "8Wqbst4qAN2FqBCCh5gdXq2WJ7vTNWEY4oNLrpUg7Tya",
+      "fileName": "images/migration/png/solana-mainnet-beta_8wqbst4qan2fqbcch5gdxq2wj7vtnwey4onlrpug7tya.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "DED",
+      "chainId": "solana-mainnet-beta",
+      "address": "7raHqUrZXAqtxFJ2wcmtpH7SQYLeN9447vD4KhZM7tcP",
+      "fileName": "images/migration/png/solana-mainnet-beta_7rahqurzxaqtxfj2wcmtph7sqylen9447vd4khzm7tcp.png",
+      "originalUrl": "https://www.arweave.net/nE_JLSoMnDq5bOuQLO7-UhTvlOmC6264v90IVB7ntjQ?ext=gif"
+    },
+    {
+      "symbol": "DCAP",
+      "chainId": "solana-mainnet-beta",
+      "address": "BQXDYWZdtXqeLXFWYeRhLrGh8gcTmDQZQc92ENMaXSry",
+      "fileName": "images/migration/png/solana-mainnet-beta_bqxdywzdtxqelxfwyerhlrgh8gctmdqzqc92enmaxsry.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/5e07dff05059715ef2478b80cfee0c99/41bbd847"
+    },
+    {
+      "symbol": "HorseMeat",
+      "chainId": "solana-mainnet-beta",
+      "address": "2FprjEk4MTSY9CxpKuENbGDdy69R15GHhtHpG5Durdbq",
+      "fileName": "images/migration/png/solana-mainnet-beta_2fprjek4mtsy9cxpkuenbgddy69r15ghhthpg5durdbq.png",
+      "originalUrl": "https://i.imgur.com/uKfGicj.jpeg"
+    },
+    {
+      "symbol": "SKYH",
+      "chainId": "solana-mainnet-beta",
+      "address": "J9hBnna1TMySX9hA3FgiC5xYph5pYHmcLVq2Sp36hDkz",
+      "fileName": "images/migration/png/solana-mainnet-beta_j9hbnna1tmysx9ha3fgic5xyph5pyhmclvq2sp36hdkz.png",
+      "originalUrl": "https://i.imgur.com/68qAjC0.png"
+    },
+    {
+      "symbol": "APES",
+      "chainId": "solana-mainnet-beta",
+      "address": "984GBL7PhceChtN64NWLdBb49rSQXX7ozpdkEbR1pump",
+      "fileName": "images/migration/png/solana-mainnet-beta_984gbl7phcechtn64nwldbb49rsqxx7ozpdkebr1pump.png",
+      "originalUrl": "https://i.imgur.com/fj95qzu.jpeg"
+    },
+    {
+      "symbol": "HACK",
+      "chainId": "solana-mainnet-beta",
+      "address": "HACK8WdQNJdvBrKExA7tP7WAMaNKYugQ8H7qKSxRQrpy",
+      "fileName": "images/migration/png/solana-mainnet-beta_hack8wdqnjdvbrkexa7tp7wamankyugq8h7qksxrqrpy.png",
+      "originalUrl": "https://shdw-drive.genesysgo.net/9hUCJxvayARBsHHe17dhNbrHV2YEWy7a3je6NUKv4Qv1/HACK.gif"
+    },
+    {
+      "symbol": "GINGER",
+      "chainId": "solana-mainnet-beta",
+      "address": "AxUx31tmanQ2r8xG3nBvW1L9miHHZNqMfALzc1ygpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_axux31tmanq2r8xg3nbvw1l9mihhznqmfalzc1ygpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmcK2qvXXJQiphqy41KF9WJsqWM1XFxTMVpndW9D6JKtaq"
+    },
+    {
+      "symbol": "FORGE",
+      "chainId": "solana-mainnet-beta",
+      "address": "FoRGERiW7odcCBGU1bztZi16osPBHjxharvDathL5eds",
+      "fileName": "images/migration/png/solana-mainnet-beta_forgeriw7odccbgu1bztzi16ospbhjxharvdathl5eds.png",
+      "originalUrl": "https://assets.blocksmithlabs.io/forge_200x200.png"
+    },
+    {
+      "symbol": "ju",
+      "chainId": "solana-mainnet-beta",
+      "address": "AbBEjBdz31yCb9gTFfWgEi7uprCzjTEKL58xqHVbbjhu",
+      "fileName": "images/migration/png/solana-mainnet-beta_abbejbdz31ycb9gtffwgei7uprczjtekl58xqhvbbjhu.png",
+      "originalUrl": "https://images-ext-1.discordapp.net/external/ZyWti0yhEdpFyY5I9S-VQre58AJTrdj2_PIYxf1Dn0E/https/cdn1.cdn-telegram.org/file/bDQ-A_GvHC004mCLWnnbu5kTzG6cBL_nfuOc7W9l7cQ8RjEBmrHEw-A7hhaP-CicO5kzfnr7mCg1YJoVb-J6_FMTUwFUUCJompZ5ukIO0EJqcEAivRAgkV8TqGiXMquevuQW_laMDU-4u4Mjd8OQ535-QPWfh2KIh2PKyO68GU0nc2NE4fUTMqN2Nao2CIgnspgy7HdzCOYY8HqEZLf0r3OCCGCiOlkiG73wrZ57WN6wWIY0820HPkHLC2jNF7gNoAHFOBdO8_xB5PdK2IKC3mJHmVuMjEx_QDOEDLF_Y-IkJoj3kAUeX_lw-sED_wupa2aLW4H79K-UMh6snkDIlA.jpg?format=webp"
+    },
+    {
+      "symbol": "superSOL",
+      "chainId": "solana-mainnet-beta",
+      "address": "suPer8CPwxoJPQ7zksGMwFvjBQhjAHwUMmPV4FVatBw",
+      "fileName": "images/migration/png/solana-mainnet-beta_super8cpwxojpq7zksgmwfvjbqhjahwummpv4fvatbw.png",
+      "originalUrl": "https://superfast.org/supersollogo.png"
+    },
+    {
+      "symbol": "lifSOL",
+      "chainId": "solana-mainnet-beta",
+      "address": "LSoLi4A4Pk4i8DPFYcfHziRdEbH9otvSJcSrkMVq99c",
+      "fileName": "images/migration/png/solana-mainnet-beta_lsoli4a4pk4i8dpfycfhzirdebh9otvsjcsrkmvq99c.png",
+      "originalUrl": "https://arweave.net/L1EMXV4iQpoU6uUJzB3RxBkJ8Yhmsiqt5b1ju_Hz1Jg.svg"
+    },
+    {
+      "symbol": "SPOOKY",
+      "chainId": "solana-mainnet-beta",
+      "address": "FdGoS1Dok5CLnS8fVSmj5A92uY1yhzdTC2ZxuLJdkwgs",
+      "fileName": "images/migration/png/solana-mainnet-beta_fdgos1dok5clns8fvsmj5a92uy1yhzdtc2zxuljdkwgs.png",
+      "originalUrl": "https://i.ibb.co/mHzqCPP/Spooky-logo-rounded-100px.png"
+    },
+    {
+      "symbol": "EPIKO",
+      "chainId": "solana-mainnet-beta",
+      "address": "6ep1sNB9UWni3nBZUX84USsRBhKRzMAxEmcia479cWTh",
+      "fileName": "images/migration/png/solana-mainnet-beta_6ep1snb9uwni3nbzux84ussrbhkrzmaxemcia479cwth.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "RETIRE",
+      "chainId": "solana-mainnet-beta",
+      "address": "HXkbUADfocGyz2WrzJpjEfry8qyNDm5Kwiiq3Mz3tTi1",
+      "fileName": "images/migration/png/solana-mainnet-beta_hxkbuadfocgyz2wrzjpjefry8qyndm5kwiiq3mz3tti1.png",
+      "originalUrl": "https://i.imgur.com/k1zkuJa.png"
+    },
+    {
+      "symbol": "SIN",
+      "chainId": "solana-mainnet-beta",
+      "address": "sin1uRe1cMCWR7VPLdZrGrvKs8UvKMsGzhvpJLg4Ld9",
+      "fileName": "images/migration/png/solana-mainnet-beta_sin1ure1cmcwr7vpldzrgrvks8uvkmsgzhvpjlg4ld9.png",
+      "originalUrl": "https://nftstorage.link/ipfs/bafkreiewhswfoszfwomy23fqhvxlmmbld2ntmb6u3jsjbrda64aloyblhi"
+    },
+    {
+      "symbol": "GMEOW",
+      "chainId": "solana-mainnet-beta",
+      "address": "A5LCTQ1vJECCQWSXJYs3rfCoexctbUgTCAEKDuNye8bZ",
+      "fileName": "images/migration/png/solana-mainnet-beta_a5lctq1vjeccqwsxjys3rfcoexctbugtcaekdunye8bz.png",
+      "originalUrl": "https://i.imgur.com/F2bCYk9.png"
+    },
+    {
+      "symbol": "paul",
+      "chainId": "solana-mainnet-beta",
+      "address": "VxAn31j1599ityyEf6HRTMWEcJgWUbbcsKPyogHpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_vxan31j1599ityyef6hrtmwecjgwubbcskpyoghpump.png",
+      "originalUrl": "https://i.imgur.com/nA799On.jpeg"
+    },
+    {
+      "symbol": "BB",
+      "chainId": "solana-mainnet-beta",
+      "address": "5EgzypuMLFUBDacgZqJcuL7eKtpSJuKgNu7i7Kdypump",
+      "fileName": "images/migration/png/solana-mainnet-beta_5egzypumlfubdacgzqjcul7ektpsjukgnu7i7kdypump.png",
+      "originalUrl": "https://image-cdn.solana.fm/images/?imageUrl=https://cf-ipfs.com/ipfs/QmRCopxirTGa6kuvfLLZFGFmyRAFGN3WNQCb8wyL2GU2GU"
+    },
+    {
+      "symbol": "GARY",
+      "chainId": "solana-mainnet-beta",
+      "address": "8c71AvjQeKKeWRe8jtTGG1bJ2WiYXQdbjqFbUfhHgSVk",
+      "fileName": "images/migration/png/solana-mainnet-beta_8c71avjqekkewre8jttgg1bj2wiyxqdbjqfbufhhgsvk.png",
+      "originalUrl": "https://raw.githubusercontent.com/puresec-ng/gary/main/gary-giraffe.jpg"
+    },
+    {
+      "symbol": "FISHY",
+      "chainId": "solana-mainnet-beta",
+      "address": "Fishy64jCaa3ooqXw7BHtKvYD8BTkSyAPh6RNE3xZpcN",
+      "fileName": "images/migration/png/solana-mainnet-beta_fishy64jcaa3ooqxw7bhtkvyd8btksyaph6rne3xzpcn.png",
+      "originalUrl": "https://shdw-drive.genesysgo.net/CpRahRvMZad2VNTJDN24m4Bk6PsWRBm14w684RatY1bd/The winning logo.png"
+    },
+    {
+      "symbol": "BROKIE",
+      "chainId": "solana-mainnet-beta",
+      "address": "4neSyzJmcSWQF58DKHdo7FNzJDDKSgaaQqrzuSXS5U6g",
+      "fileName": "images/migration/png/solana-mainnet-beta_4nesyzjmcswqf58dkhdo7fnzjddksgaaqqrzusxs5u6g.png",
+      "originalUrl": "https://bafybeihdzznprzu25kp2psnn455m5qyp25tw46istuuvovdijigjnzgde4.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "BABYTRUMP",
+      "chainId": "solana-mainnet-beta",
+      "address": "6NbnHQKD2dh4jswTLmMCP7LnSh4Nh6y2cNgdQg2ny9zW",
+      "fileName": "images/migration/png/solana-mainnet-beta_6nbnhqkd2dh4jswtlmmcp7lnsh4nh6y2cngdqg2ny9zw.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "BOKU",
+      "chainId": "solana-mainnet-beta",
+      "address": "BkW2v5uv6skTW5c5GYjBctkbY9nuyyHs3gry1dCo5Hra",
+      "fileName": "images/migration/png/solana-mainnet-beta_bkw2v5uv6sktw5c5gyjbctkby9nuyyhs3gry1dco5hra.png",
+      "originalUrl": "https://bafybeid35kcydo75arckv6nwbpxofohxp6jbx3sq6qy4fbmv3idmiqayeq.ipfs.nftstorage.link/"
+    },
+    {
+      "symbol": "Thanks",
+      "chainId": "solana-mainnet-beta",
+      "address": "APa3QKbkUBZa8qM9ejgwEkJfvdZtSckeU1g1mmEopump",
+      "fileName": "images/migration/png/solana-mainnet-beta_apa3qkbkubza8qm9ejgwekjfvdztsckeu1g1mmeopump.png",
+      "originalUrl": "https://image-cdn.solana.fm/images/?imageUrl=https://cf-ipfs.com/ipfs/QmTH8CuxsjCWptsR6k5rozLCBL51CDUZ696qRYGpFjx6f5"
+    },
+    {
+      "symbol": "PEOW",
+      "chainId": "solana-mainnet-beta",
+      "address": "7DptUgc1aRY6geK4WnauRKTTfVFWmLsBWP275sD2Bg9r",
+      "fileName": "images/migration/png/solana-mainnet-beta_7dptugc1ary6gek4wnaurkttfvfwmlsbwp275sd2bg9r.png",
+      "originalUrl": "https://bafybeif47wctqofcaovp5s2svvjlpssa25nn3rknldzwiejro5fkstd3be.ipfs.nftstorage.link"
+    },
+    {
+      "symbol": "MVP",
+      "chainId": "solana-mainnet-beta",
+      "address": "55qMv1HtV8fqRjnFwDb9yDi9tBCeV8xwfgrPKgiJk5DN",
+      "fileName": "images/migration/png/solana-mainnet-beta_55qmv1htv8fqrjnfwdb9ydi9tbcev8xwfgrpkgijk5dn.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "XTV",
+      "chainId": "solana-mainnet-beta",
+      "address": "GTTS8jkhmfWBdYyKNSgbDQeYqVkpALkP98YJRGbRbvUA",
+      "fileName": "images/migration/png/solana-mainnet-beta_gtts8jkhmfwbdyyknsgbdqeyqvkpalkp98yjrgbrbvua.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "BOGGY",
+      "chainId": "solana-mainnet-beta",
+      "address": "GMEhF4sFXd9PRR9KJo7hyPjeHdcdg5yxTNP22KKNyWvZ",
+      "fileName": "images/migration/png/solana-mainnet-beta_gmehf4sfxd9prr9kjo7hypjehdcdg5yxtnp22kknywvz.png",
+      "originalUrl": "https://boggycoin.com/wp-content/uploads/2024/05/official_symbol.png"
+    },
+    {
+      "symbol": "NSO",
+      "chainId": "solana-mainnet-beta",
+      "address": "HgMfSGndLq6vgLxCw4J33nJrwV2zTh81iEJNVwK9kcHD",
+      "fileName": "images/migration/png/solana-mainnet-beta_hgmfsgndlq6vglxcw4j33njrwv2zth81iejnvwk9kchd.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "PHTEVE",
+      "chainId": "solana-mainnet-beta",
+      "address": "DhRQWsiP53gVXnG8KQwq63Uo1FvouRpVNL8536tsVD5H",
+      "fileName": "images/migration/png/solana-mainnet-beta_dhrqwsip53gvxng8kqwq63uo1fvourpvnl8536tsvd5h.png",
+      "originalUrl": "https://i.imgur.com/vgoQpr6.jpeg"
+    },
+    {
+      "symbol": "BOTMAN",
+      "chainId": "solana-mainnet-beta",
+      "address": "2adqrK24G2iu2mmEijzKPKg69DUwGk3fUWAQx7Y1kSSK",
+      "fileName": "images/migration/png/solana-mainnet-beta_2adqrk24g2iu2mmeijzkpkg69duwgk3fuwaqx7y1kssk.png",
+      "originalUrl": "https://scontent.fcrk3-2.fna.fbcdn.net/v/t1.15752-9/420074270_294329573640169_851513053951162300_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=cI-Cj5Z1pRIAX9CTndi&_nc_ht=scontent.fcrk3-2.fna&oh=03_AdSRkbVjZDULn5mC_6rKeu2M-UFM-LQO5UsYWPOBjo-PyQ&oe=65D8595A"
+    },
+    {
+      "symbol": "Cope",
+      "chainId": "solana-mainnet-beta",
+      "address": "o1Mw5Y3n68o8TakZFuGKLZMGjm72qv4JeoZvGiCLEvK",
+      "fileName": "images/migration/png/solana-mainnet-beta_o1mw5y3n68o8takzfugklzmgjm72qv4jeozvgiclevk.png",
+      "originalUrl": "https://arweave.net/Llav8eFnW4L7iGvAI6zj3Rm0rdlGIy5B_tkOn4AOE_4"
+    },
+    {
+      "symbol": "WAM",
+      "chainId": "solana-mainnet-beta",
+      "address": "7hdeo5QciUF8S2vfsx6uRJkdNVADBU3DDcXW4zjDcMin",
+      "fileName": "images/migration/png/solana-mainnet-beta_7hdeo5qciuf8s2vfsx6urjkdnvadbu3ddcxw4zjdcmin.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "SKULL",
+      "chainId": "solana-mainnet-beta",
+      "address": "3X36yhq35MJnt2JjwodeFDfv2MFPb99RC53yUyNrpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_3x36yhq35mjnt2jjwodefdfv2mfpb99rc53yuynrpump.png",
+      "originalUrl": "https://i.imgur.com/NUs8qTp.png"
+    },
+    {
+      "symbol": "PHAUNTEM",
+      "chainId": "solana-mainnet-beta",
+      "address": "5veVHPNDsmSxDW4Abpb368wLHpo32LP3fqhfJHnkSSwo",
+      "fileName": "images/migration/png/solana-mainnet-beta_5vevhpndsmsxdw4abpb368wlhpo32lp3fqhfjhnksswo.png",
+      "originalUrl": "https://cdn.discordapp.com/attachments/1205497765749067807/1211620777426690128/Phauntem_3.png?ex=65eedcc8&is=65dc67c8&hm=e95bce28bc2d45c0f2bab47b250b7fab4d8abe3e04737c4aefe0ad1071fc98dc&"
+    },
+    {
+      "symbol": "CRAMER",
+      "chainId": "solana-mainnet-beta",
+      "address": "E3tHHRa9Y1TWAA1nPZo8FAyVFgBDnXrS8u8nmMShL3M3",
+      "fileName": "images/migration/png/solana-mainnet-beta_e3thhra9y1twaa1npzo8fayvfgbdnxrs8u8nmmshl3m3.png",
+      "originalUrl": "https://i.imgur.com/6ERdMOo.png"
+    },
+    {
+      "symbol": "CHUMP",
+      "chainId": "solana-mainnet-beta",
+      "address": "HJ8WWpsheTMKwuoFkvEuhAzdqqUTgqdS7JVR37rxgnFS",
+      "fileName": "images/migration/png/solana-mainnet-beta_hj8wwpshetmkwuofkveuhazdqqutgqds7jvr37rxgnfs.png",
+      "originalUrl": "https://i.imgur.com/SoPTbDC.png"
+    },
+    {
+      "symbol": "HARAMBE",
+      "chainId": "solana-mainnet-beta",
+      "address": "CNL2opdqaQDY7yudm5V4MAaTwuuY32LTKqNP93jZM8X6",
+      "fileName": "images/migration/png/solana-mainnet-beta_cnl2opdqaqdy7yudm5v4maatwuuy32ltkqnp93jzm8x6.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "CTHULHU",
+      "chainId": "solana-mainnet-beta",
+      "address": "DnFxs7eCaJBXwMqZD8iZLeiM11cTdvfFp7Qit9usWqY8",
+      "fileName": "images/migration/png/solana-mainnet-beta_dnfxs7ecajbxwmqzd8izleim11ctdvffp7qit9uswqy8.png",
+      "originalUrl": "https://bafkreif2362yna7d6m3mu4j2rycohydbyonrzzhs5lpm7own5z2ugmedem.ipfs.cf-ipfs.com"
+    },
+    {
+      "symbol": "ROL",
+      "chainId": "solana-mainnet-beta",
+      "address": "RoLLn5qBN4juQ1D2KFpJyAcC7Deo3cYotXi4qDooHLU",
+      "fileName": "images/migration/png/solana-mainnet-beta_rolln5qbn4juq1d2kfpjyacc7deo3cyotxi4qdoohlu.png",
+      "originalUrl": "https://assets.blockstars.gg/static/ROL.svg"
+    },
+    {
+      "symbol": "MONEY",
+      "chainId": "solana-mainnet-beta",
+      "address": "Ck876u4cxkfxHwKrPhJdXoECsbvMMEoP4BwkrV4qpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_ck876u4cxkfxhwkrphjdxoecsbvmmeop4bwkrv4qpump.png",
+      "originalUrl": "https://i.imgur.com/duIwsbb.png"
+    },
+    {
+      "symbol": "JORDAN",
+      "chainId": "solana-mainnet-beta",
+      "address": "HKmEsdtmRm9WXuEHgJbU3oHyij4EwB3YtEuUrm5qEJFZ",
+      "fileName": "images/migration/png/solana-mainnet-beta_hkmesdtmrm9wxuehgjbu3ohyij4ewb3yteuurm5qejfz.png",
+      "originalUrl": "https://bafybeih64j4xgfzm7vgu5ivy6fm6fi2gshh7mug4tzsfray73ykt7lynsm.ipfs.cf-ipfs.com"
+    },
+    {
+      "symbol": "GMSOL",
+      "chainId": "solana-mainnet-beta",
+      "address": "gmdu3snwW28DmmxCseChp9owWLUhamH9eS3hWfHG8Vg",
+      "fileName": "images/migration/png/solana-mainnet-beta_gmdu3snww28dmmxcsechp9owwluhamh9es3hwfhg8vg.png",
+      "originalUrl": "https://github.com/icnivadmai/gm-logo/blob/master/logo.png"
+    },
+    {
+      "symbol": "ROCKY",
+      "chainId": "solana-mainnet-beta",
+      "address": "DhTNFBp4NjaxWqf6LwG57GrJQZfXrso1qK9FcMZt9sv7",
+      "fileName": "images/migration/png/solana-mainnet-beta_dhtnfbp4njaxwqf6lwg57grjqzfxrso1qk9fcmzt9sv7.png",
+      "originalUrl": "https://imageupload.io/ib/B1wtisSaYlCUmwy_1700434086.jpg"
+    },
+    {
+      "symbol": "TAPES",
+      "chainId": "solana-mainnet-beta",
+      "address": "DxRbkqB2cEqa4rnXJwq4z3GuksgpL2U27PWBw8QBcNv2",
+      "fileName": "images/migration/png/solana-mainnet-beta_dxrbkqb2ceqa4rnxjwq4z3guksgpl2u27pwbw8qbcnv2.png",
+      "originalUrl": "https://i.imgur.com/iFgvQva.png"
+    },
+    {
+      "symbol": "CHADS",
+      "chainId": "solana-mainnet-beta",
+      "address": "DjzG1gPn2cotdV9cvkho4KxD3Poy2VjJeghCivv8U8Wj",
+      "fileName": "images/migration/png/solana-mainnet-beta_djzg1gpn2cotdv9cvkho4kxd3poy2vjjeghcivv8u8wj.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://shdw-drive.genesysgo.net/DULc8DgYywybLKKosZXbT5HBYHZiUbkkwNYy7QbirUc2/chads.png"
+    },
+    {
+      "symbol": "MONKES",
+      "chainId": "solana-mainnet-beta",
+      "address": "FmoKY2ERGmE9NzrYphAJcqH5BPRy2Hs4VomRfu8Qgt7Y",
+      "fileName": "images/migration/png/solana-mainnet-beta_fmoky2ergme9nzryphajcqh5bpry2hs4vomrfu8qgt7y.png",
+      "originalUrl": "https://i.imgur.com/FczxrLa.png"
+    },
+    {
+      "symbol": "ACF",
+      "chainId": "solana-mainnet-beta",
+      "address": "2cZv8HrgcWSvC6n1uEiS48cEQGb1d3fiowP2rpa4wBL9",
+      "fileName": "images/migration/png/solana-mainnet-beta_2czv8hrgcwsvc6n1ueis48ceqgb1d3fiowp2rpa4wbl9.png",
+      "originalUrl": "https://shop.alienchickenfarm.com/logos/acf-token.png"
+    },
+    {
+      "symbol": "GMERS",
+      "chainId": "solana-mainnet-beta",
+      "address": "25yPcyqSpSv8T2JWyoKKRiU622Sr7LoMk9S3FmuBFt8S",
+      "fileName": "images/migration/png/solana-mainnet-beta_25ypcyqspsv8t2jwyokkriu622sr7lomk9s3fmubft8s.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/gmers_pfp_1662860639809.png"
+    },
+    {
+      "symbol": "METAS",
+      "chainId": "solana-mainnet-beta",
+      "address": "3Ztt53vwGhQGoEp3n1RjSu4CFnGRfqzwo6L8KN8gmXfd",
+      "fileName": "images/migration/png/solana-mainnet-beta_3ztt53vwghqgoep3n1rjsu4cfngrfqzwo6l8kn8gmxfd.png",
+      "originalUrl": "https://metaseer.io/img/home-one/logo256.png"
+    },
+    {
+      "symbol": "KREECHURE",
+      "chainId": "solana-mainnet-beta",
+      "address": "3XwZtyP5g2ku5cNzLXYcBYygvToXKdjw73GSRq73QYLQ",
+      "fileName": "images/migration/png/solana-mainnet-beta_3xwztyp5g2ku5cnzlxycbyygvtoxkdjw73gsrq73qylq.png",
+      "originalUrl": "https://dl.airtable.com/.attachmentThumbnails/1204ecf0b475bf46a0e65391c3b5e947/fefec436"
+    },
+    {
+      "symbol": "DEDS",
+      "chainId": "solana-mainnet-beta",
+      "address": "BvEj2MNMPsUrD4vSk7NHs4TtRcCcJd75Wx5HvVbY4rbK",
+      "fileName": "images/migration/png/solana-mainnet-beta_bvej2mnmpsurd4vsk7nhs4ttrcccjd75wx5hvvby4rbk.png",
+      "originalUrl": "https://github.com/DecimusDynamics/assets/blob/main/decimus-icon-1x1-black.png"
+    },
+    {
+      "symbol": "DUBAI",
+      "chainId": "solana-mainnet-beta",
+      "address": "93NhryHqdN5eVz2n4Qoof7ELwnTcgHBw44tmGcLzxKXz",
+      "fileName": "images/migration/png/solana-mainnet-beta_93nhryhqdn5evz2n4qoof7elwntcghbw44tmgclzxkxz.png",
+      "originalUrl": "https://cdn.discordapp.com/attachments/912336086913679371/1203082217631260753/606344e0a14fa1.65973326-original.png?ex=65cfcca0&is=65bd57a0&hm=ce80eadae9234b0f02b0edbcb2a1c5f132afa0c14281783ff39085d95807bc63&"
+    },
+    {
+      "symbol": "HEIST",
+      "chainId": "solana-mainnet-beta",
+      "address": "FjBedzf7WrWmo4yd3Tc2U6indeEQXtdewZ514hYxH5X9",
+      "fileName": "images/migration/png/solana-mainnet-beta_fjbedzf7wrwmo4yd3tc2u6indeeqxtdewz514hyxh5x9.png"
+    },
+    {
+      "symbol": "FOXES",
+      "chainId": "solana-mainnet-beta",
+      "address": "3RCVCywxSs8pDRU1hw8fo7xTUCpNuX86w8cKTM6fgWBY",
+      "fileName": "images/migration/png/solana-mainnet-beta_3rcvcywxss8pdru1hw8fo7xtucpnux86w8cktm6fgwby.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeiglipep6klutky4atw7jhf7lknpgzbfqlmqmamqh5s6lwih6uopma.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "wDingocoin",
+      "chainId": "solana-mainnet-beta",
+      "address": "6VYF5jXq6rfq4QRgGMG6co7b1Ev1Lj7KSbHBxfQ9e1L3",
+      "fileName": "images/migration/png/solana-mainnet-beta_6vyf5jxq6rfq4qrggmg6co7b1ev1lj7ksbhbxfq9e1l3.png",
+      "originalUrl": "https://wrap.dingocoin.org/wDingocoin.png"
+    },
+    {
+      "symbol": "PUGAI",
+      "chainId": "solana-mainnet-beta",
+      "address": "PugAiDuaQ5hzicBHAW9qrQQ8qi4B6sh3n7PknKhyjeX",
+      "fileName": "images/migration/png/solana-mainnet-beta_pugaiduaq5hzicbhaw9qrqq8qi4b6sh3n7pknkhyjex.png",
+      "originalUrl": "https://shdw-drive.genesysgo.net/CS412vMTyfY1J4u1Ve7UjAdhGu7V9jCJibkVussMnaKr/pug1 (2).png"
+    },
+    {
+      "symbol": "SOLPAY",
+      "chainId": "solana-mainnet-beta",
+      "address": "zwqe1Nd4eiWyCcqdo4FgCq7LYZHdSeGKKudv6RwiAEn",
+      "fileName": "images/migration/png/solana-mainnet-beta_zwqe1nd4eiwyccqdo4fgcq7lyzhdsegkkudv6rwiaen.png",
+      "originalUrl": "https://raw.githubusercontent.com/nguilbaud/token-list/main/assets/mainnet/zwqe1Nd4eiWyCcqdo4FgCq7LYZHdSeGKKudv6RwiAEn/logo.png"
+    },
+    {
+      "symbol": "clARB",
+      "chainId": "solana-mainnet-beta",
+      "address": "9cMWa1wuWcio3vgEpiFg7PqKbcoafuUw5sLYFkXJ2J8M",
+      "fileName": "images/migration/png/solana-mainnet-beta_9cmwa1wuwcio3vgepifg7pqkbcoafuuw5slyfkxj2j8m.png",
+      "originalUrl": "https://markets.clone.so/images/assets/on-arb.svg"
+    },
+    {
+      "symbol": "clDOGE",
+      "chainId": "solana-mainnet-beta",
+      "address": "Dd6Pde7K4J7yB691gW8K177TWd1Huy6RkfTwrbkz8Fre",
+      "fileName": "images/migration/png/solana-mainnet-beta_dd6pde7k4j7yb691gw8k177twd1huy6rkftwrbkz8fre.png",
+      "originalUrl": "https://markets.clone.so/images/assets/on-doge.svg"
+    },
+    {
+      "symbol": "clOP",
+      "chainId": "solana-mainnet-beta",
+      "address": "4cwVHQtwiK7r9aAUsu4cetk1JtLWPymopWcpTSsihCdL",
+      "fileName": "images/migration/png/solana-mainnet-beta_4cwvhqtwik7r9aausu4cetk1jtlwpymopwcptssihcdl.png",
+      "originalUrl": "https://markets.clone.so/images/assets/on-op.svg"
+    },
+    {
+      "symbol": "clSUI",
+      "chainId": "solana-mainnet-beta",
+      "address": "JzwfZvJGdsqbrKZQUvzJpWhbHcZUix7CYcCaoiNpjxg",
+      "fileName": "images/migration/png/solana-mainnet-beta_jzwfzvjgdsqbrkzquvzjpwhbhczuix7cyccaoinpjxg.png",
+      "originalUrl": "https://markets.clone.so/images/assets/on-sui.svg"
+    },
+    {
+      "symbol": "CEEZUR",
+      "chainId": "solana-mainnet-beta",
+      "address": "J5T1Fkdn76Byu9hkd9C8nHCpdXc9Fcb9jPxKJfPKPjJg",
+      "fileName": "images/migration/png/solana-mainnet-beta_j5t1fkdn76byu9hkd9c8nhcpdxc9fcb9jpxkjfpkpjjg.png",
+      "originalUrl": "https://i.imgur.com/gCXtxEc.jpeg"
+    },
+    {
+      "symbol": "clAPT",
+      "chainId": "solana-mainnet-beta",
+      "address": "HHncifGW3yJyaW2fRRfBYAawnD9ogbsWM5PccFA4GHSx",
+      "fileName": "images/migration/png/solana-mainnet-beta_hhncifgw3yjyaw2frrfbyaawnd9ogbswm5pccfa4ghsx.png",
+      "originalUrl": "https://markets.clone.so/images/assets/on-apt.svg"
+    },
+    {
+      "symbol": "spikySOL",
+      "chainId": "solana-mainnet-beta",
+      "address": "spkyB5SzVaz2x3nNzSBuhpLSEF8otbRDbufc73fuLXg",
+      "fileName": "images/migration/png/solana-mainnet-beta_spkyb5szvaz2x3nnzsbuhplsef8otbrdbufc73fulxg.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "mallowSOL",
+      "chainId": "solana-mainnet-beta",
+      "address": "MLLWWq9TLHK3oQznWqwPyqD7kH4LXTHSKXK4yLz7LjD",
+      "fileName": "images/migration/png/solana-mainnet-beta_mllwwq9tlhk3oqznwqwpyqd7kh4lxthskxk4ylz7ljd.png",
+      "originalUrl": "https://arweave.net/b0JcLRjgOigociJMInQzY9eVsFTwzV0OUdbpJ_LZ9xo"
+    },
+    {
+      "symbol": "XIXI",
+      "chainId": "solana-mainnet-beta",
+      "address": "6sNmypexudtz8d1ewp2GYywXA9KcheKwLa3zovgUhBuc",
+      "fileName": "images/migration/png/solana-mainnet-beta_6snmypexudtz8d1ewp2gyywxa9kchekwla3zovguhbuc.png",
+      "originalUrl": "https://i.imgur.com/tZ9hjkE.png"
+    },
+    {
+      "symbol": "pineSOL",
+      "chainId": "solana-mainnet-beta",
+      "address": "SnKAf8aNjeYz8pY8itYn3VxFhT6Q8WNdPwy17s9USgC",
+      "fileName": "images/migration/png/solana-mainnet-beta_snkaf8anjeyz8py8ityn3vxfht6q8wndpwy17s9usgc.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "mvtSOL",
+      "chainId": "solana-mainnet-beta",
+      "address": "DrYLDtGzip1JzogBqcPwHRWpifczYDexpc9d9wnUv5M7",
+      "fileName": "images/migration/png/solana-mainnet-beta_dryldtgzip1jzogbqcpwhrwpifczydexpc9d9wnuv5m7.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "jagSOL",
+      "chainId": "solana-mainnet-beta",
+      "address": "jag58eRBC1c88LaAsRPspTMvoKJPbnzw9p9fREzHqyV",
+      "fileName": "images/migration/png/solana-mainnet-beta_jag58erbc1c88laasrpsptmvokjpbnzw9p9frezhqyv.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "DED",
+      "chainId": "solana-mainnet-beta",
+      "address": "dedCwbAVs8MRxHphTecR3cCDFYhMtBpw61xT9zkjFFx",
+      "fileName": "images/migration/png/solana-mainnet-beta_dedcwbavs8mrxhphtecr3ccdfyhmtbpw61xt9zkjffx.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "Pedro",
+      "chainId": "solana-mainnet-beta",
+      "address": "8HWCntWrLE4GJ6iK5cwvbhvuQSoRCiu3QB5jHyqLpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_8hwcntwrle4gj6ik5cwvbhvuqsorciu3qb5jhyqlpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmdnDt6ZFpUuz2Fsp1R99Aip9mUR9ykYo4gCBm2JqKaSuu"
+    },
+    {
+      "symbol": "plankton",
+      "chainId": "solana-mainnet-beta",
+      "address": "D3QiRT12vKBpj87h99ufQFz4mCpbPC7JVy1U6NRKpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_d3qirt12vkbpj87h99ufqfz4mcpbpc7jvy1u6nrkpump.png",
+      "originalUrl": "https://image-cdn.solana.fm/images/?imageUrl=https://cf-ipfs.com/ipfs/QmRZrAgz2SwkeCaA3jkLgvXBKgxjJW35iuCaAPKHyKU8j9"
+    },
+    {
+      "symbol": "CATBAT",
+      "chainId": "solana-mainnet-beta",
+      "address": "mo7mapMrCsyci5w1td1wgrKPtNeCfjfkKi96DknWi5N",
+      "fileName": "images/migration/png/solana-mainnet-beta_mo7mapmrcsyci5w1td1wgrkptnecfjfkki96dknwi5n.png",
+      "originalUrl": "https://cdn.dexscreener.com/cms/images/XmlS5vS9CsyMiTPC"
+    },
+    {
+      "symbol": "yog",
+      "chainId": "solana-mainnet-beta",
+      "address": "FKhU7eZ1CnFhyLR73D9GMEpUPTotxEw19Fi1HXEzpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_fkhu7ez1cnfhylr73d9gmepuptotxew19fi1hxezpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmdG3ta9aXNLukmqNuRgDwJyFTLzjZWTumHWx5KdL8ZXiR"
+    },
+    {
+      "symbol": "OCTO",
+      "chainId": "solana-mainnet-beta",
+      "address": "4CoTCzobYt38zVbSieZxcmz2CCs8kmZJ6wnbj8HWocto",
+      "fileName": "images/migration/png/solana-mainnet-beta_4cotczobyt38zvbsiezxcmz2ccs8kmzj6wnbj8hwocto.png",
+      "originalUrl": "https://i.imgur.com/UwiREVK.png"
+    },
+    {
+      "symbol": "N2",
+      "chainId": "solana-mainnet-beta",
+      "address": "3t4yhNHfy5jZ9skJw9ZMRHvLJw1WUPouJ4TSxatTpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_3t4yhnhfy5jz9skjw9zmrhvljw1wupouj4tsxattpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmTD3YfytLW3jvAyr958RKEvhYHVdAzhgNqF1XxbvfPCjB"
+    },
+    {
+      "symbol": "VALUE",
+      "chainId": "solana-mainnet-beta",
+      "address": "DcRHumYETnVKowMmDSXQ5RcGrFZFAnaqrQ1AZCHXpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_dcrhumyetnvkowmmdsxq5rcgrfzfanaqrq1azchxpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmdWRaVHFcBLkFm21xikvEPJatVfTTeLZ8kAYyKwoq2zuB"
+    },
+    {
+      "symbol": "PIG",
+      "chainId": "solana-mainnet-beta",
+      "address": "9dD3meU6G5gSrGMXy9Vs2gbnm5A4LM4oN3dWPxi7pump",
+      "fileName": "images/migration/png/solana-mainnet-beta_9dd3meu6g5gsrgmxy9vs2gbnm5a4lm4on3dwpxi7pump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmNWveQyarrFUZdQGJxzVfX7LMebzoAwQFU21u1qoppHXU"
+    },
+    {
+      "symbol": "DRIPSPLIT",
+      "chainId": "solana-mainnet-beta",
+      "address": "uL2qhMckUAroJPt2MLHwEeppJNYE3wBAGFMCs3anwXn",
+      "fileName": "images/migration/png/solana-mainnet-beta_ul2qhmckuarojpt2mlhweeppjnye3wbagfmcs3anwxn.png",
+      "originalUrl": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/drippies_pfp_1648415706808.gif"
+    },
+    {
+      "symbol": "GGEM",
+      "chainId": "solana-mainnet-beta",
+      "address": "GGEMxCsqM74URiXdY46VcaSW73a4yfHfJKrJrUmDVpEF",
+      "fileName": "images/migration/png/solana-mainnet-beta_ggemxcsqm74urixdy46vcasw73a4yfhfjkrjrumdvpef.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://gs-token.s3.us-west-2.amazonaws.com/guild-saga-gems-logo.png"
+    },
+    {
+      "symbol": "GEMS",
+      "chainId": "solana-mainnet-beta",
+      "address": "2YJH1Y5NbdwJGEUAMY6hoTycKWrRCP6kLKs62xiSKWHM",
+      "fileName": "images/migration/png/solana-mainnet-beta_2yjh1y5nbdwjgeuamy6hotyckwrrcp6klks62xiskwhm.png",
+      "originalUrl": "https://public.djib.io/QmdLDat9CvntvFPG98CcXJJ3tE1mQZkf5DEfPNhK8F3guq"
+    },
+    {
+      "symbol": "DPUNKZ",
+      "chainId": "solana-mainnet-beta",
+      "address": "McpgFn2CxFYFq6JLiBxeC6viNfebLsfsf9Sv5wcwKvL",
+      "fileName": "images/migration/png/solana-mainnet-beta_mcpgfn2cxfyfq6jlibxec6vinfeblsfsf9sv5wcwkvl.png"
+    },
+    {
+      "symbol": "YOLO",
+      "chainId": "solana-mainnet-beta",
+      "address": "4jE4VuqFWZfmSXjTDD5KUoN2qkVu96nPTPj4mhs5PA1W",
+      "fileName": "images/migration/png/solana-mainnet-beta_4je4vuqfwzfmsxjtdd5kuon2qkvu96nptpj4mhs5pa1w.png",
+      "originalUrl": "https://nftstorage.link/ipfs/bafybeiepttutbes4mzojtmlvx3iqgwvs673czt5g7k7uoficx4vmjunmie/YOLO LOGO.png"
+    },
+    {
+      "symbol": "SOLI",
+      "chainId": "solana-mainnet-beta",
+      "address": "8JnNWJ46yfdq8sKgT1Lk4G7VWkAA8Rhh7LhqgJ6WY41G",
+      "fileName": "images/migration/png/solana-mainnet-beta_8jnnwj46yfdq8skgt1lk4g7vwkaa8rhh7lhqgj6wy41g.png",
+      "originalUrl": "https://cdn.lima.amun.com/solana/8jnnwj46yfdq8skgt1lk4g7vwkaa8rhh7lhqgj6wy41g.png"
+    },
+    {
+      "symbol": "ICHIGO",
+      "chainId": "solana-mainnet-beta",
+      "address": "4tejdaGTug9xWg58f92zmFMrsoWqCnvt8WaVuCiP3uUy",
+      "fileName": "images/migration/png/solana-mainnet-beta_4tejdagtug9xwg58f92zmfmrsowqcnvt8wavucip3uuy.png",
+      "originalUrl": "https://ichigo.network/logos/logo.png"
+    },
+    {
+      "symbol": "ROLL",
+      "chainId": "solana-mainnet-beta",
+      "address": "76aYNHbDfHemxSS7vmh6eJGfjodK8m7srCxiYCrKxzY1",
+      "fileName": "images/migration/png/solana-mainnet-beta_76aynhbdfhemxss7vmh6ejgfjodk8m7srcxiycrkxzy1.png",
+      "originalUrl": "https://hrhc.io/images/logo.png"
+    },
+    {
+      "symbol": "ILU",
+      "chainId": "solana-mainnet-beta",
+      "address": "Gm6szibJfB1ZzUxNYf85nXwFchugqTqNyE5fDwWfBc7K",
+      "fileName": "images/migration/png/solana-mainnet-beta_gm6szibjfb1zzuxnyf85nxwfchugqtqnye5fdwwfbc7k.png",
+      "originalUrl": "https://raw.githubusercontent.com/rjdrar/crypto/main/symbol-1.png"
+    },
+    {
+      "symbol": "IVRY",
+      "chainId": "solana-mainnet-beta",
+      "address": "2MtPZqwNKTNsBoFCwm4ZTWk3ySz4LSd82ucDGeTk7VNu",
+      "fileName": "images/migration/png/solana-mainnet-beta_2mtpzqwnktnsbofcwm4ztwk3ysz4lsd82ucdgetk7vnu.png",
+      "originalUrl": "https://dl.airtable.com/.attachmentThumbnails/102af36cc30fec0b05ebb45406f20971/126d0320"
+    },
+    {
+      "symbol": "GMFC",
+      "chainId": "solana-mainnet-beta",
+      "address": "42Y3CgJQLnHjdScYMu8VS4TbeZMUNVdBMKYbf7hz7aum",
+      "fileName": "images/migration/png/solana-mainnet-beta_42y3cgjqlnhjdscymu8vs4tbezmunvdbmkybf7hz7aum.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1444964749897175046/wdz26CzM_400x400.jpg"
+    },
+    {
+      "symbol": "SAC",
+      "chainId": "solana-mainnet-beta",
+      "address": "GZL4yjPohDShW4RofJ6dEWu2Fv7qEa5mBT7Dpje5hqe7",
+      "fileName": "images/migration/png/solana-mainnet-beta_gzl4yjpohdshw4rofj6dewu2fv7qea5mbt7dpje5hqe7.png",
+      "originalUrl": "https://i.imgur.com/sxmJbDr.jpg"
+    },
+    {
+      "symbol": "WEYU",
+      "chainId": "solana-mainnet-beta",
+      "address": "EHaEBhYHWA7HSphorXXosysJem6qF4agccoqDqQKCUge",
+      "fileName": "images/migration/png/solana-mainnet-beta_ehaebhyhwa7hsphorxxosysjem6qf4agccoqdqqkcuge.png",
+      "originalUrl": "https://weyu.io/img/WEYU.png"
+    },
+    {
+      "symbol": "1SP",
+      "chainId": "solana-mainnet-beta",
+      "address": "2zzC22UBgJGCYPdFyo7GDwz7YHq5SozJc1nnBqLU8oZb",
+      "fileName": "images/migration/png/solana-mainnet-beta_2zzc22ubgjgcypdfyo7gdwz7yhq5sozjc1nnbqlu8ozb.png",
+      "originalUrl": "https://1space.me/images/1SP_logo.png"
+    },
+    {
+      "symbol": "CRRT",
+      "chainId": "solana-mainnet-beta",
+      "address": "HkNokfCXG33eu5vCcS49mq3jZcKZeQSQCyta964YxxYg",
+      "fileName": "images/migration/png/solana-mainnet-beta_hknokfcxg33eu5vccs49mq3jzckzeqsqcyta964yxxyg.png",
+      "originalUrl": "https://breezybunnies.com/images/3-p-500.png"
+    },
+    {
+      "symbol": "NOCT",
+      "chainId": "solana-mainnet-beta",
+      "address": "8HfNu2EfwFQz2srSNDvPsjaWV3G65ZWP3pDC67mcNv6J",
+      "fileName": "images/migration/png/solana-mainnet-beta_8hfnu2efwfqz2srsndvpsjawv3g65zwp3pdc67mcnv6j.png",
+      "originalUrl": "https://raw.githubusercontent.com/Neural-Octopus-Token/noct-metadata/main/logo.png"
+    },
+    {
+      "symbol": "CROWS",
+      "chainId": "solana-mainnet-beta",
+      "address": "6gSmbxSfgJrqeGBYwuKGuSbShhbDLjcCLWqzivvPeG3i",
+      "fileName": "images/migration/png/solana-mainnet-beta_6gsmbxsfgjrqegbywukgusbshhbdljcclwqzivvpeg3i.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/royal_crows_pfp_1654260294179.gif"
+    },
+    {
+      "symbol": "BOTS",
+      "chainId": "solana-mainnet-beta",
+      "address": "HDEqEpFgTrBawzDgTG1eyH8Go9PX84LCEC8Qjt8T4jFN",
+      "fileName": "images/migration/png/solana-mainnet-beta_hdeqepfgtrbawzdgtg1eyh8go9px84lcec8qjt8t4jfn.png",
+      "originalUrl": "https://dl.airtable.com/.attachmentThumbnails/85c63ffb5a6bb05e08daa667fecb7c84/6949eab5"
+    },
+    {
+      "symbol": "Froggo",
+      "chainId": "solana-mainnet-beta",
+      "address": "A12XggFFk3b5GCd6ZYxuQ55cQbxarHL4h7Jxs3GQcdC3",
+      "fileName": "images/migration/png/solana-mainnet-beta_a12xggffk3b5gcd6zyxuq55cqbxarhl4h7jxs3gqcdc3.png",
+      "originalUrl": "https://froggotoken.com/token_logo.png"
+    },
+    {
+      "symbol": "DASCH",
+      "chainId": "solana-mainnet-beta",
+      "address": "GTuDe5yneFKaWSsPqqKgu413KTk8WyDnUZcZUGxuNYsT",
+      "fileName": "images/migration/png/solana-mainnet-beta_gtude5ynefkawsspqqkgu413ktk8wydnuzczugxunyst.png",
+      "originalUrl": "https://github.com/kennethoqs/dasch/blob/main/logo.png"
+    },
+    {
+      "symbol": "COINFRA",
+      "chainId": "solana-mainnet-beta",
+      "address": "FtVugRqBcn5gakjzfDyA3Spms63fYDAbhke1YAFgLgLB",
+      "fileName": "images/migration/png/solana-mainnet-beta_ftvugrqbcn5gakjzfdya3spms63fydabhke1yafglglb.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/coinfra_samurai_pfp_1662121480181.png"
+    },
+    {
+      "symbol": "SDO",
+      "chainId": "solana-mainnet-beta",
+      "address": "7SZUnH7H9KptyJkUhJ5L4Kee5fFAbqVgCHvt7B6wg4Xc",
+      "fileName": "images/migration/png/solana-mainnet-beta_7szunh7h9kptyjkuhj5l4kee5ffabqvgchvt7b6wg4xc.png",
+      "originalUrl": "https://thesolandao.com/logohero.png"
+    },
+    {
+      "symbol": "OOGI",
+      "chainId": "solana-mainnet-beta",
+      "address": "H7Qc9APCWWGDVxGD5fJHmLTmdEgT9GFatAKFNg6sHh8A",
+      "fileName": "images/migration/png/solana-mainnet-beta_h7qc9apcwwgdvxgd5fjhmltmdegt9gfatakfng6shh8a.png",
+      "originalUrl": "https://oogi.com/icon.png"
+    },
+    {
+      "symbol": "FORA",
+      "chainId": "solana-mainnet-beta",
+      "address": "ForaXiBD8K3a7C1PwxV1xqDHs5aV8y8nWRmHebafdkes",
+      "fileName": "images/migration/png/solana-mainnet-beta_foraxibd8k3a7c1pwxv1xqdhs5av8y8nwrmhebafdkes.png",
+      "originalUrl": "imagepng"
+    },
+    {
+      "symbol": "RFKJ",
+      "chainId": "solana-mainnet-beta",
+      "address": "3Tnv2xxSpLDQ1hfRLjWWPYz7vHPWoE5fsCPoG31EwTtv",
+      "fileName": "images/migration/png/solana-mainnet-beta_3tnv2xxspldq1hfrljwwpyz7vhpwoe5fscpog31ewttv.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "SMRT",
+      "chainId": "solana-mainnet-beta",
+      "address": "95KN8q3qubEVjPf9trgyur2nHx8T5RCmztRbLuQ5E5i",
+      "fileName": "images/migration/png/solana-mainnet-beta_95kn8q3qubevjpf9trgyur2nhx8t5rcmztrbluq5e5i.png",
+      "originalUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/95KN8q3qubEVjPf9trgyur2nHx8T5RCmztRbLuQ5E5i/logo.png"
+    },
+    {
+      "symbol": "TFBK",
+      "chainId": "solana-mainnet-beta",
+      "address": "HMYxhA2ZeSpFjitzP58K7MMJKbKkBuj4P5PHbsmo3rTF",
+      "fileName": "images/migration/png/solana-mainnet-beta_hmyxha2zespfjitzp58k7mmjkbkkbuj4p5phbsmo3rtf.png",
+      "originalUrl": "logofineblock (1).jpeg"
+    },
+    {
+      "symbol": "BBI",
+      "chainId": "solana-mainnet-beta",
+      "address": "GRsoqmhsS7fCLpEqqE7oRM92ag3WVy8VbJAi6KfWSeHS",
+      "fileName": "images/migration/png/solana-mainnet-beta_grsoqmhss7fclpeqqe7orm92ag3wvy8vbjai6kfwsehs.png",
+      "originalUrl": "https://i.imgur.com/lbvoBFh.png"
+    },
+    {
+      "symbol": "IP3",
+      "chainId": "solana-mainnet-beta",
+      "address": "3uejHm24sWmniGA5m4j4S1DVuGqzYBR5DJpevND4mivq",
+      "fileName": "images/migration/png/solana-mainnet-beta_3uejhm24swmniga5m4j4s1dvugqzybr5djpevnd4mivq.png",
+      "originalUrl": "https://cripco.com/token/image/ip3?ext=png"
+    },
+    {
+      "symbol": "BOXCH",
+      "chainId": "solana-mainnet-beta",
+      "address": "Boxch1343xWQWbahVBPhYHuYLXNHnWYHG6QbuqfNugQ1",
+      "fileName": "images/migration/png/solana-mainnet-beta_boxch1343xwqwbahvbphyhuylxnhnwyhg6qbuqfnugq1.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "LSI",
+      "chainId": "solana-mainnet-beta",
+      "address": "9bQsNPppyuTaAcf92mWjQBuRLjSDpbTDdAC7pRQNviQ9",
+      "fileName": "images/migration/png/solana-mainnet-beta_9bqsnpppyutaacf92mwjqburljsdpbtddac7prqnviq9.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1554860226112798722/jNsKHWRs_400x400.jpg"
+    },
+    {
+      "symbol": "ABC",
+      "chainId": "solana-mainnet-beta",
+      "address": "EKLq86cHRwc8Spkcx2noPnfoVyQvcWSeud5JMJnTxNAD",
+      "fileName": "images/migration/png/solana-mainnet-beta_eklq86chrwc8spkcx2nopnfovyqvcwseud5jmjntxnad.png"
+    },
+    {
+      "symbol": "PRIMATES",
+      "chainId": "solana-mainnet-beta",
+      "address": "GqiReKpoAHQCnziNA1koxcttCkBD38W6Pyd45FoiBXQm",
+      "fileName": "images/migration/png/solana-mainnet-beta_gqirekpoahqcnzina1koxcttckbd38w6pyd45foibxqm.png",
+      "originalUrl": "https://bafybeifnx4apyushfc3i2tg5wx2xgudcfxgisd2sven2mhxixpghuo2jeu.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "BIU",
+      "chainId": "solana-mainnet-beta",
+      "address": "4D7kEovLBEY3VQUzJUQjXyGR8fAZwQWSxEcsP5Y9nZ6S",
+      "fileName": "images/migration/png/solana-mainnet-beta_4d7keovlbey3vquzjuqjxygr8fazwqwsxecsp5y9nz6s.png",
+      "originalUrl": "https://biucoin.club/img/cat.png"
+    },
+    {
+      "symbol": "BAGS",
+      "chainId": "solana-mainnet-beta",
+      "address": "8wbKU77rWVmpfejfXxGVo5H47fyRQHkpWxZnqUT1Vjd3",
+      "fileName": "images/migration/png/solana-mainnet-beta_8wbku77rwvmpfejfxxgvo5h47fyrqhkpwxznqut1vjd3.png",
+      "originalUrl": "https://shdw-drive.genesysgo.net/DzX4XevSiYbmXH9GDQZPVKdEMXiDprvMYBt7LbZ31XhH/image.png"
+    },
+    {
+      "symbol": "BEAR",
+      "chainId": "solana-mainnet-beta",
+      "address": "9LmCL3nyvFG95cB9RpaszPTAwaQykVAHcSxQbJ6vNpAU",
+      "fileName": "images/migration/png/solana-mainnet-beta_9lmcl3nyvfg95cb9rpaszptawaqykvahcsxqbj6vnpau.png",
+      "originalUrl": "https://nova-host.nyc3.cdn.digitaloceanspaces.com/spl_tokens/9LmCL3nyvFG95cB9RpaszPTAwaQykVAHcSxQbJ6vNpAU.jpeg"
+    },
+    {
+      "symbol": "ARB",
+      "chainId": "solana-mainnet-beta",
+      "address": "8LH3QMo7xkMJx85Kg4pfiQY1g1ZgiVEe1KktSpaT89mP",
+      "fileName": "images/migration/png/solana-mainnet-beta_8lh3qmo7xkmjx85kg4pfiqy1g1zgivee1kktspat89mp.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "ATX",
+      "chainId": "solana-mainnet-beta",
+      "address": "ATX1pK34GgPtKJLaXvGHQqu5DKkoJnmZBbwCxvmq3Y3h",
+      "fileName": "images/migration/png/solana-mainnet-beta_atx1pk34ggptkjlaxvghqqu5dkkojnmzbbwcxvmq3y3h.png",
+      "originalUrl": "https://media.atellix.net/token/atx.png"
+    },
+    {
+      "symbol": "DRGNZ",
+      "chainId": "solana-mainnet-beta",
+      "address": "CzXF8oUJSsB9ADKV99WAi2TgytqAyKvQw6EihwiL9em4",
+      "fileName": "images/migration/png/solana-mainnet-beta_czxf8oujssb9adkv99wai2tgytqaykvqw6eihwil9em4.png",
+      "originalUrl": "https://i.imgur.com/AzJI7FQ.png"
+    },
+    {
+      "symbol": "JCATS",
+      "chainId": "solana-mainnet-beta",
+      "address": "8e2G3tCTvKAosq4BnYbDczboRVhy7xaXwbTSJeXEefJX",
+      "fileName": "images/migration/png/solana-mainnet-beta_8e2g3tctvkaosq4bnybdczborvhy7xaxwbtsjexeefjx.png",
+      "originalUrl": "https://i.imgur.com/AEPNTTQ.jpg"
+    },
+    {
+      "symbol": "PARTICLES",
+      "chainId": "solana-mainnet-beta",
+      "address": "5hzLftaEyGTQJnoxhGxAvsLkmdjYsbx9YdjNwfNmtq2s",
+      "fileName": "images/migration/png/solana-mainnet-beta_5hzlftaeygtqjnoxhgxavslkmdjysbx9ydjnwfnmtq2s.png",
+      "originalUrl": "https://i.imgur.com/W8Lo4lY.png"
+    },
+    {
+      "symbol": "MBB",
+      "chainId": "solana-mainnet-beta",
+      "address": "5zqwZoo3TkHJzxf797pXRbHGV328J7xaAegWKWk17Efi",
+      "fileName": "images/migration/png/solana-mainnet-beta_5zqwzoo3tkhjzxf797pxrbhgv328j7xaaegwkwk17efi.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/bafb174c6d4fb01610fd1c9bf2998d9d/29772c78"
+    },
+    {
+      "symbol": "SURF",
+      "chainId": "solana-mainnet-beta",
+      "address": "CP8CaP7GmSVUo9j3L8dwDKVR6i1kvcCUn1ubGGhc2V2M",
+      "fileName": "images/migration/png/solana-mainnet-beta_cp8cap7gmsvuo9j3l8dwdkvr6i1kvccun1ubgghc2v2m.png",
+      "originalUrl": "https://creator-hub-prod.s3.us-east-2.amazonaws.com/serum_surfers_pfp_1650376607466.gif"
+    },
+    {
+      "symbol": "TSHS",
+      "chainId": "solana-mainnet-beta",
+      "address": "57Pu2vR7QzXQJUjyPmiFCTtqVsTi1wy6NReWSLah7Pic",
+      "fileName": "images/migration/png/solana-mainnet-beta_57pu2vr7qzxqjujypmifcttqvsti1wy6nrewslah7pic.png"
+    },
+    {
+      "symbol": "BASC",
+      "chainId": "solana-mainnet-beta",
+      "address": "dwnkQmmfLjkYZjTkpQk6wP6aeoBFCVNxQLtEkWeVGjC",
+      "fileName": "images/migration/png/solana-mainnet-beta_dwnkqmmfljkyzjtkpqk6wp6aeobfcvnxqltekwevgjc.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/fa393956b6723bd9f8a92fbb294ce965/39caef8b"
+    },
+    {
+      "symbol": "BOTBORG",
+      "chainId": "solana-mainnet-beta",
+      "address": "5rochbLAummS1BPvF8xRZ5G8Li6e3jo3fJzbFMnTgE6Q",
+      "fileName": "images/migration/png/solana-mainnet-beta_5rochblaumms1bpvf8xrz5g8li6e3jo3fjzbfmntge6q.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/0e1add28d570871e2d032f38a5e95ed0/31b14a29"
+    },
+    {
+      "symbol": "MGCTIX",
+      "chainId": "solana-mainnet-beta",
+      "address": "F6ABFHuQRF6xiGU3wVLpeTqgKaxdFnTp2mXihUrKTNLD",
+      "fileName": "images/migration/png/solana-mainnet-beta_f6abfhuqrf6xigu3wvlpetqgkaxdfntp2mxihurktnld.png",
+      "originalUrl": "https://ipfs.io/ipfs/bafybeibimlad5fzgsvo2hzvtb6h2ayqi6kncr665mddylf6crvjpc2l7s4"
+    },
+    {
+      "symbol": "LIONESS",
+      "chainId": "solana-mainnet-beta",
+      "address": "EK6j5Shv99xttoT3F2DfG8uQMoX6NoAZgTuYwCvrHzqo",
+      "fileName": "images/migration/png/solana-mainnet-beta_ek6j5shv99xttot3f2dfg8uqmox6noazgtuywcvrhzqo.png",
+      "originalUrl": "https://dl.airtable.com/.attachments/5befbef5bb59eb122426dac8db5a0b2f/2327b76a/QueenLion.jpg"
+    },
+    {
+      "symbol": "GEESE",
+      "chainId": "solana-mainnet-beta",
+      "address": "4co51tnVXXj4nNGzfHRvaZ3JczVCU1BBnsezr6ZgwXJc",
+      "fileName": "images/migration/png/solana-mainnet-beta_4co51tnvxxj4nngzfhrvaz3jczvcu1bbnsezr6zgwxjc.png",
+      "originalUrl": "https://dl.airtable.com/.attachmentThumbnails/91673f0315b610cc0d1db91d23ff329a/686f5df0"
+    },
+    {
+      "symbol": "JAPE",
+      "chainId": "solana-mainnet-beta",
+      "address": "HqFG17V7wNfEDV3k5K2AuY3rmM5n2np4rhbGV21hp4as",
+      "fileName": "images/migration/png/solana-mainnet-beta_hqfg17v7wnfedv3k5k2auy3rmm5n2np4rhbgv21hp4as.png"
+    },
+    {
+      "symbol": "FROOTS",
+      "chainId": "solana-mainnet-beta",
+      "address": "DLQoZ14o43XkT5C57QHTtxATMmty3khY8LpPyiMcsufk",
+      "fileName": "images/migration/png/solana-mainnet-beta_dlqoz14o43xkt5c57qhttxatmmty3khy8lppyimcsufk.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/frootsnft_pfp_1657757320025.png"
+    },
+    {
+      "symbol": "VANDAL",
+      "chainId": "solana-mainnet-beta",
+      "address": "46cCLt1TcdmeMr8xmEshLapyENRQtfDh3npmbN91ohE6",
+      "fileName": "images/migration/png/solana-mainnet-beta_46cclt1tcdmemr8xmeshlapyenrqtfdh3npmbn91ohe6.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://cdn.discordapp.com/attachments/975048153843777577/1005302647491928124/unknown.png"
+    },
+    {
+      "symbol": "JIKAN",
+      "chainId": "solana-mainnet-beta",
+      "address": "FrG7YxkifmLq5oiULBMh4zBnNyoniNMWXatLfceJiFTX",
+      "fileName": "images/migration/png/solana-mainnet-beta_frg7yxkifmlq5oiulbmh4zbnnyoninmwxatlfcejiftx.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreihav5rr3p3rphpex6gzieb6rf5qorgipg5z44w3qs7672cryq346u.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "KIKI",
+      "chainId": "solana-mainnet-beta",
+      "address": "CJKrnvgB5PugtXXMooJq8N31VRtzMowusi9n2SQJEJMh",
+      "fileName": "images/migration/png/solana-mainnet-beta_cjkrnvgb5pugtxxmoojq8n31vrtzmowusi9n2sqjejmh.png"
+    },
+    {
+      "symbol": "KAIZEN",
+      "chainId": "solana-mainnet-beta",
+      "address": "AmVSRu3fCtV9FtQcyLfU8DKHXHmaBFSbnx8nahXycrMC",
+      "fileName": "images/migration/png/solana-mainnet-beta_amvsru3fctv9ftqcylfu8dkhxhmabfsbnx8nahxycrmc.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeib6iwtqwtgwkqoyadqy7vs6c6cshyueu7vvta6ozv7npqz5s44mvq.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "MAGES",
+      "chainId": "solana-mainnet-beta",
+      "address": "3CaVSKdi6myXtCSoqH1qwQHGLTeenYx8oCVKuyts1pey",
+      "fileName": "images/migration/png/solana-mainnet-beta_3cavskdi6myxtcsoqh1qwqhglteenyx8ocvkuyts1pey.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/aldermages_pfp_1654539613984.jpeg"
+    },
+    {
+      "symbol": "SPCMNKE",
+      "chainId": "solana-mainnet-beta",
+      "address": "D8S1dB9Ga6A2EoMTXU2Zp33vFiyk4oZU5FJnbU1cud53",
+      "fileName": "images/migration/png/solana-mainnet-beta_d8s1db9ga6a2eomtxu2zp33vfiyk4ozu5fjnbu1cud53.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/space_monkes_pfp_1663042229239.gif"
+    },
+    {
+      "symbol": "UKIYO",
+      "chainId": "solana-mainnet-beta",
+      "address": "Bzkc8h8jDrSZbWZXzuQS6om8RbgJRmxo99dYE7ShyWV4",
+      "fileName": "images/migration/png/solana-mainnet-beta_bzkc8h8jdrszbwzxzuqs6om8rbgjrmxo99dye7shywv4.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1544356839701241857/-tuFVvmk_400x400.jpg"
+    },
+    {
+      "symbol": "HIRAETH",
+      "chainId": "solana-mainnet-beta",
+      "address": "HTKYxe6RQ25KAu3H3tkqxhxnHpZ17BTaWd4dWiY5YCNQ",
+      "fileName": "images/migration/png/solana-mainnet-beta_htkyxe6rq25kau3h3tkqxhxnhpz17btawd4dwiy5ycnq.png"
+    },
+    {
+      "symbol": "GGOATS",
+      "chainId": "solana-mainnet-beta",
+      "address": "tDcw216fFJcHrzQB179QVw5aSqVrCjJuASKHnc72wWJ",
+      "fileName": "images/migration/png/solana-mainnet-beta_tdcw216ffjchrzqb179qvw5asqvrcjjuaskhnc72wwj.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/b3bc1733c8b49865d70b79160acef873/86af3e32"
+    },
+    {
+      "symbol": "SWIPE",
+      "chainId": "solana-mainnet-beta",
+      "address": "G6BWiMU2uPZmE2A3Ng3oG9qxc5JoZbFbgEpqZss93M4K",
+      "fileName": "images/migration/png/solana-mainnet-beta_g6bwimu2upzme2a3ng3og9qxc5jozbfbgepqzss93m4k.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/solswipe_pfp_1660584726131.png"
+    },
+    {
+      "symbol": "DABOBOS",
+      "chainId": "solana-mainnet-beta",
+      "address": "DiGmvTPHBzuADgBPrzt29simEuPKSYFMSmBZYdFdddyb",
+      "fileName": "images/migration/png/solana-mainnet-beta_digmvtphbzuadgbprzt29simeupksyfmsmbzydfdddyb.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/dabobos_pfp_1660663615245.gif"
+    },
+    {
+      "symbol": "YAKUX",
+      "chainId": "solana-mainnet-beta",
+      "address": "9Z7cE5EoyHjFQAL2X8AMcR4N1zjWLpmYP3WUDoSXviDn",
+      "fileName": "images/migration/png/solana-mainnet-beta_9z7ce5eoyhjfqal2x8amcr4n1zjwlpmyp3wudosxvidn.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeigaq3x3iz3v24qjnv26ql7c7fstll6reolqbxkpncpbpa23bovgva.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "CYAPES",
+      "chainId": "solana-mainnet-beta",
+      "address": "4nKW1yHuxS4t6M8AnMZ9s1RQC8HUhsLmeQk3Zv7j8gew",
+      "fileName": "images/migration/png/solana-mainnet-beta_4nkw1yhuxs4t6m8anmz9s1rqc8huhslmeqk3zv7j8gew.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeidiysrigkc5nq5bdplj5blad2bnosf5lgb2yndjhje2ygqqxovj7q.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "PBANDZ",
+      "chainId": "solana-mainnet-beta",
+      "address": "zPhhQAVgFD9FA4UKxnjvTfKty5LdScrsyzotTAXnhuX",
+      "fileName": "images/migration/png/solana-mainnet-beta_zphhqavgfd9fa4ukxnjvtfkty5ldscrsyzottaxnhux.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/8c35739ae61d7f034cb71887b15f8171/a78a684a"
+    },
+    {
+      "symbol": "UDDERS",
+      "chainId": "solana-mainnet-beta",
+      "address": "4XtRbgB65Desc4KKizz9ZF4VpUohnzSjn1tTFj746PVL",
+      "fileName": "images/migration/png/solana-mainnet-beta_4xtrbgb65desc4kkizz9zf4vpuohnzsjn1ttfj746pvl.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/udder_chaos_pfp_1655229269923.gif"
+    },
+    {
+      "symbol": "FBC",
+      "chainId": "solana-mainnet-beta",
+      "address": "4MsWmTdKbAXtwHgwFsm9MkcN6YhAWbn1dcCR4tUchCuA",
+      "fileName": "images/migration/png/solana-mainnet-beta_4mswmtdkbaxtwhgwfsm9mkcn6yhawbn1dccr4tuchcua.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachments/3ce24c8c8c76abb1a78024d91933da04/3739095a/vvvvv.png"
+    },
+    {
+      "symbol": "MNP",
+      "chainId": "solana-mainnet-beta",
+      "address": "2eVHiVahkRV8d6MCBMQPjq6qZdMgT3ZqRUthwUhCBL1C",
+      "fileName": "images/migration/png/solana-mainnet-beta_2evhivahkrv8d6mcbmqpjq6qzdmgt3zqruthwuhcbl1c.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeigwgilz3e7zi7hpsk4hnjucsvkj4xtrkujpuqneu4si2tgxoir7dy.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "SKELLIES",
+      "chainId": "solana-mainnet-beta",
+      "address": "B9UyBRhLFNEm4uHC418kjSdzUBCS6qAZMKvTm5kW92J6",
+      "fileName": "images/migration/png/solana-mainnet-beta_b9uybrhlfnem4uhc418kjsdzubcs6qazmkvtm5kw92j6.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/secret_skellies_society_pfp_1663862048919.png"
+    },
+    {
+      "symbol": "AITABS",
+      "chainId": "solana-mainnet-beta",
+      "address": "9fcktgakGMz78RBNCYaX1QhnHnwXUtnU2n3MsorM6Zjk",
+      "fileName": "images/migration/png/solana-mainnet-beta_9fcktgakgmz78rbncyax1qhnhnwxutnu2n3msorm6zjk.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/965bf53867c3ee6c67fed25856f69da4/6ddeda09"
+    },
+    {
+      "symbol": "PRCLHOA",
+      "chainId": "solana-mainnet-beta",
+      "address": "EpZwaTh536LDNsBnsS985SUri2xoNg4dE6ufiMgCvaZ2",
+      "fileName": "images/migration/png/solana-mainnet-beta_epzwath536ldnsbnss985suri2xong4de6ufimgcvaz2.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/3bac2a201fa493c7682039559e0a394f/4977d91a"
+    },
+    {
+      "symbol": "CSAMURI",
+      "chainId": "solana-mainnet-beta",
+      "address": "AKppFNL374Dekytm9sRBPh5WEaR1XxoH3BvZnxkpaM2J",
+      "fileName": "images/migration/png/solana-mainnet-beta_akppfnl374dekytm9srbph5wear1xxoh3bvznxkpam2j.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https%3A%2F%2Farweave.net%2FWPNXBZmqPuMXmv6KXz6jvtPYoZls30oUjL5SyhmuaQc%3Fext%3Dpng"
+    },
+    {
+      "symbol": "HELIONS",
+      "chainId": "solana-mainnet-beta",
+      "address": "4KbzSz2VF1LCvEaw8viq1335VgWzNjMd8rwQMsCkKHip",
+      "fileName": "images/migration/png/solana-mainnet-beta_4kbzsz2vf1lcveaw8viq1335vgwznjmd8rwqmsckkhip.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/plain/https://bafybeicwbrcbknxmk7hoyufpmq56fhyp3ri465cfchwrfseu6xdnnhulky.ipfs.nftstorage.link/"
+    },
+    {
+      "symbol": "GGSG",
+      "chainId": "solana-mainnet-beta",
+      "address": "FR2xsxdi9uFeGdFWGyUdJVZCy1nkXp92nujiznk2kEiz",
+      "fileName": "images/migration/png/solana-mainnet-beta_fr2xsxdi9ufegdfwgyudjvzcy1nkxp92nujiznk2keiz.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://i.imgur.com/PfaeoXm.png"
+    },
+    {
+      "symbol": "EVERL",
+      "chainId": "solana-mainnet-beta",
+      "address": "41CvStKf2PPotnn6UV3eQiY7Hg1fssDTCfXjUK7pRD6g",
+      "fileName": "images/migration/png/solana-mainnet-beta_41cvstkf2ppotnn6uv3eqiy7hg1fssdtcfxjuk7prd6g.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dweb.link/ipfs/bafybeientcmaci6eduovqwx2pek6yncn5ko4stwzlgdxtktuqihel7gyom/85.png"
+    },
+    {
+      "symbol": "SUTEKI",
+      "chainId": "solana-mainnet-beta",
+      "address": "3yPvfudQ88ECG9U5Sz2MPmd9C8tzPQG3Gjm1Ts69LWVV",
+      "fileName": "images/migration/png/solana-mainnet-beta_3ypvfudq88ecg9u5sz2mpmd9c8tzpqg3gjm1ts69lwvv.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/bb5f40a7c3d9feb5c27e4810e83e1f74/1f770b7f"
+    },
+    {
+      "symbol": "MOONBEAR",
+      "chainId": "solana-mainnet-beta",
+      "address": "8uGQ97AbsskVoZprJ4B2eAfs5BgLRQUi37fdrRTfmPvc",
+      "fileName": "images/migration/png/solana-mainnet-beta_8ugq97absskvozprj4b2eafs5bglrqui37fdrrtfmpvc.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://pbs.twimg.com/profile_images/1523627054545133568/I3rHzTms_400x400.jpg"
+    },
+    {
+      "symbol": "PSYKERK",
+      "chainId": "solana-mainnet-beta",
+      "address": "CTkTLHiiza6a5GhJ5knJbDp9BWp7NebXYpFE3k6pt9TT",
+      "fileName": "images/migration/png/solana-mainnet-beta_ctktlhiiza6a5ghj5knjbdp9bwp7nebxypfe3k6pt9tt.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/6a38a87c7febd7bffd1a9ffde7991020/93e04d55"
+    },
+    {
+      "symbol": "BAGGANG",
+      "chainId": "solana-mainnet-beta",
+      "address": "7WVnj7Sna8u7bTarreuLmDye2DBtEcxhgd6hwi3c1vKa",
+      "fileName": "images/migration/png/solana-mainnet-beta_7wvnj7sna8u7btarreulmdye2dbtecxhgd6hwi3c1vka.png"
+    },
+    {
+      "symbol": "ABCDE",
+      "chainId": "solana-mainnet-beta",
+      "address": "GRhZvGB8TfwaMZjVGgBtsjFL4nQpW47eczWL4G6drPvC",
+      "fileName": "images/migration/png/solana-mainnet-beta_grhzvgb8tfwamzjvggbtsjfl4nqpw47eczwl4g6drpvc.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://back.blackmagic.gg/static/collections/abcd/2602.png"
+    },
+    {
+      "symbol": "JUSTW",
+      "chainId": "solana-mainnet-beta",
+      "address": "5iLE3Z7mTN7gW2bysKZST7mqp6s7KvvPU33XrzpzpyZ1",
+      "fileName": "images/migration/png/solana-mainnet-beta_5ile3z7mtn7gw2byskzst7mqp6s7kvvpu33xrzpzpyz1.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/just_worms_pfp_1662674818856.jpeg"
+    },
+    {
+      "symbol": "COSPLAYX",
+      "chainId": "solana-mainnet-beta",
+      "address": "FrGsi1hT9LX2nkxDxLX33YHoavovcjSi23PK8g4YpPCu",
+      "fileName": "images/migration/png/solana-mainnet-beta_frgsi1ht9lx2nkxdxlx33yhoavovcjsi23pk8g4yppcu.png"
+    },
+    {
+      "symbol": "SMU",
+      "chainId": "solana-mainnet-beta",
+      "address": "86BGBqaHw1kfYCbSrRqisLxF6qeXXgguRJMVVUnmA58p",
+      "fileName": "images/migration/png/solana-mainnet-beta_86bgbqahw1kfycbsrrqislxf6qexxggurjmvvunma58p.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/59db3f3128196d1a032a56e1af7e2fa3/66648c90"
+    },
+    {
+      "symbol": "KOZYK",
+      "chainId": "solana-mainnet-beta",
+      "address": "H1k1UKBCdrarwFH48SGBmJquC5fErPp1WN1W6Adc9Q7Q",
+      "fileName": "images/migration/png/solana-mainnet-beta_h1k1ukbcdrarwfh48sgbmjquc5ferpp1wn1w6adc9q7q.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachments/4449a2f4ad8db444325ef09ae8335dcb/a963280e/500.jpg"
+    },
+    {
+      "symbol": "DUMBDONK",
+      "chainId": "solana-mainnet-beta",
+      "address": "GZzAhrEuVg4ohKcFRXH34TAb3NgU2wCEdpnF3LxKWegW",
+      "fileName": "images/migration/png/solana-mainnet-beta_gzzahreuvg4ohkcfrxh34tab3ngu2wcedpnf3lxkwegw.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreifkyodj5gasv4og4v3mhcltclf73w25loyzfbfja6yzfrh6u6f4oe.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "ATRIVIANS",
+      "chainId": "solana-mainnet-beta",
+      "address": "C5z8HSR19v3uWaD9UrPzsZ7kgWMnJxp55b54i5uuSNWy",
+      "fileName": "images/migration/png/solana-mainnet-beta_c5z8hsr19v3uwad9urpzsz7kgwmnjxp55b54i5uusnwy.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/atrivians_pfp_1663012736300.png"
+    },
+    {
+      "symbol": "SWIFTR",
+      "chainId": "solana-mainnet-beta",
+      "address": "9pXifXKWkudXuKn9DaU1d4y8pZPMjfj154AgQnkccvbf",
+      "fileName": "images/migration/png/solana-mainnet-beta_9pxifxkwkudxukn9dau1d4y8pzpmjfj154agqnkccvbf.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/swift_robotics_pfp_1664665984680.png"
+    },
+    {
+      "symbol": "SPORTMVP",
+      "chainId": "solana-mainnet-beta",
+      "address": "fY16V3CtLyHDZ71HCDot7MYXioFHD7RfPYChzZ65V2N",
+      "fileName": "images/migration/png/solana-mainnet-beta_fy16v3ctlyhdz71hcdot7myxiofhd7rfpychzz65v2n.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeihvlwqsqs6idaa5gusa7easbjbbb4s3qt6jxyeorushx7o5r4btki.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "HOUNDZ",
+      "chainId": "solana-mainnet-beta",
+      "address": "BCYn7D9xKrceACKnPCA6hb4vvroSiAKsCjnMGdHTmkRc",
+      "fileName": "images/migration/png/solana-mainnet-beta_bcyn7d9xkrceacknpca6hb4vvrosiakscjnmgdhtmkrc.png"
+    },
+    {
+      "symbol": "KINGS",
+      "chainId": "solana-mainnet-beta",
+      "address": "GgdKUChwY6rv4N5DauRbhs61TFme5kqWXDYAZs6VTWr8",
+      "fileName": "images/migration/png/solana-mainnet-beta_ggdkuchwy6rv4n5daurbhs61tfme5kqwxdyazs6vtwr8.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/theking_pfp_1663489846200.png"
+    },
+    {
+      "symbol": "TAYKEITH",
+      "chainId": "solana-mainnet-beta",
+      "address": "6v3hT97Lr8fVA91Xe5heoXDcBkCmsv4PAZhM23kjg4F2",
+      "fileName": "images/migration/png/solana-mainnet-beta_6v3ht97lr8fva91xe5heoxdcbkcmsv4pazhm23kjg4f2.png"
+    },
+    {
+      "symbol": "CYBERLINX",
+      "chainId": "solana-mainnet-beta",
+      "address": "BXXB2LxRk2uwKQih5ysoVQ3oVdeNCfGuEHAvBZGtK1Bf",
+      "fileName": "images/migration/png/solana-mainnet-beta_bxxb2lxrk2uwkqih5ysovq3ovdencfguehavbzgtk1bf.png"
+    },
+    {
+      "symbol": "DEGENTOWN",
+      "chainId": "solana-mainnet-beta",
+      "address": "2tHamMTmuZGWKEfsvYXXvTFDtqkk8hYhLixHFZu9ghpL",
+      "fileName": "images/migration/png/solana-mainnet-beta_2thammtmuzgwkefsvyxxvtfdtqkk8hyhlixhfzu9ghpl.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/408f2a34f3ee1f67856cca3a226d71ab/9679778e"
+    },
+    {
+      "symbol": "DGNTWNR",
+      "chainId": "solana-mainnet-beta",
+      "address": "3q8Eh9ne7zJbMhzrjvnbVMrnR4s89gWPCQ97K1bsRmNh",
+      "fileName": "images/migration/png/solana-mainnet-beta_3q8eh9ne7zjbmhzrjvnbvmrnr4s89gwpcq97k1bsrmnh.png"
+    },
+    {
+      "symbol": "STONEF",
+      "chainId": "solana-mainnet-beta",
+      "address": "6qj7pc1gtyziS11W5SQXbQesUuFUB48C5wCymd8PPvEy",
+      "fileName": "images/migration/png/solana-mainnet-beta_6qj7pc1gtyzis11w5sqxbqesuufub48c5wcymd8ppvey.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreidssu7hdver4dtscwk3ny74l4k2uq7cluzcwznzja4ptlvdsdsyfa.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "MAGNUM",
+      "chainId": "solana-mainnet-beta",
+      "address": "CUhrGSrSn9Ub8xBobqb4QK6fB6we77dELV9mMQzaY3ne",
+      "fileName": "images/migration/png/solana-mainnet-beta_cuhrgsrsn9ub8xbobqb4qk6fb6we77delv9mmqzay3ne.png"
+    },
+    {
+      "symbol": "JISHIN",
+      "chainId": "solana-mainnet-beta",
+      "address": "RLNc4iVszKLR5f2cGYSnfhQphinSxACExB27FYGVRpL",
+      "fileName": "images/migration/png/solana-mainnet-beta_rlnc4ivszklr5f2cgysnfhqphinsxacexb27fygvrpl.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/jishindegens_pfp_1660747722273.jpeg"
+    },
+    {
+      "symbol": "LUNARNFT",
+      "chainId": "solana-mainnet-beta",
+      "address": "kWCWVtHck9Kg6NQjAbYoUgbd4oc7b2gnHxZNbqo47Ze",
+      "fileName": "images/migration/png/solana-mainnet-beta_kwcwvthck9kg6nqjabyougbd4oc7b2gnhxznbqo47ze.png"
+    },
+    {
+      "symbol": "LAUNCHLAB",
+      "chainId": "solana-mainnet-beta",
+      "address": "3tFcVwc25sXE2WALbfR9GgMoaH2kTkieHvVtSzu98UNo",
+      "fileName": "images/migration/png/solana-mainnet-beta_3tfcvwc25sxe2walbfr9ggmoah2ktkiehvvtszu98uno.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachments/50b7a48b85ba698d2279ccaa6b2c6717/42f95bf4/qwe.png"
+    },
+    {
+      "symbol": "PGANG",
+      "chainId": "solana-mainnet-beta",
+      "address": "C3bwM3HpEPzNsY5DBfZEcXywxyko6mpRAVFNXMzB1Mou",
+      "fileName": "images/migration/png/solana-mainnet-beta_c3bwm3hpepznsy5dbfzecxywxyko6mpravfnxmzb1mou.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/pgang_pfp_1663711276449.gif"
+    },
+    {
+      "symbol": "SOLFUL",
+      "chainId": "solana-mainnet-beta",
+      "address": "9ZWRmw7msvGnDJefmFc5MCAPpjhjGdkWfL9t5pJdbyio",
+      "fileName": "images/migration/png/solana-mainnet-beta_9zwrmw7msvgndjefmfc5mcappjhjgdkwfl9t5pjdbyio.png"
+    },
+    {
+      "symbol": "LOTUS",
+      "chainId": "solana-mainnet-beta",
+      "address": "FUTdgy9hb2E7WdgYUAiMx1f7cfxCa3SuQiNWBvz9n4Ja",
+      "fileName": "images/migration/png/solana-mainnet-beta_futdgy9hb2e7wdgyuaimx1f7cfxca3suqinwbvz9n4ja.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/5183df07a5b80ad546e765748575bed2/b2fe7fd0"
+    },
+    {
+      "symbol": "APHAROAH",
+      "chainId": "solana-mainnet-beta",
+      "address": "815WsMGTVcdKh7HeaTi5XLQfqXtu7tHMspAYcCH4dAwN",
+      "fileName": "images/migration/png/solana-mainnet-beta_815wsmgtvcdkh7heati5xlqfqxtu7thmspaycch4dawn.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/alpha_pharaohs_pfp_1655055534354.gif"
+    },
+    {
+      "symbol": "TECHFOLK",
+      "chainId": "solana-mainnet-beta",
+      "address": "EESr8kmbwj3CVQ6dKsifq1PtE23js7QDcvAXd2bwnnCW",
+      "fileName": "images/migration/png/solana-mainnet-beta_eesr8kmbwj3cvq6dksifq1pte23js7qdcvaxd2bwnncw.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachments/e0f936f029ca4ebd5097dd60b90bb44b/656f3b42/Magic_edenpreview.png"
+    },
+    {
+      "symbol": "APINLABS",
+      "chainId": "solana-mainnet-beta",
+      "address": "BPG8QUwEsc5f1T74vgeR33ACwJpPxAYhDk1oA4vmEu77",
+      "fileName": "images/migration/png/solana-mainnet-beta_bpg8quwesc5f1t74vger33acwjppxayhdk1oa4vmeu77.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "CYBERFRG",
+      "chainId": "solana-mainnet-beta",
+      "address": "FiCyXAxNmp7oroKBht7Hu4zpsnUkwnPLfwSiAHvobhsW",
+      "fileName": "images/migration/png/solana-mainnet-beta_ficyxaxnmp7orokbht7hu4zpsnukwnplfwsiahvobhsw.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https%3A%2F%2Fwww.arweave.net%2FOHFIbHqpFpgERaUhApaCFCwclAP_KrBoD0MixurXTDk%3Fext%3Dpng"
+    },
+    {
+      "symbol": "MTC",
+      "chainId": "solana-mainnet-beta",
+      "address": "8bQqWzmmWBR1d86F2W5yfuwoD1Yhj73qnLwZWC5KFxxd",
+      "fileName": "images/migration/png/solana-mainnet-beta_8bqqwzmmwbr1d86f2w5yfuwod1yhj73qnlwzwc5kfxxd.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeih3wfmqhia27ah4n5q36h3daqqac4zmn4zkys5mhoasb3tm6yjxsa.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "BFT",
+      "chainId": "solana-mainnet-beta",
+      "address": "JBa2nuNN9VPsinJdSaZFksj1npYCu7b2z5tDcYcz3myk",
+      "fileName": "images/migration/png/solana-mainnet-beta_jba2nunn9vpsinjdsazfksj1npycu7b2z5tdcycz3myk.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeicu7tzjucdwn6m4g4bepygj33bfifgp7rhapqvwiqbfpt6flftjsy.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "DUSTCITY",
+      "chainId": "solana-mainnet-beta",
+      "address": "HLjKKaM1eRkFCVZr8dya5cq6dYZ9yF3PsRFTzjPFfmMF",
+      "fileName": "images/migration/png/solana-mainnet-beta_hljkkam1erkfcvzr8dya5cq6dyz9yf3psrftzjpffmmf.png"
+    },
+    {
+      "symbol": "LILY",
+      "chainId": "solana-mainnet-beta",
+      "address": "7FYvphuZtRxB7BZd8PZ65yZmEEuWYYdxiHubthyd38BE",
+      "fileName": "images/migration/png/solana-mainnet-beta_7fyvphuztrxb7bzd8pz65yzmeeuwyydxihubthyd38be.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreihwrpyr52wax3i5drzi5pg4v2wrgylpwi54im7qb7nzz7tpdsmmzm.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "SK3Y",
+      "chainId": "solana-mainnet-beta",
+      "address": "5e7fVFaCAGkbaF9BCaKHSf9PL2r3rm5pvmZRgRVi3evK",
+      "fileName": "images/migration/png/solana-mainnet-beta_5e7fvfacagkbaf9bcakhsf9pl2r3rm5pvmzrgrvi3evk.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dweb.link/ipfs/QmZTBYeWY6ynTWYwe2zgJWBDXFd5yRvusd3VtgpCSuyYdH"
+    },
+    {
+      "symbol": "SIMMPLE",
+      "chainId": "solana-mainnet-beta",
+      "address": "CSNNLADmJDBsKWFLKFY1buomz4iA3xutp9F16Zja1kY3",
+      "fileName": "images/migration/png/solana-mainnet-beta_csnnladmjdbskwflkfy1buomz4ia3xutp9f16zja1ky3.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://shdw-drive.genesysgo.net/Dm7fNBd9ufYeXae3r5D6Yijx2wQnvq6puV9moMFRKHLE/placeholder.gif"
+    },
+    {
+      "symbol": "UGS",
+      "chainId": "solana-mainnet-beta",
+      "address": "4FHjNBJUu7zJdYHGnX2AVhfUbDdpYehVYgD2uxhfG4Am",
+      "fileName": "images/migration/png/solana-mainnet-beta_4fhjnbjuu7zjdyhgnx2avhfubddpyehvygd2uxhfg4am.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreihjzggkakfmcb65nbd2zszyiilk7fwqrxrfkb2ghmrkhafiqh5fcu.ipfs.dweb.link/"
+    },
+    {
+      "symbol": "GANJA",
+      "chainId": "solana-mainnet-beta",
+      "address": "4Kth6x628rFHGoYCGgXcLnVqLkmBJJmQVX1uWDivZrJD",
+      "fileName": "images/migration/png/solana-mainnet-beta_4kth6x628rfhgoycggxclnvqlkmbjjmqvx1uwdivzrjd.png"
+    },
+    {
+      "symbol": "CLAYMKR",
+      "chainId": "solana-mainnet-beta",
+      "address": "FNx2BWdiVrFCksMmdvDNQjcQnv8gjXvwToyYJLTF5ZgA",
+      "fileName": "images/migration/png/solana-mainnet-beta_fnx2bwdivrfcksmmdvdnqjcqnv8gjxvwtoyyjltf5zga.png"
+    },
+    {
+      "symbol": "KNIT",
+      "chainId": "solana-mainnet-beta",
+      "address": "Dg3U9abb2iVmZDxQ9pm9tEFVac828G2XPTJhMC2BLrwt",
+      "fileName": "images/migration/png/solana-mainnet-beta_dg3u9abb2ivmzdxq9pm9tefvac828g2xptjhmc2blrwt.png"
+    },
+    {
+      "symbol": "GRIM",
+      "chainId": "solana-mainnet-beta",
+      "address": "Ba6pbKXsMPtMVCsUvEK96MC8UMQjhokfLSHdT38QNWyR",
+      "fileName": "images/migration/png/solana-mainnet-beta_ba6pbkxsmptmvcsuvek96mc8umqjhokflshdt38qnwyr.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/a1cff3a26aee69bf2ab0999d9da348b8/45ae349e"
+    },
+    {
+      "symbol": "IMRTL",
+      "chainId": "solana-mainnet-beta",
+      "address": "6fr6Dwy77PvYaMc6AFYkoM3YYcAd69hmnRPVxdCebSxn",
+      "fileName": "images/migration/png/solana-mainnet-beta_6fr6dwy77pvyamc6afykom3yycad69hmnrpvxdcebsxn.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1602577769359151111/bW5dZD_h_400x400.jpg"
+    },
+    {
+      "symbol": "PILOTS",
+      "chainId": "solana-mainnet-beta",
+      "address": "2u96qr1PBu1MoW4hDJVaZXNppJSuPnJLxbVJ8UnRho72",
+      "fileName": "images/migration/png/solana-mainnet-beta_2u96qr1pbu1mow4hdjvazxnppjsupnjlxbvj8unrho72.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreifx7fd32whlosropuzrx3253xflalbksp4geknglkrlyeqy7lf67m.ipfs.nftstorage.link/"
+    },
+    {
+      "symbol": "P2FARM",
+      "chainId": "solana-mainnet-beta",
+      "address": "FvHhfbmPE1fkE6ojAWJfobXEQPVqGR1y5n56RrjBccWD",
+      "fileName": "images/migration/png/solana-mainnet-beta_fvhhfbmpe1fke6ojawjfobxeqpvqgr1y5n56rrjbccwd.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://nftstorage.link/ipfs/bafkreibf5nznclgyuqgpgeto6y3xild7qr2blctbikgd5oqw65o26lif4e"
+    },
+    {
+      "symbol": "CATSYARD",
+      "chainId": "solana-mainnet-beta",
+      "address": "2RyxewCYr6u5NzUsUh4zVcwsh2tGyW35XkuhYQQQL2BK",
+      "fileName": "images/migration/png/solana-mainnet-beta_2ryxewcyr6u5nzusuh4zvcwsh2tgyw35xkuhyqqql2bk.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafybeiabhoneqyot2rrz7gskiovzvoapk3kwzpmmslzp4nkq2igblipfxq.ipfs.nftstorage.link/"
+    },
+    {
+      "symbol": "PIXELDUDE",
+      "chainId": "solana-mainnet-beta",
+      "address": "H57XM1294uWU6jVZEXnqmBgcxzmwc8qwajYES3PHkYGU",
+      "fileName": "images/migration/png/solana-mainnet-beta_h57xm1294uwu6jvzexnqmbgcxzmwc8qwajyes3phkygu.png",
+      "originalUrl": "https://firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%2F44vsczQhVRDmqZfKgoQGgyzdvKp5AAqAhuUNiGvw7e5Y%2FCollections%2FdeBY8kTlYQ9ihPVrMoep%2Fcover?alt=media&token=88d962d1-ba24-448f-a7da-a1f9d2fb8db6"
+    },
+    {
+      "symbol": "NUKED",
+      "chainId": "solana-mainnet-beta",
+      "address": "bQ2HDYdcyBAp4p5hgUdk3BtP97VoUZEkc1ubbBKCkdZ",
+      "fileName": "images/migration/png/solana-mainnet-beta_bq2hdydcybap4p5hgudk3btp97vouzekc1ubbbkckdz.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/6524e76ab243c8e8812470a69b0da611/9fecbb6d"
+    },
+    {
+      "symbol": "NFTHOOK",
+      "chainId": "solana-mainnet-beta",
+      "address": "C667hgSNuynfdWFZVzhciy9VLTF1QFBDDEWz4a7hc93Q",
+      "fileName": "images/migration/png/solana-mainnet-beta_c667hgsnuynfdwfzvzhciy9vltf1qfbddewz4a7hc93q.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1561438309540405249/OdY77_BR_400x400.jpg"
+    },
+    {
+      "symbol": "CMAXIS",
+      "chainId": "solana-mainnet-beta",
+      "address": "9hZeipk5s7VM8tvscgcLvFF7ZmoVcYkBgeScLEKQeoGa",
+      "fileName": "images/migration/png/solana-mainnet-beta_9hzeipk5s7vm8tvscgclvff7zmovcykbgesclekqeoga.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1582836984837328896/m3G4_tST_400x400.jpg"
+    },
+    {
+      "symbol": "PUDDY",
+      "chainId": "solana-mainnet-beta",
+      "address": "9RnzSma59bUb1cqNzPuhgXKootMSEJLcXbxNfndDhezv",
+      "fileName": "images/migration/png/solana-mainnet-beta_9rnzsma59bub1cqnzpuhgxkootmsejlcxbxnfnddhezv.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://shdw-drive.genesysgo.net/RmLVMWDhhiT2jddpjNWAQEc2MuQSVLCyc4D7B31SUvk/Green.png"
+    },
+    {
+      "symbol": "HWORLD",
+      "chainId": "solana-mainnet-beta",
+      "address": "DTHGmyK1nkeTdwFgi9qCkTCVaTZVTvB3JemorQyFGwxi",
+      "fileName": "images/migration/png/solana-mainnet-beta_dthgmyk1nketdwfgi9qcktcvatzvtvb3jemorqyfgwxi.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/huskyworld_pfp_1667645141525.gif"
+    },
+    {
+      "symbol": "MADBEARS",
+      "chainId": "solana-mainnet-beta",
+      "address": "8L9txTGefJpKnRt5hNmcxr845gutSZGFLhngGQGwKNdB",
+      "fileName": "images/migration/png/solana-mainnet-beta_8l9txtgefjpknrt5hnmcxr845gutszgflhnggqgwkndb.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/mad_bears_pfp_1657191022075.gif"
+    },
+    {
+      "symbol": "FLIPGIRLS",
+      "chainId": "solana-mainnet-beta",
+      "address": "D6CZvGmhaEbAVH8m6qntktsLVu7MrX8rDUxEXHYUULmA",
+      "fileName": "images/migration/png/solana-mainnet-beta_d6czvgmhaebavh8m6qntktslvu7mrx8rduxexhyuulma.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/flip_girls_pfp_1662388617347.gif"
+    },
+    {
+      "symbol": "CTSx",
+      "chainId": "solana-mainnet-beta",
+      "address": "nGFA7SfrfTDyn1ZaMdeNBi2tCtUNEyFMh99JQh37CKR",
+      "fileName": "images/migration/png/solana-mainnet-beta_ngfa7sfrftdyn1zamdenbi2tctuneyfmh99jqh37ckr.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1500880589087514626/iZVuWUVB_400x400.jpg"
+    },
+    {
+      "symbol": "BATSx",
+      "chainId": "solana-mainnet-beta",
+      "address": "7rXwU5hsy4KBrZXpUQE8bjDD83U4AuhtBtTxQBcsE5Wv",
+      "fileName": "images/migration/png/solana-mainnet-beta_7rxwu5hsy4kbrzxpuqe8bjdd83u4auhtbttxqbcse5wv.png",
+      "originalUrl": "https://dl.airtable.com/.attachmentThumbnails/ce9bbd01916a86a22a3e0099a8375854/4c4d8140"
+    },
+    {
+      "symbol": "TB",
+      "chainId": "solana-mainnet-beta",
+      "address": "9Qn1r1xxqkSBYUiTgk1KkQPvWtGCoqUJzSYMCKuxM83U",
+      "fileName": "images/migration/png/solana-mainnet-beta_9qn1r1xxqksbyuitgk1kkqpvwtgcoqujzsymckuxm83u.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1624196920053755906/VY_gaVDV_400x400.jpg"
+    },
+    {
+      "symbol": "KNKO",
+      "chainId": "solana-mainnet-beta",
+      "address": "7RQFSqKWtBYLVxfV2MkZ6bm1527JBsnevjw5x2V4Kbta",
+      "fileName": "images/migration/png/solana-mainnet-beta_7rqfsqkwtbylvxfv2mkz6bm1527jbsnevjw5x2v4kbta.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://dl.airtable.com/.attachmentThumbnails/2e1e267c991fa33c27ccb782084cc9c9/cf14253d"
+    },
+    {
+      "symbol": "CHIMPS",
+      "chainId": "solana-mainnet-beta",
+      "address": "5s6QeLzSvgTUxbNajgobGpKHN8Au4KA7qTo3i1zPjZfC",
+      "fileName": "images/migration/png/solana-mainnet-beta_5s6qelzsvgtuxbnajgobgpkhn8au4ka7qto3i1zpjzfc.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1613213689720541188/pwyLrwtb_400x400.jpg"
+    },
+    {
+      "symbol": "MEERSOS",
+      "chainId": "solana-mainnet-beta",
+      "address": "5MH7bP4qM7MgFLG1bNPC6LsTtKxqEjxaYG1Pzo7bGgEZ",
+      "fileName": "images/migration/png/solana-mainnet-beta_5mh7bp4qm7mgflg1bnpc6lsttkxqejxayg1pzo7bggez.png",
+      "originalUrl": "https://pbs.twimg.com/profile_images/1644034092843823112/8y3YC9aJ_400x400.jpg"
+    },
+    {
+      "symbol": "KRUG",
+      "chainId": "solana-mainnet-beta",
+      "address": "ECy2miAgmx3UyYoGGHt15AHBkoA3twoZDQyNLwETzAUv",
+      "fileName": "images/migration/png/solana-mainnet-beta_ecy2miagmx3uyyogght15ahbkoa3twozdqynlwetzauv.png",
+      "originalUrl": "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://creator-hub-prod.s3.us-east-2.amazonaws.com/krug_pfp_1679408420983.png"
+    },
+    {
+      "symbol": "OPN",
+      "chainId": "solana-mainnet-beta",
+      "address": "J1YnyKzmxBwFkPftvZexnHTm4Am7JnmWydhxtXdwEmMv",
+      "fileName": "images/migration/png/solana-mainnet-beta_j1ynykzmxbwfkpftvzexnhtm4am7jnmwydhxtxdwemmv.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "BLKFN",
+      "chainId": "solana-mainnet-beta",
+      "address": "BLKFNuCET9ZnmhFczGXmcWKSap9kGtTFnosvA9P5majk",
+      "fileName": "images/migration/png/solana-mainnet-beta_blkfnucet9znmhfczgxmcwksap9kgttfnosva9p5majk.png",
+      "originalUrl": "https://i.imgur.com/8I4YAIl.png"
+    },
+    {
+      "symbol": "clBNB",
+      "chainId": "solana-mainnet-beta",
+      "address": "6KnsFQzCrY1VdD9Qub1ZhRcFSnzQRqhMpT2Xn4X5P2cj",
+      "fileName": "images/migration/png/solana-mainnet-beta_6knsfqzcry1vdd9qub1zhrcfsnzqrqhmpt2xn4x5p2cj.png",
+      "originalUrl": "https://markets.clone.so/images/assets/on-bnb.svg"
+    },
+    {
+      "symbol": "FUD",
+      "chainId": "solana-mainnet-beta",
+      "address": "7GLVQJ9xeuHshYy75kuYPx6xXK1RXBEzUWBhfPTb4XRJ",
+      "fileName": "images/migration/png/solana-mainnet-beta_7glvqj9xeuhshyy75kuypx6xxk1rxbezuwbhfptb4xrj.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "MOOOO",
+      "chainId": "solana-mainnet-beta",
+      "address": "6xaLVgohU7ztwWT6GJ7o2vVaVGjzHUJtrY742aBhpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_6xalvgohu7ztwwt6gj7o2vvavgjzhujtry742abhpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmQUuDJGhz1dqxLCcPSaNL9nxfeQxXMGNn4oDxXZgi6mWG"
+    },
+    {
+      "symbol": "BITCOIN",
+      "chainId": "solana-mainnet-beta",
+      "address": "CTgiaZUK12kCcB8sosn4Nt2NZtzLgtPqDwyQyr2syATC",
+      "fileName": "images/migration/png/solana-mainnet-beta_ctgiazuk12kccb8sosn4nt2nztzlgtpqdwyqyr2syatc.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "FDUSD",
+      "chainId": "solana-mainnet-beta",
+      "address": "9zNQRsGLjNKwCUU5Gq5LR8beUCPzQMVMqKAi3SSZh54u",
+      "fileName": "images/migration/png/solana-mainnet-beta_9znqrsgljnkwcuu5gq5lr8beucpzqmvmqkai3sszh54u.png",
+      "originalUrl": null
+    },
+    {
+      "symbol": "MDEL",
+      "chainId": "solana-mainnet-beta",
+      "address": "FYK7uK4mobuk7EJ37hhmL7n3C5DRqGvrzFyyo1xkpump",
+      "fileName": "images/migration/png/solana-mainnet-beta_fyk7uk4mobuk7ej37hhml7n3c5drqgvrzfyyo1xkpump.png",
+      "originalUrl": "https://ipfs.io/ipfs/QmXfq8GBkfugqPQoW2KDo4FQwJHTxowVFfBVhwUbkjofsi"
+    }
+  ]
 }

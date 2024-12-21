@@ -1,2 +1,5 @@
 .DS_Store
 node_modules
+scripts/update-tokens/new-token-images.json
+scripts/update-tokens/url_fetch_errors.json
+images/migration/png/
