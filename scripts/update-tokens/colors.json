@@ -20843,6 +20843,58 @@
     "solana-mainnet-beta_4dpw2sdbkcteuihpqrtwspt78zgs98v5tmhvpgpoplzq": {
       "bgColor": "rgb(11,9,50)",
       "textColor": "#fff"
+    },
+    "solana-mainnet-beta_61v8vbaqagmpgdqi4jcawo1dmbghsyhzodcpqnevpump": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_ezvkdryracwkqey7fhg4bbl7gx8wc5dvnxwm4za2pump": {
+      "bgColor": "rgb(134,154,102)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_4q7ujpgqrd51y9dujjekuvnemanjtbqprgazvsuzpump": {
+      "bgColor": "rgb(86,14,9)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_haahyn2rtafhnnysexkoowggf7ddx5b5ngngmghpump": {
+      "bgColor": "rgb(27,27,27)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_97mbx6jym1iekqdvflf5pmwl5targnq5na5jhr9lpump": {
+      "bgColor": "rgb(229,59,68)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_4twc4aif1uushes2ebftgqemp6tqjenkghqih6dfpump": {
+      "bgColor": "rgb(0,0,9)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_hjw6bechtbhgpqr8ong3izfjy5djiwdt7uk2bfdspump": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_74sbv4zdxxtrgv1pemoecskkbkzhc2ygpnc7gyvepump": {
+      "bgColor": "rgb(1,1,1)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_5xykkfajpamsh4tf2efj3s61w3hc5cjhxnzqq5h1pump": {
+      "bgColor": "rgb(167,166,159)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_gacpabn18xqisjbd9zeyarjdt9rhrmuut5nk9z9spump": {
+      "bgColor": "rgb(61,150,202)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_ayka69vt8dgabhibsj5hjsg9rk78nwc6zvvvcv3opump": {
+      "bgColor": "rgb(2,6,23)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_5dqsdg6sgkbsbykq4mqstpcl4d5raehc6ry7lgbwpump": {
+      "bgColor": "rgb(210,192,175)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_6p4ybuws6xnff9hwydshvoqp4pnktzkkclhm4yftyvwz": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
     }
   },
   "chains": {
