@@ -21059,6 +21059,258 @@
     "solana-mainnet-beta_cpzvdx6pppc9tnarsgsqgshcskc9nccja2gtzhvupump": {
       "bgColor": "",
       "textColor": ""
+    },
+    "solana-mainnet-beta_cbomctuyucy9e6b3ygdfn6aesgunyv6yweoeukw6pump": {
+      "bgColor": "rgb(20,20,20)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_bgsrqk9yzmctrwd8fw9dx3v3gp91rbxlx856yixppump": {
+      "bgColor": "rgb(255,148,59)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_6amnrvjunjtjhhy3ndq5vq9rc1qy9ytxhmr8xjufpump": {
+      "bgColor": "rgb(217,204,197)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_g6hajithfeugsghvpu1rdpcq2nfiycjfhnpheanbpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_hb99pddrg7mbpzwxkmvdjf3xcadq5hbeow5zaj6radf6": {
+      "bgColor": "rgb(247,247,247)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_9yt5thlfb2uz1yg3cyeptn4ktswhigpkxxpj8hx3hat": {
+      "bgColor": "rgb(3,5,7)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_byxtsen3ftsd7ssqgxpszqreeomv8smhz1vox9j6pump": {
+      "bgColor": "rgb(69,73,76)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_creiuhfwdwcn5mjbmjta9bbpyqrqf2tcbuzwspwfpump": {
+      "bgColor": "rgb(10,10,10)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_hlrgopck1n4fmkowvybnkvhroiicul2qynenqtunpump": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_v62jv9pwmtrewv9f6tetzfmafv254vo99p7hsf25bpr": {
+      "bgColor": "rgb(21,24,35)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_ho6wn4ff7rdtdxe1usczjrjufvmhyrftv1obdbsecnjs": {
+      "bgColor": "rgb(221,235,223)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_8ifrevvdmlkxveibpc5vlrr1s6x5dm7gyr3vcu1wpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_eovfxua6xc5fn6cx7r2wgjs5pgcewwjqmpkpnfzdpump": {
+      "bgColor": "rgb(30,120,255)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_2phi2f7xpq6bnh2j6xrn2qc5tj37ephihvbk49dgpaau": {
+      "bgColor": "rgb(13,13,13)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_9ynykgy7xvxv9ij8tapmjxreargcrejy38koftaspump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_2qqvzpicicfzm7wkhrvbtnvtxvblxmtd1sjwbkslpump": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_baexk4x6b3hkqmekpuyyzq5fzub5iz6saj7a9udnpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_damqxqrg5fksnmnxedbqmdtsiz86b5bzih4p6fs6pump": {
+      "bgColor": "rgb(113,128,150)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_b4pjh5gmzm1buqhafxvyr6sj3sersgsst4nfko2spump": {
+      "bgColor": "rgb(43,70,47)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_cwe5k2iey8dt7vcgy93gbrqqs4fwyac6pqjvjlcpd6qp": {
+      "bgColor": "rgb(191,191,191)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_gst1mhm4sqeguezvnlradhvzbkngsnpch4abivygpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_j5cpjmayhydzu2wbupt79maldjm14fkcivvpwudcpump": {
+      "bgColor": "rgb(254,254,254)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_h1jjwqtgcazuzjakhxs8da6fy8vzytbxkxuyv3ycrya1": {
+      "bgColor": "rgb(10,10,10)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_cmdkx3tgvjryrdq2mnaktrnsyguqlrkgicpz3jc6r8r2": {
+      "bgColor": "rgb(32,29,135)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_emhvwgua2q9pn4qjzfjvuvyzfkg4s3erwjkr9dqdpump": {
+      "bgColor": "rgb(252,163,95)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_75duwfjdjkaycbpdi3oho9vy8zfwexbvwhmy5qehpump": {
+      "bgColor": "rgb(32,179,243)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_6yik5fs857fa7755vngvmo4jpaetcuwdkcek9aopump": {
+      "bgColor": "rgb(24,42,57)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_ts3folrnumvwdveit1onelwjyk7e4qsn8pqssqrpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_hni43ue8qz8xega9q8awbv9dxzjxcexm8cze1fhppump": {
+      "bgColor": "rgb(64,255,63)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_ciwmdzuz7jzi4e8thjpjqukcrueslsugjo9jtzyvpump": {
+      "bgColor": "rgb(24,27,106)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_fvizqjymuq9faxmpudcqs7ffjut4udhzwjkpbiy7pump": {
+      "bgColor": "rgb(241,240,236)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_drvm9vp5cow4whsnv1kajhn55duyuua4cj9ngksapump": {
+      "bgColor": "rgb(60,101,99)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_budxpnu7opugujkqzdet9naxszb67mljpkzjmakkpump": {
+      "bgColor": "rgb(44,134,143)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_tqrrt3asuga3ayysvabmdrpjewvzpanh3p6lxxgpump": {
+      "bgColor": "rgb(217,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_hht5ec86bnreliuhcrwjom7rg2gpmthwvjqjlvvxpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_b9qxfimd6tjsgnj8nzfk3xbtuqnpkcnkqeehmqgxpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_halhrqgt8wx3zi6pjjebbdijwmbpxfgebkjavocqpump": {
+      "bgColor": "rgb(43,148,245)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_7vskatz8bakxxb16zzmjyg9x3iln8zpq4ybpg8mwblmd": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_92bjkpankoath7uyt5tyafpu3cgbdzynqkif6zo6pump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_cvwwh9nvqj12kj3xqe5szwavdohdfd8sepo8stqapump": {
+      "bgColor": "rgb(3,3,6)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_45c1nsdyrbkt1etufjglb7reysj2jbfftswredrnbjxx": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_3kugee2n3hbyzy8yyc84a6j7mahgihmydmggob2ipump": {
+      "bgColor": "rgb(247,228,79)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_4c8y1l7ya9ke2syjuilharmdjnqiqfgi4hrk6j1ehc8d": {
+      "bgColor": "rgb(200,201,194)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_5uamzkfnmuvckzr2wo8jqw4r1k8vfdavjnn6h3bvpump": {
+      "bgColor": "rgb(239,220,183)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_7lvjrvmmy7bypa76ezatererjkbsfnuxkrzetij4pump": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "solana-mainnet-beta_minty8wwfx6asycdhxzxnwg5kcf8vskjhhsjrdelucb": {
+      "bgColor": "rgb(250,252,254)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_53of2fg2rzcvknpwzq5s7eqtf6i7orgwbpnkbazyttqd": {
+      "bgColor": "rgb(25,160,255)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_2fcsqrrhvgsfyxjwh32xw873vyqbz9jmmyxqyspgntuz": {
+      "bgColor": "rgb(183,205,222)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_6f41lghuu2hvv67ao9gwj6kv2jnuz9hl6fjpvycjpump": {
+      "bgColor": "rgb(20,20,20)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_2fztwhblg3xpquk8cqs3kkybrnmbhkj7q5zbkut2pump": {
+      "bgColor": "rgb(238,125,92)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_cub1jek3htuq38dttdzqhr78pf4w3namyg4ugemppump": {
+      "bgColor": "rgb(184,186,185)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_8bdhp1uqmevcic9oj7nrvgdfow8xpxpfbkkm6vktms7n": {
+      "bgColor": "rgb(233,234,216)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_axdkaydsc7p8c5medfx6fkv2mpcsgwzkrfgy2qzzpump": {
+      "bgColor": "rgb(28,41,62)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_7xuv6yr3rzmfexpqziovqsuxpnhxr2kjjqfg1bfrpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_gjcqkmr8uvyibgummgxxcrd7jtxuq17ljtr8uo4zrulc": {
+      "bgColor": "rgb(213,204,191)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_hfw81suupbknf5tkdanv8vcytfvy4xbreepiwzyypump": {
+      "bgColor": "rgb(92,12,139)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_dcu8uhn7abxgyl8ajuk3t8fckeaxrncgyybk7ubfpump": {
+      "bgColor": "rgb(16,16,20)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_3pcmjbhxkfxyfdzesgkg4ypzrrgwjohg8kj26bnkpump": {
+      "bgColor": "rgb(254,254,254)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_cexcxdgozuwqksnaovysnhxkf6tex4p8tjhns6rhacz2": {
+      "bgColor": "rgb(31,31,31)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_2hhgclfka5rd1fn9xaxfyzs3xor5nnuxkdyz2emwpump": {
+      "bgColor": "rgb(20,17,21)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_shmzawy3xskcenhvjkayp8w1lu4ybyt5gz412ropump": {
+      "bgColor": "rgb(141,8,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_8t988c2a8ynnbppjjd1uyupmdqe8hlee1tunokuepump": {
+      "bgColor": "rgb(18,39,91)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_4vfcfjaz1tsa6twe7cp6lj7fr8y7vactztkpxof7pump": {
+      "bgColor": "",
+      "textColor": ""
     }
   },
   "chains": {
