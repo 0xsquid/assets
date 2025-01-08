@@ -38,21 +38,21 @@ for image in ${images[@]}; do
 
     # Check if imageUrl is empty or null
     if [ -z "$imageUrl" ] || [ "$imageUrl" == "null" ]; then
-        echo -e "\nImage saving failed for $fileName: URL is empty or null."
+        echo -e "\nImage saving failed for $imageUrl: URL is empty or null."
         continue
     fi
 
     # Check HTTP status before downloading the image
     http_status=$(curl -s -o /dev/null -w "%{http_code}" "$imageUrl")
     if [ "$http_status" -lt 200 ] || [ "$http_status" -ge 400 ]; then
-        echo -e "\nImage download failed for $fileName: HTTP status $http_status. Skipping this image."
+        echo -e "\nImage download failed for $imageUrl: HTTP status $http_status. Skipping this image."
         continue
     fi
 
     # Download the image with a timeout
     wget --timeout=10 -q -O /tmp/$fileName $imageUrl
     if [ $? -ne 0 ]; then
-        echo -e "\nImage download failed for $fileName. Skipping this image."
+        echo -e "\nImage download failed for $imageUrl. Skipping this image."
         continue
     fi
 
@@ -84,7 +84,7 @@ for image in ${images[@]}; do
     if [ $? -eq 0 ]; then
         echo -e "\nImage saved for $fileName"
     else
-        echo -e "\nImage saving failed for $fileName"
+        echo -e "\nImage saving failed for $imageUrl"
     fi
 
     # Clean up temporary resized image

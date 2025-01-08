@@ -2,6 +2,7 @@ import fs from "node:fs"
 import { getTokenAssetsKey } from "./colors-utils.js"
 
 const newTokensFilePath = "new-token-images.json"
+const errorTokensFilePath = "url_fetch_errors.json"
 
 ;(async () => {
   console.log("Fetching latest tokens")
@@ -15,17 +16,29 @@ const newTokensFilePath = "new-token-images.json"
 
   const { tokens } = await response.json()
 
+  const errorTokens = JSON.parse(
+    fs.readFileSync(`./scripts/update-tokens/${errorTokensFilePath}`, "utf8")
+  )
+  const errorTokensSet = new Set(errorTokens.tokens.map(getTokenAssetsKey))
+
   const newTokens = []
 
   for (const token of tokens) {
+    const tokenKey = getTokenAssetsKey(token)
     const tokenAlreadyExists = fs.existsSync(
-      `./images/migration/webp/${getTokenAssetsKey(token)}.webp`
+      `./images/migration/webp/${tokenKey}.webp`
     )
 
-    if (!tokenAlreadyExists) {
-      console.log(`New token added: ${token.symbol}`)
-      newTokens.push(token)
+    if (tokenAlreadyExists) {
+      continue
     }
+
+    if (errorTokensSet.has(tokenKey)) {
+      console.log(`Skipping token due to fetch error: ${token.symbol}`)
+    }
+
+    console.log(`New token added: ${token.symbol}`)
+    newTokens.push(token)
   }
 
   fs.writeFileSync(
@@ -39,5 +52,5 @@ const newTokensFilePath = "new-token-images.json"
       2
     )
   )
-  console.log(`missing tokens saved to ${newTokensFilePath}`)
+  console.log(`Updated tokens saved to ${newTokensFilePath}`)
 })()
