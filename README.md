@@ -4,29 +4,20 @@ Token and chain images for front ends built with the Squid SDK
 
 ## Scripts
 
-### Convert
+Token images are stored in the `images/migration/webp` folder.
+File names in this folder follow the format `<chainId>_<tokenAddress.toLowerCase().replaceAll("/", "")>.webp`.
 
-Convert all `.svg` and `.png` files in `/images/master` to 128x128 PNGs and WebPs in `/images/png128` and `/images/webp128` by default.
+To update token images, run:
 
-```bash
-yarn convert
+```sh
+yarn update-tokens
 ```
 
-You can specify a different size by passing the `--size` argument:
+This script will:
 
-The following command will create 500x500 PNGs and WebPs in `/images/png500` and `/images/webp500` respectively.
-
-```bash
-yarn convert --size=500
-```
-
-### Compare
-
-Compare folders size
-
-```bash
-yarn compare
-```
+1. fetch all tokens from Squid API
+2. Download and save every token image (unless it already exists in `images/migration/webp`)
+3. Save new token colors to `scripts/update-tokens/colors.json` (previous conversion to png is needed because of a limitation in the canvas library and webp)
 
 ## Install rsvg-convert, cwebp, and imagemagick
 
