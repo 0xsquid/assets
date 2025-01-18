@@ -1,3 +1,4 @@
+import "dotenv/config"
 import fs from "node:fs"
 import { getTokenAssetsKey } from "./colors-utils.js"
 
@@ -6,11 +7,12 @@ const errorTokensFilePath = "url_fetch_errors.json"
 
 ;(async () => {
   console.log("Fetching latest tokens")
-  const response = await fetch("https://api.uatsquidrouter.com/v2/sdk-info", {
+  const url = new URL("/v2/sdk-info", process.env.SQUID_API_URL)
+  const response = await fetch(url, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
-      "x-integrator-id": "squid-swap-widget"
+      "x-integrator-id": process.env.SQUID_INTEGRATOR_ID
     }
   })
 
