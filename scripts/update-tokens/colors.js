@@ -1,3 +1,4 @@
+import "dotenv/config"
 import chalk from "chalk"
 import fs from "node:fs"
 import {
@@ -5,7 +6,6 @@ import {
   getAverageColor,
   getContrastColor
 } from "./colors-utils.js"
-
 const colorsFilePath = "scripts/update-tokens/colors.json"
 const newTokenImagesFilePath = "scripts/update-tokens/new-token-images.json"
 const failedUrlsFilePath = "scripts/update-tokens/url_fetch_errors.json"
@@ -17,10 +17,11 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 const getSquidAssets = async () => {
   try {
-    const response = await fetch("https://api.uatsquidrouter.com/v2/sdk-info", {
+    const url = new URL("/v2/sdk-info", process.env.SQUID_API_URL)
+    const response = await fetch(url, {
       headers: {
         "Content-Type": "application/json",
-        "X-integrator-id": "squid-swap-widget-v2"
+        "x-integrator-id": process.env.SQUID_INTEGRATOR_ID
       }
     })
 
