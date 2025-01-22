@@ -37,6 +37,7 @@ const errorTokensFilePath = "url_fetch_errors.json"
 
     if (errorTokensSet.has(tokenKey)) {
       console.log(`Skipping token due to fetch error: ${token.symbol}`)
+      continue
     }
 
     console.log(`New token added: ${token.symbol}`)
