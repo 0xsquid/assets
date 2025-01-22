@@ -19,8 +19,8 @@ fi
 # Create the target folder if it doesn't exist
 mkdir -p "$PNG_FOLDER"
 
-# Parse the JSON file to extract existing keys
-EXISTING_KEYS=$(jq -r '.tokens | keys[]' "$COLORS_JSON")
+# Parse the JSON file to extract existing keys and bgColor values
+EXISTING_TOKENS=$(jq -r '.tokens | to_entries[] | "\(.key) \(.value.bgColor)"' "$COLORS_JSON")
 
 # Get the total number of .webp files to process
 total_files=$(find "$WEBP_FOLDER" -maxdepth 1 -name "*.webp" | wc -l | tr -d ' ')
@@ -45,21 +45,17 @@ for file in "$WEBP_FOLDER"/*.webp; do
     empty=$((bar_width - filled))
     printf "\r[%-${bar_width}s] %d%% (%d/%d)" $(printf '#%.0s' $(seq 1 $filled)) "$progress" "$processed_count" "$total_files"
 
-    # Check if the key exists in colors.json
-    if echo "$EXISTING_KEYS" | grep -q "^$base$"; then
-      # echo -e "\nSkipping $file: Key '$base' exists in $COLORS_JSON"
-      continue
+    # Check if the PNG already exists in /images/migration/png or if the token has a non-null bgColor in colors.json
+    token_info=$(echo "$EXISTING_TOKENS" | grep "^$base ")
+    bgColor=$(echo "$token_info" | awk '{print $2}')
+
+    if [ -f "$PNG_FOLDER/$base.png" ] || [ -n "$bgColor" ] && [ "$bgColor" != "null" ] && [ "$bgColor" != "" ]; then
+        # Skip if either condition is true
+        continue
     fi
 
-    # echo -e "\nConverting $file to $target_file..."
-    dwebp "$file" -o "$target_file" -quiet
-
-    # Check if the conversion was successful
-    # if [ $? -eq 0 ]; then
-    #   echo "Converted: $file -> $target_file"
-    # else
-    #   echo "Failed to convert: $file"
-    # fi
+    # Convert WEBP to PNG (extracting only the first frame if it's animated)
+    magick "$file[0]" "$target_file"
   fi
 done
 

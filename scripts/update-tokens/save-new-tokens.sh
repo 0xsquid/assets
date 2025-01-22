@@ -69,12 +69,21 @@ for image in ${images[@]}; do
             cwebp /tmp/$fileName_resized.png -o "$destination" -quiet
             ;;
         image/gif)
-            magick /tmp/$fileName[0] -resize 128x128 /tmp/$fileName_resized.png
-            cwebp /tmp/$fileName_resized.png -o "$destination" -quiet
+            # Get gif fps
+            fps=$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "/tmp/$fileName")
+            echo -e "\nFPS: $fps"
+            fps_value=$(echo "scale=2; $fps" | bc)
+            echo -e "\nFPS value: $fps_value"
+
+            # Convert GIF to animated WebP
+            ffmpeg -i /tmp/$fileName -vf "scale=128:128:force_original_aspect_ratio=decrease,fps=$fps_value" -loop 0 "$destination" -hide_banner -loglevel error
             ;;
         image/webp)
             magick /tmp/$fileName -resize 128x128 /tmp/$fileName_resized.webp
             mv /tmp/$fileName_resized.webp "$destination"
+            ;;
+        image/avif)
+            ffmpeg -i /tmp/$fileName -vf "scale=128:128" "$destination" -hide_banner -loglevel error
             ;;
         *)
             magick /tmp/$fileName -resize 128x128 /tmp/$fileName_resized.webp
@@ -87,7 +96,7 @@ for image in ${images[@]}; do
         echo -e "\nImage saving failed for $imageUrl"
     fi
 
-    # Clean up temporary resized image
+    # Clean up temporary files
     rm -f /tmp/$fileName_resized.png /tmp/$fileName_resized.webp /tmp/$fileName
 done
 
