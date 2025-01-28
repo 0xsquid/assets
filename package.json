@@ -10,7 +10,7 @@
     "test:colors": "node scripts/update-tokens/color-utils.test.js"
   },
   "dependencies": {
-    "canvas": "^3.1.0",
+    "canvas": "3.1.0",
     "chalk": "5.2.0"
   },
   "devDependencies": {
