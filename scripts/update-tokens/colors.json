@@ -25635,6 +25635,118 @@
     "solana-mainnet-beta_fmqjdvt1gztvxdvygmbede4l54fftfgx9m5gmbqejgm5": {
       "bgColor": "rgb(17,1,29)",
       "textColor": "#fff"
+    },
+    "8453_0x6d37357445f28eae6770a99d45932191df9ca6db": {
+      "bgColor": "rgb(12,12,12)",
+      "textColor": "#fff"
+    },
+    "8453_0xbb59167235bf3588b357de6cd98ca6f94d753c76": {
+      "bgColor": "rgb(13,6,19)",
+      "textColor": "#fff"
+    },
+    "8453_0x5eaad00347f9a83de9363d030eaf3ac603e2c381": {
+      "bgColor": "rgb(233,203,111)",
+      "textColor": "#000"
+    },
+    "8453_0x4d6d977aacbac1bdd603c7a759986f74a5dfaef8": {
+      "bgColor": "rgb(1,4,0)",
+      "textColor": "#fff"
+    },
+    "8453_0x5a4342f4268a731f4459cd0be22d4744a86d635d": {
+      "bgColor": "rgb(81,103,239)",
+      "textColor": "#fff"
+    },
+    "8453_0xe031b0cd88ca5d41d13db188e4bfc6c0cfa3e5a2": {
+      "bgColor": "rgb(45,69,75)",
+      "textColor": "#fff"
+    },
+    "43114_0xc891eb4cbdeff6e073e859e987815ed1505c2acd": {
+      "bgColor": "rgb(40,117,202)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_2scucjdvkmyxp4dt8sfaa9lkgsmk4ydpi9zlhiwxpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_9rjwno6hbpkxaywhcqqd1vjah8igsizesenznbddpump": {
+      "bgColor": "rgb(249,249,249)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_6t6ypxkmutfa3or6amoq7hvlqegdk9ln3fanznyqd7hx": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_6tc3nj94aefk7zzz5qwuk29aueym4tqycqntw4z8q88x": {
+      "bgColor": "rgb(10,87,77)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_heht1eknstnumaqasm4ac8r3ynckmquxa3huun5npump": {
+      "bgColor": "rgb(2,4,6)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_gh8yea9vh5fun7j6esfh3mv65cqtbpxk9z5xpzu7pump": {
+      "bgColor": "rgb(15,16,13)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_jupa2adczvdr9ef4fqdxmuymukonptohphablmrkrfj": {
+      "bgColor": "rgb(234,60,178)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_ca2nxccqzbsxfax8ytyvr71bg3otk4nnymgaccawpvpq": {
+      "bgColor": "rgb(130,87,181)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_8bube1ujsm1g3jebbwvvcxa2widmupdkub2rgkmyfw7r": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "solana-mainnet-beta_truthmz1n1fzkrrsk2xds4fbapmvkihxa8asaycdmd8": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_pawsolz4vaxjb9jftp1uf6qvyq2qmxipzurjug16svq": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_bktheac2ws8tqi2vmavn1ra4l1wjuwf3vkk3dnwwarti": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_hwezgfkdpwrklbgnmze5yokezg9tq2myceyuchdnpump": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_fmkd8vrraxaexfmg6wtpujcd3kxycwlcnwpmjse7pump": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_3vgopg7xm3ewkxfxmwpupcf7g939hecfqg18sluxdzvt": {
+      "bgColor": "rgb(1,159,222)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_8wcbtszabsznmwn6bfhtnbdhp9pjmvzfg5pvrfd3pump": {
+      "bgColor": "rgb(197,196,199)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_h4phnbsqjv5rqk8u6fuactlb6rnzrtapgnbb8kxjpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_je7q5qiekauxmyhuwtxmgvtpeboktgbmbtks7lkogme": {
+      "bgColor": "rgb(91,93,108)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_anxe9mzywreqbw4v5hry2s2utt42uetcbgmucxasvrai": {
+      "bgColor": "rgb(108,189,69)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_2otvnpchxn9mkedk3zby5uanf3s7tki4toaj3pzcxaud": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_dnmtk67urdbxeevrx9hjvzcvu8en4kgg5hfzy3e6pump": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
     }
   },
   "chains": {
