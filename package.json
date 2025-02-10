@@ -10,8 +10,14 @@
     "test:colors": "node scripts/update-tokens/color-utils.test.js"
   },
   "dependencies": {
-    "canvas": "3.1.0",
-    "chalk": "5.2.0"
+    "canvas": "^3.1.0",
+    "chalk": "5.2.0",
+    "ffmpeg": "^0.0.4",
+    "imagemagick": "^0.1.3",
+    "jq": "^1.7.2",
+    "librsvg": "^0.7.0",
+    "webp": "^0.0.4",
+    "wget": "^0.0.1"
   },
   "devDependencies": {
     "@types/node": "22.10.2",
