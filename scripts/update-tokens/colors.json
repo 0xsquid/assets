@@ -10113,7 +10113,7 @@
       "textColor": "#fff"
     },
     "injective-1_ibc00bf66bab34873b07fb9eeebcfacea11fb4bb348718862aa7782d6decc1f44c8": {
-      "bgColor": "rgb(0,0,0)",
+      "bgColor": "#4D3DFF",
       "textColor": "#fff"
     },
     "xion-mainnet-1_uxion": {
@@ -25867,7 +25867,7 @@
       "bgColor": "rgb(20,20,20)"
     },
     "80094": {
-      "bgColor": ""
+      "bgColor": "#814625"
     },
     "81457": {
       "bgColor": "rgb(252,252,3)"
@@ -26041,7 +26041,7 @@
       "bgColor": "rgb(0,0,0)"
     },
     "injective-1": {
-      "bgColor": "rgb(0,0,0)"
+      "bgColor": "#4D3DFF"
     },
     "core-1": {
       "bgColor": "rgb(0,0,0)"

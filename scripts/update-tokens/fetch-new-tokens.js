@@ -18,9 +18,8 @@ const errorTokensFilePath = "url_fetch_errors.json"
 
   const { tokens } = await response.json()
 
-  const errorTokens = JSON.parse(
-    fs.readFileSync(`./scripts/update-tokens/${errorTokensFilePath}`, "utf8")
-  )
+  const errorTokens = getErrorTokens()
+
   const errorTokensSet = new Set(errorTokens.tokens.map(getTokenAssetsKey))
 
   const newTokens = []
@@ -57,3 +56,15 @@ const errorTokensFilePath = "url_fetch_errors.json"
   )
   console.log(`Updated tokens saved to ${newTokensFilePath}`)
 })()
+
+function getErrorTokens() {
+  try {
+    JSON.parse(
+      fs.readFileSync(`./scripts/update-tokens/${errorTokensFilePath}`, "utf8")
+    )
+  } catch (error) {
+    return {
+      tokens: []
+    }
+  }
+}
