@@ -59,7 +59,7 @@ const errorTokensFilePath = "url_fetch_errors.json"
 
 function getErrorTokens() {
   try {
-    JSON.parse(
+    return JSON.parse(
       fs.readFileSync(`./scripts/update-tokens/${errorTokensFilePath}`, "utf8")
     )
   } catch (error) {
