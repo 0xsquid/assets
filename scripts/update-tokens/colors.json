@@ -30871,6 +30871,14 @@
     "80094_0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce": {
       "bgColor": "rgb(254,243,199)",
       "textColor": "#000"
+    },
+    "xrpl-dev_rrrrrrrrrrrrrrrrrrrrrholvtp": {
+      "bgColor": "#232830",
+      "textColor": "#fff"
+    },
+    "1440002_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "bgColor": "#232830",
+      "textColor": "#fff"
     }
   },
   "chains": {
@@ -31119,6 +31127,12 @@
     },
     "xion-mainnet-1": {
       "bgColor": "rgb(0,0,0)"
+    },
+    "1440002": {
+      "bgColor": "#000000"
+    },
+    "xrpl-dev": {
+      "bgColor": "#111111"
     }
   }
 }
