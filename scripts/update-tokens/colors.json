@@ -30872,7 +30872,7 @@
       "bgColor": "rgb(254,243,199)",
       "textColor": "#000"
     },
-    "xrpl-dev_rrrrrrrrrrrrrrrrrrrrrholvtp": {
+    "xrpl-dev-1_rrrrrrrrrrrrrrrrrrrrrholvtp": {
       "bgColor": "#232830",
       "textColor": "#fff"
     },
@@ -31166,7 +31166,7 @@
     "xion-mainnet-1": {
       "bgColor": "rgb(0,0,0)"
     },
-    "xrpl-dev": {
+    "xrpl-dev-1": {
       "bgColor": "#111111"
     },
     "xrpl-test": {
