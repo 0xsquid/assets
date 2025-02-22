@@ -30872,11 +30872,11 @@
       "bgColor": "rgb(254,243,199)",
       "textColor": "#000"
     },
-    "xrpl-dev-1_rrrrrrrrrrrrrrrrrrrrrholvtp": {
+    "xrpl-dev_rrrrrrrrrrrrrrrrrrrrrholvtp": {
       "bgColor": "#232830",
       "textColor": "#fff"
     },
-    "xrpl-test_rrrrrrrrrrrrrrrrrrrrrholvtp": {
+    "xrpl-test-1_rrrrrrrrrrrrrrrrrrrrrholvtp": {
       "bgColor": "#232830",
       "textColor": "#fff"
     },
@@ -31166,10 +31166,10 @@
     "xion-mainnet-1": {
       "bgColor": "rgb(0,0,0)"
     },
-    "xrpl-dev-1": {
+    "xrpl-dev": {
       "bgColor": "#111111"
     },
-    "xrpl-test": {
+    "xrpl-test-1": {
       "bgColor": "#111111"
     }
   }
