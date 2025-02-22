@@ -30876,7 +30876,15 @@
       "bgColor": "#232830",
       "textColor": "#fff"
     },
+    "xrpl-test_rrrrrrrrrrrrrrrrrrrrrholvtp": {
+      "bgColor": "#232830",
+      "textColor": "#fff"
+    },
     "1440002_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "bgColor": "#232830",
+      "textColor": "#fff"
+    },
+    "1449000_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
       "bgColor": "#232830",
       "textColor": "#fff"
     },
@@ -30964,6 +30972,9 @@
       "bgColor": "rgb(252,238,221)"
     },
     "1440002": {
+      "bgColor": "#000000"
+    },
+    "1449000": {
       "bgColor": "#000000"
     },
     "pacific-1": {
@@ -31156,6 +31167,9 @@
       "bgColor": "rgb(0,0,0)"
     },
     "xrpl-dev": {
+      "bgColor": "#111111"
+    },
+    "xrpl-test": {
       "bgColor": "#111111"
     }
   }
