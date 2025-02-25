@@ -15,7 +15,7 @@ const defaultTokenTextColor = ""
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
-const getSquidAssets = async () => {
+export const getSquidAssets = async () => {
   try {
     const url = new URL("/v2/sdk-info", process.env.SQUID_API_URL)
     const response = await fetch(url, {
