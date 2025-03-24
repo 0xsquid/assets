@@ -32043,6 +32043,58 @@
     "elys-1_ibc641cf777780be2abe8624e34c0728f5e57caba61d74961ad3cb6be9f10cf4744": {
       "bgColor": "rgb(241,4,0)",
       "textColor": "#fff"
+    },
+    "42161_0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf": {
+      "bgColor": "rgb(0,81,254)",
+      "textColor": "#fff"
+    },
+    "8453_0x91ad1b44913cd1b8241a4ff1e2eaa198da6bf4c9": {
+      "bgColor": "rgb(8,14,19)",
+      "textColor": "#fff"
+    },
+    "1_0xd2ba23de8a19316a638dc1e7a9adda1d74233368": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "1_0x6e7f11641c1ec71591828e531334192d622703f7": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "1_0x3073f7aaa4db83f95e9fff17424f71d4751a3073": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "1_0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a": {
+      "bgColor": "rgb(220,38,38)",
+      "textColor": "#fff"
+    },
+    "43114_0xce1bffbd5374dac86a2893119683f4911a2f7814": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "137_0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3": {
+      "bgColor": "rgb(30,30,30)",
+      "textColor": "#fff"
+    },
+    "5000_0xcabae6f6ea1ecab08ad02fe02ce9a44f09aebfa2": {
+      "bgColor": "rgb(39,33,55)",
+      "textColor": "#fff"
+    },
+    "13371_0xda49591f442b8c7a5292c6aa07655746299d6f4c": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "13371_0xfb457ea0990468fab7ee53ecb9239dc45bd5a7d8": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "osmosis-1_ibcd19da6ae5b3cb19a035fcb51dee5a36392e0d64d51c20d159a155d1581911a39": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "axelar-dojo-1_unit-move": {
+      "bgColor": "",
+      "textColor": ""
     }
   },
   "chains": {
