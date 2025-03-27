@@ -30876,6 +30876,10 @@
       "bgColor": "rgb(254,243,199)",
       "textColor": "#000"
     },
+    "xrpl_rrrrrrrrrrrrrrrrrrrrrholvtp": {
+      "bgColor": "#232830",
+      "textColor": "#fff"
+    },
     "xrpl-dev_rrrrrrrrrrrrrrrrrrrrrholvtp": {
       "bgColor": "#232830",
       "textColor": "#fff"
