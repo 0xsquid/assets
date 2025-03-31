@@ -32073,8 +32073,8 @@
       "textColor": "#fff"
     },
     "43114_0xce1bffbd5374dac86a2893119683f4911a2f7814": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
     },
     "137_0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3": {
       "bgColor": "rgb(30,30,30)",
@@ -32123,6 +32123,26 @@
     "13371_0x80807723cfc04bf5dbe3186ebd8a7486e78cd8ca": {
       "bgColor": "rgb(0,0,0)",
       "textColor": "#fff"
+    },
+    "42161_0x9623063377ad1b27544c965ccd7342f7ea7e88c7": {
+      "bgColor": "rgb(110,77,254)",
+      "textColor": "#fff"
+    },
+    "42220_0xfaea5f3404bba20d3cc2f8c4b0a888f55a3c7313": {
+      "bgColor": "rgb(166,229,246)",
+      "textColor": "#000"
+    },
+    "13371_0x8a1e8cf52954c8d72907774d4b2b81f38dd1c5c4": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "crescent-1_ucre": {
+      "bgColor": "rgb(31,16,12)",
+      "textColor": "#fff"
+    },
+    "80094_0x541fd749419ca806a8bc7da8ac23d346f2df8b77": {
+      "bgColor": "rgb(251,216,107)",
+      "textColor": "#000"
     }
   },
   "chains": {
