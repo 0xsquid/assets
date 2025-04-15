@@ -2,6 +2,21 @@ import { createCanvas, loadImage } from "canvas"
 import fs from "fs"
 import path from "path"
 
+export const nativeEvmTokenAddress =
+  "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+
+export function isEvmosChain(chain) {
+  return chain?.isEvmos || false
+}
+
+export function isSolanaSanctumAutomatedToken(token) {
+  return (
+    token.name.startsWith("Sanctum Automated ") &&
+    token.chainId === "solana-mainnet-beta" &&
+    /^[a-zA-Z0-9]{5}SOL$/.test(token.symbol)
+  )
+}
+
 export function getTokenAssetsKey(token) {
   return `${token.chainId}_${token.address.replaceAll("/", "").toLowerCase()}`
 }
