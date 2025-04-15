@@ -10,7 +10,6 @@ import {
   nativeEvmTokenAddress
 } from "./colors-utils.js"
 const colorsFilePath = "scripts/update-tokens/colors.json"
-const newTokenImagesFilePath = "scripts/update-tokens/new-token-images.json"
 const failedUrlsFilePath = "scripts/update-tokens/url_fetch_errors.json"
 const defaultChainBgColor = ""
 const defaultTokenBgColor = ""
@@ -96,22 +95,6 @@ const getSavedColors = () => {
   }
 }
 
-const getNewTokenImages = () => {
-  try {
-    const data = fs.readFileSync(newTokenImagesFilePath, "utf8")
-    return JSON.parse(data)
-  } catch (error) {
-    // create the file if it doesn't exist
-    if (error.code === "ENOENT") {
-      fs.writeFileSync(newTokenImagesFilePath, JSON.stringify(defaultColors))
-      return {}
-    }
-
-    console.error("Error reading colors file:", error)
-    return {}
-  }
-}
-
 function saveColors(colors) {
   fs.writeFile(colorsFilePath, JSON.stringify(colors, null, 2), err => {
     if (err) {
@@ -145,7 +128,6 @@ function saveFailedUrls(failedUrls) {
   }, {})
 
   const colors = getSavedColors()
-  const newTokenImages = getNewTokenImages()
   const failedUrls = {
     chains: [],
     tokens: []
