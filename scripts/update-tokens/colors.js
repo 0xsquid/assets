@@ -4,7 +4,10 @@ import fs from "node:fs"
 import {
   getTokenAssetsKey,
   getAverageColor,
-  getContrastColor
+  getContrastColor,
+  isEvmosChain,
+  isSolanaSanctumAutomatedToken,
+  nativeEvmTokenAddress
 } from "./colors-utils.js"
 const colorsFilePath = "scripts/update-tokens/colors.json"
 const newTokenImagesFilePath = "scripts/update-tokens/new-token-images.json"
@@ -26,6 +29,48 @@ export const getSquidAssets = async () => {
     })
 
     const data = await response.json()
+
+    // remove sanctum automated tokens
+    data.tokens = data.tokens.filter(t => !isSolanaSanctumAutomatedToken(t))
+
+    const evmosChains = data.chains.filter(isEvmosChain)
+    const evmosChainIds = evmosChains.map(c => c.chainId)
+
+    const evmosNativeTokenAddressesMap = evmosChains.reduce((acc, chain) => {
+      const normalizedSymbol = chain.nativeCurrency.symbol.toLowerCase()
+
+      return {
+        ...acc,
+        [normalizedSymbol]: nativeEvmTokenAddress
+      }
+    }, {})
+
+    /**
+     * Converts an evmos address (erc20/0x123...abc)
+     * to an evm standard address (0x123...abc)
+     *
+     * Also gas tokens on evmos chains have non-standard EVM addresses
+     * so we need to map them to the native EVM token address
+     */
+    const evmosAddressToEvmAddress = address => {
+      if (evmosNativeTokenAddressesMap[address]) {
+        return evmosNativeTokenAddressesMap[address]
+      }
+
+      return address.replace(/^erc20\//, "")
+    }
+
+    data.tokens = data.tokens.map(token => {
+      const isEvmosToken = evmosChainIds.includes(token.chainId)
+
+      return {
+        ...token,
+        address: isEvmosToken
+          ? // convert evmos address (erc20/0x123...abc) to evm address (0x123...abc)
+            evmosAddressToEvmAddress(token.address)
+          : token.address
+      }
+    })
 
     return data
   } catch (error) {
@@ -208,7 +253,15 @@ function saveFailedUrls(failedUrls) {
         ),
         error.message
       )
-      console.log("at", chalk.blueBright(token.logoURI), "\n")
+      console.log("at", chalk.blueBright(token.logoURI))
+      console.log(
+        chalk.grey(
+          `Token ${token.symbol} on ${
+            chainIdToNameMapping[token.chainId]
+          } saved using fallback colors`
+        ),
+        "\n"
+      )
 
       colors.tokens[getTokenAssetsKey(token)] = {
         bgColor: defaultTokenBgColor,
@@ -219,18 +272,8 @@ function saveFailedUrls(failedUrls) {
         chainId: token.chainId,
         address: token.address,
         fileName: getTokenImage(token),
-        originalUrl: newTokenImages.find(
-          tokenImageData => tokenImageData.fileName === getTokenAssetsKey(token)
-        )?.imageUrl
+        originalUrl: token.logoURI
       })
-
-      console.log(
-        chalk.grey(
-          `Token ${token.symbol} on ${
-            chainIdToNameMapping[token.chainId]
-          } saved using fallback colors`
-        )
-      )
     }
   }
 
