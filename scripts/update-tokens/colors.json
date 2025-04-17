@@ -32217,8 +32217,8 @@
       "textColor": ""
     },
     "axelar-dojo-1_ibc6aaa6d3fcedc2ce663fb5a5d00934999e86089aa042faed6b24c64058f8ae5a6": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(255,152,214)",
+      "textColor": "#fff"
     },
     "8453_0xd9a50ae97f9a0ba32edfdc3aa8a1812550d4aacc": {
       "bgColor": "rgb(46,53,69)",
@@ -32431,6 +32431,70 @@
     "2712765173321000_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
       "bgColor": "rgb(0,0,0)",
       "textColor": "#fff"
+    },
+    "8453_0xf88a3b4d990210582d35b1a6dc7b9897c2eb5c2e": {
+      "bgColor": "rgb(255,251,239)",
+      "textColor": "#000"
+    },
+    "8453_0x4eed0d2deb4c588393c80869b122327581b0d98e": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "1_0x657e8c867d8b37dcc18fa4caead9c45eb088c642": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "56_0xf6718b2701d4a6498ef77d7c152b2137ab28b8a3": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "56_0x9356f6d95b8e109f4b7ce3e49d672967d3b48383": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "solana-mainnet-beta_solidpvvqzpq3tyg2egsyeewwv7ru2df7weqpm6sgy9": {
+      "bgColor": "rgb(15,10,80)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_hhoxk7wurst9dlbbhhzbwbbuqkfvvonyhkpji61mpump": {
+      "bgColor": "rgb(195,217,210)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_fafxvxnkzzhmcodkwyoccgungvscqmw2mhhqbydfjfaf": {
+      "bgColor": "rgb(17,67,50)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_fthrnpdic79xrv6i9acwq2utp7orqucxaguwtzr2cs42": {
+      "bgColor": "rgb(111,61,87)",
+      "textColor": "#fff"
+    },
+    "axelar-dojo-1_ebtc-satoshi": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "bbn-1_ibcb6f67b04a232391dbb6523de03628a4841e94012be5909e21c413d5cf6eabf26": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "axelar-dojo-1_ibc2027ec8cd73eb3f0e7e46fffd71f5a06f91067be188adc9d5f512cd8f2145226": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "axelar-dojo-1_stbtc-wei": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "bbn-1_ibc5daaa16671b5f2241ac87aad53d63e15707ed98612aba136d0cdb98e2336b1c2": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "axelar-dojo-1_kbtc-wei": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "bbn-1_ibcdf526068dd772af0f5bdc0a72b3cf49e80c6758b7a66573f78a58704930e50d7": {
+      "bgColor": "",
+      "textColor": ""
     }
   },
   "chains": {
@@ -32499,6 +32563,9 @@
     },
     "1449000": {
       "bgColor": "#000000"
+    },
+    "11155111": {
+      "bgColor": "rgb(98,126,234)"
     },
     "pacific-1": {
       "bgColor": "rgb(0,0,0)"
@@ -32721,6 +32788,15 @@
     },
     "bbn-1": {
       "bgColor": "rgb(0,0,0)"
+    },
+    "xrpl-testnet": {
+      "bgColor": ""
+    },
+    "sui-mainnet": {
+      "bgColor": "rgb(76,163,255)"
+    },
+    "sui-testnet": {
+      "bgColor": "rgb(76,163,255)"
     }
   }
 }
