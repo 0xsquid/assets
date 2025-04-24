@@ -5,7 +5,7 @@ Token and chain images for front ends built with the Squid SDK
 ## Scripts
 
 Token images are stored in the `images/migration/webp` folder.
-File names in this folder follow the format `<chainId>_<tokenAddress.toLowerCase().replaceAll("/", "")>.webp`.
+File names in this folder follow the format `<chainId>_<tokenAddress.toLowerCase().replace(/[/\:]/g, "")>.webp`.
 
 To update token images, run:
 
