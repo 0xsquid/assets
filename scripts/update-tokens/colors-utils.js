@@ -18,7 +18,10 @@ export function isSolanaSanctumAutomatedToken(token) {
 }
 
 export function getTokenAssetsKey(token) {
-  return `${token.chainId}_${token.address.replaceAll("/", "").toLowerCase()}`
+  // Remove slashes and colons and lowercase token address
+  return `${token?.chainId}_${token?.address
+    ?.replace(/[/\:]/g, "")
+    .toLowerCase()}`
 }
 
 export function getAverageColor(url, { saveHighlight = false } = {}) {
