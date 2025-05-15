@@ -2200,6 +2200,10 @@
       "bgColor": "#000",
       "textColor": "#fff"
     },
+    "1_0x68749665ff8d2d112fa859aa293f07a622782f38": {
+      "bgColor": "#D3B25B",
+      "textColor": "#fff"
+    },
     "10_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
       "bgColor": "rgb(98,126,234)",
       "textColor": "#fff"
