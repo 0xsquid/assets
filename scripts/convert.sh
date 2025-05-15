@@ -119,8 +119,8 @@ convert_files() {
 
             # Omit conversion if WebP file already exists
             if [ ! -f "$output_dir_webp/$subdir/$filename.webp" ]; then
-                # Convert PNG to WebP
-                cwebp "$png_file" -o "$output_dir_webp/$subdir/$filename.webp" -quiet
+                # Convert resized PNG to WebP
+                cwebp "$output_dir_png/$subdir/$filename.png" -o "$output_dir_webp/$subdir/$filename.webp" -quiet
                 if [ $? -eq 0 ]; then
                     print_color_message "Converted $png_file to $output_dir_webp/$subdir/$filename.webp" "$GREEN"
                 else
