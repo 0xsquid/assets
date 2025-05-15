@@ -30932,6 +30932,10 @@
       "bgColor": "#232830",
       "textColor": "#fff"
     },
+    "1449000_0xd5e67bfbffe0a6439be6738587b115053f77ab3b": {
+      "bgColor": "rgb(23,23,23)",
+      "textColor": "#fff"
+    },
     "8453_0x98d0baa52b2d063e780de12f615f963fe8537553": {
       "bgColor": "rgb(11,32,32)",
       "textColor": "#fff"
@@ -32621,8 +32625,12 @@
       "textColor": "#fff"
     },
     "xrpl-testnet_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#232830",
+      "textColor": "#fff"
+    },
+    "xrpl-testnet_sqd.rNrjh1KGZk2jBR3wPfAQnoidtFFYQKbQn2": {
+      "bgColor": "rgb(23,23,23)",
+      "textColor": "#fff"
     },
     "sui-mainnet_0x0000000000000000000000000000000000000000000000000000000000000002suisui": {
       "bgColor": "rgb(76,162,254)",
