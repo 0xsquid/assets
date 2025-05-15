@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# check if required tools are installed
+command -v rsvg-convert >/dev/null || { echo "rsvg-convert is required"; exit 1; }
+command -v magick >/dev/null || { echo "ImageMagick (magick) is required"; exit 1; }
+command -v cwebp >/dev/null || { echo "cwebp is required"; exit 1; }
+
 # Default size for the images
 SIZE=128
 
