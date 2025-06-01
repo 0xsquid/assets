@@ -11,7 +11,7 @@
 	.st5{fill:url(#SVGID_5_);}
 	.st6{fill:url(#SVGID_6_);}
 </style>
-<circle class="st0" cx="400" cy="400" r="400"/>
+<circle class="st0" cx="400" cy="400" r="100%"/>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="574.9257" y1="665.8727" x2="248.5257" y2="142.3127" gradientTransform="matrix(1 0 0 -1 0 800)">
 	<stop  offset="0.16" style="stop-color:#C6F462"/>
 	<stop  offset="0.89" style="stop-color:#33D9FF"/>
