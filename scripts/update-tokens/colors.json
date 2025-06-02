@@ -32624,7 +32624,11 @@
       "bgColor": "rgb(0,0,0)",
       "textColor": "#fff"
     },
-    "xrpl-testnet_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+    "xrpl-testnet_xrp": {
+      "bgColor": "#232830",
+      "textColor": "#fff"
+    },
+    "xrpl-mainnet_xrp": {
       "bgColor": "#232830",
       "textColor": "#fff"
     },
