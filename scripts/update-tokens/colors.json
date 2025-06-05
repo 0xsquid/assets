@@ -34977,11 +34977,11 @@
       "textColor": "#fff"
     },
     "100_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "#565656",
+      "textColor": "#fff"
     },
     "146_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
-      "bgColor": "rgb(20,19,22)",
+      "bgColor": "#141316",
       "textColor": "#fff"
     },
     "1868_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
@@ -35244,13 +35244,13 @@
       "bgColor": "rgb(240,185,11)"
     },
     "100": {
-      "bgColor": ""
+      "bgColor": "#CCC4AE"
     },
     "137": {
       "bgColor": "rgb(130,71,229)"
     },
     "146": {
-      "bgColor": ""
+      "bgColor": "#fff"
     },
     "250": {
       "bgColor": "rgb(25,105,255)"
@@ -35262,19 +35262,19 @@
       "bgColor": "rgb(0,144,255)"
     },
     "999": {
-      "bgColor": ""
+      "bgColor": "#072723"
     },
     "1284": {
       "bgColor": "rgb(6,53,61)"
     },
     "1868": {
-      "bgColor": ""
+      "bgColor": "#000"
     },
     "2222": {
       "bgColor": "rgb(255,67,62)"
     },
     "3338": {
-      "bgColor": ""
+      "bgColor": "#311777"
     },
     "5000": {
       "bgColor": "rgb(0,0,0)"
