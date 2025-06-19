@@ -35204,6 +35204,30 @@
       "bgColor": "#232830",
       "textColor": "#fff"
     },
+    "1440000_0x50498dc52bcd3daeb54b7225a7d2fa8d536f313e": {
+      "bgColor": "#fff",
+      "textColor": "#000"
+    },
+    "1440000_0x9f8cf9c00fac501b3965872f4ed3271f6f4d06ff": {
+      "bgColor": "#53AE94",
+      "textColor": "#fff"
+    },
+    "1440000_0xa16148c6ac9ede0d82f0c52899e22a575284f131": {
+      "bgColor": "#2775CA",
+      "textColor": "#fff"
+    },
+    "1440000_0xf8eb4ed0d4cf2bb707c0272f8c6827deb6e4c0a9": {
+      "bgColor": "#282138",
+      "textColor": "#fff"
+    },
+    "1440000_0xdc556f7209c48fc53a8cdf1339c033743a7e3e75": {
+      "bgColor": "#F5AC37",
+      "textColor": "#fff"
+    },
+    "1440000_0xe5747226d2005d7f0865780e8517397de66f2a76": {
+      "bgColor": "#000",
+      "textColor": "#fff"
+    },
     "sui-mainnet_0x66ee42c6126957171da98e382fc27e1b03f4d37b1520e56e69752b22af10b56cmbtcmbtc": {
       "bgColor": "rgb(86,50,240)",
       "textColor": "#fff"
