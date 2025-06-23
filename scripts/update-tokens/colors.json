@@ -3316,6 +3316,18 @@
       "bgColor": "rgb(255,255,255)",
       "textColor": "#000"
     },
+    "xrpl-mainnet_555344432e61786c000000000000000000000000.rfms3zqrqrka8wvyhxifeeytwe8amz2yhw": {
+      "bgColor": "#2775CA",
+      "textColor": "#fff"
+    },
+    "xrpl-mainnet_5742544300000000000000000000000000000000.rfms3zqrqrka8wvyhxifeeytwe8amz2yhw": {
+      "bgColor": "#282138",
+      "textColor": "#fff"
+    },
+    "xrpl-mainnet_5745544800000000000000000000000000000000.rfms3zqrqrka8wvyhxifeeytwe8amz2yhw": {
+      "bgColor": "#627EEA",
+      "textColor": "#fff"
+    },
     "1449000_0xeee9fc09dcf8130b2ba3744b099266b3f1e89069": {
       "bgColor": "rgb(255,255,255)",
       "textColor": "#000"
