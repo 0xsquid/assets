@@ -28,6 +28,7 @@ export const getSquidAssets = async () => {
     })
 
     const data = await response.json()
+    validateSdkInfo(data)
 
     // remove sanctum automated tokens
     data.tokens = data.tokens.filter(t => !isSolanaSanctumAutomatedToken(t))
@@ -278,4 +279,10 @@ export const getTokenImage = token =>
 
 export const getChainImage = chain => {
   return chain.chainIconURI.replaceAll("webp", "png")
+}
+
+function validateSdkInfo(data) {
+  if (!Array.isArray(data.chains) || !Array.isArray(data.tokens)) {
+    throw new Error("Invalid Squid data: missing chains or tokens")
+  }
 }
