@@ -981,8 +981,8 @@
       "textColor": "#fff"
     },
     "8453_0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "rgb(0,81,254)",
+      "textColor": "#fff"
     },
     "8453_0xedfa23602d0ec14714057867a78d01e94176bea0": {
       "bgColor": "rgb(7,90,90)",
@@ -10061,8 +10061,8 @@
       "textColor": "#fff"
     },
     "1_0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "rgb(0,81,254)",
+      "textColor": "#fff"
     },
     "1_0xac87d4cbb82ce7f4bcf31dbdc0024306cfd3ec5a": {
       "bgColor": "rgb(248,229,248)",
@@ -10317,8 +10317,8 @@
       "textColor": "#fff"
     },
     "solana-mainnet-beta_cbbtcf3aa214zxhbiazqwf4122fbybrandfqgw4imij": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "rgb(0,81,254)",
+      "textColor": "#fff"
     },
     "solana-mainnet-beta_a8c3xuqscfmylrte3vmtqraq8kgmasius9afnanwpump": {
       "bgColor": "rgb(81,160,76)",
@@ -17853,8 +17853,8 @@
       "textColor": "#fff"
     },
     "solana-mainnet-beta_3xi3ehkjnkak2ktchzybuswclw6eagthyothh1u6sje1": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "#5326EC",
+      "textColor": "#fff"
     },
     "solana-mainnet-beta_hdnuzyxvd64afcdti3asmtwnssp9tdrrs16uaqojp9xs": {
       "bgColor": "rgb(249,197,78)",
@@ -33293,8 +33293,8 @@
       "textColor": "#fff"
     },
     "10_0x528cdc92eab044e1e39fe43b9514bfdab4412b98": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "#5326EC",
+      "textColor": "#fff"
     },
     "solana-mainnet-beta_9rqzadfg4fpfyurrfu8zwkfohewd2jyutfr2vcdiymbl": {
       "bgColor": "rgb(15,15,15)",
@@ -36117,8 +36117,8 @@
       "textColor": "#fff"
     },
     "8453_0x3a2459c39f50406f40d28db8d823433df0352b11": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#0E0C18",
+      "textColor": "#fff"
     },
     "8453_0xff89b7cdac2c74ef228e7667c2fedeb57da39c81": {
       "bgColor": "rgb(255,255,255)",
@@ -36149,7 +36149,7 @@
       "textColor": "#fff"
     },
     "137_0xc7b1807822160a8c5b6c9eaf5c584aad0972deec": {
-      "bgColor": "rgb(0,0,255)",
+      "bgColor": "#5326EC",
       "textColor": "#fff"
     },
     "solana-mainnet-beta_eznkmc92jknw1qkplgmwdp2bp2nqfyz7b2vazvnzbonk": {
