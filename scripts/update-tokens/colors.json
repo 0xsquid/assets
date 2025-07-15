@@ -36251,6 +36251,66 @@
     "solana-mainnet-beta_erbwv3w8cgtp6zrtlkg3adlu1mdu3vhgtogzqi1apump": {
       "bgColor": "rgb(86,75,174)",
       "textColor": "#fff"
+    },
+    "42161_0xb37194e8b99020ae0b8b6861d4217a9f016706a4": {
+      "bgColor": "rgb(96,255,174)",
+      "textColor": "#000"
+    },
+    "8453_0x4ed9c2cb1c0331afd73fef1be5dea4866d8ea5f9": {
+      "bgColor": "rgb(96,255,174)",
+      "textColor": "#000"
+    },
+    "8453_0x6196f2cb9dd5c7e5927a2beea7849c175fbea344": {
+      "bgColor": "rgb(6,28,34)",
+      "textColor": "#fff"
+    },
+    "8453_0x8f199c414e704314f96297be7c551f44082d2184": {
+      "bgColor": "rgb(0,16,31)",
+      "textColor": "#fff"
+    },
+    "1_0xbc6f0f41145aa4884f9948fac7cd7beda537a102": {
+      "bgColor": "rgb(255,66,21)",
+      "textColor": "#fff"
+    },
+    "56_0xb37194e8b99020ae0b8b6861d4217a9f016706a4": {
+      "bgColor": "rgb(96,255,174)",
+      "textColor": "#000"
+    },
+    "13371_0x0320928c14d84ebc5f32a75c9175b25113a1e974": {
+      "bgColor": "rgb(255,66,21)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_hustlfv3u5km8u66rmqexh4nly7unfkhedexvk1wgsag": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "solana-mainnet-beta_pumpcmxqmfrsakq5r49wcjnrayyrqmxz6ae8h7h9dfn": {
+      "bgColor": "rgb(26,29,39)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_cdq1wr1d4i2hmrqkuwgzeubrpkhamghsvm1f6atpuray": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_4meqz8v3xbnvvx6b69xxxaymotx6dbk8izgagngcbonk": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "solana-mainnet-beta_86n5k7yfzpvdgrz1ase3fhkniawc6gwazwxes7ssmoon": {
+      "bgColor": "rgb(7,54,74)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_x69gkb2fln8tsuxntmnegaqw79qdw9kcpqp3roak9cf": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "solana-mainnet-beta_6nz8p3mzw4q4rhhzfbalaqgv48ab2prpsyw1o8yhbonk": {
+      "bgColor": "rgb(232,134,8)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_c4wfgtsvvq3mhlq5wcadec3abfpcxxrbzaanev9nbonk": {
+      "bgColor": "rgb(220,207,186)",
+      "textColor": "#000"
     }
   },
   "chains": {
