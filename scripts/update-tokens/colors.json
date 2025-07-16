@@ -36319,6 +36319,70 @@
     "solana-mainnet-beta_fjjkh9xp2svndnusn7x9t4umnaffeyzbzpnwezxkpump": {
       "bgColor": "rgb(237,217,233)",
       "textColor": "#000"
+    },
+    "8453_0x64844b1fba888f5284d12258bb034b0f7c3c8542": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "13371_0x579c8d3b6c8be1f57e2699d8ff7c2d064a472fbc": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "13371_0x31e82b464f912ee46ccac81f16237b89da1b3432": {
+      "bgColor": "rgb(17,19,21)",
+      "textColor": "#fff"
+    },
+    "13371_0x4298f296a01c5b4bd46b364a3d7ebfaed57df219": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "13371_0x1ed28e4f96d66576c05b9b7306ae24e1d2a97fa2": {
+      "bgColor": "rgb(1,91,154)",
+      "textColor": "#fff"
+    },
+    "13371_0x68db8370e7b80eac596ba00a6e9ef1722a163e4c": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "13371_0x94eb1f2da28a9d30f9699d8dc1d59a47f9d354a2": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "13371_0x0219d987a75f860e55d936646c60ba9a021e52ac": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "stellar-mainnet_cas3j7gylgxmf6tdjbbyyse3hq6bbsmlnuq34t6tzmymw2evh34xowma": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "elys-1_ibc8464a63954c0350a26c8588e20719f3a0ac8705e4ca0f7450b60c3f16b2d3421": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "3338_0x6694340fc020c5e6b96567843da2df01b2ce1eb6": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "100_0x6c76971f98945ae98dd7d4dfca8711ebea946ea6": {
+      "bgColor": "rgb(0,163,255)",
+      "textColor": "#fff"
+    },
+    "100_0xaf204776c7245bf4147c2612bf6e5972ee483701": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "100_0x9c58bacc331c9aa871afd802db6379a98e80cedb": {
+      "bgColor": "rgb(0,20,41)",
+      "textColor": "#fff"
+    },
+    "100_0xcb444e90d8198415266c6a2724b7900fb12fc56e": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "42161_0xcb8b5cd20bdcaea9a010ac1f8d835824f5c87a04": {
+      "bgColor": "rgb(242,206,22)",
+      "textColor": "#000"
     }
   },
   "chains": {
@@ -36645,6 +36709,9 @@
     },
     "xrpl-mainnet": {
       "bgColor": "rgb(0,0,0)"
+    },
+    "stellar-mainnet": {
+      "bgColor": "rgb(255,255,255)"
     }
   }
 }
