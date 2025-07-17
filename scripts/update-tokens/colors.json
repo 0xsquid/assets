@@ -532,6 +532,14 @@
       "bgColor": "rgb(0,0,0)",
       "textColor": "#fff"
     },
+    "42161_0x4ecf61a6c2fab8a047ceb3b3b263b401763e9d49": {
+      "bgColor": "#1D3117",
+      "textColor": "#fff"
+    },
+    "42161_0x0c3ff025aacfa2670420f1d4cb593dd2a0a0383e": {
+      "bgColor": "#fff",
+      "textColor": "#000"
+    },
     "8453_0x5ca35ebc4f25b042d2cae75914c7e882e631fa9a": {
       "bgColor": "#796A2A",
       "textColor": "#fff"
