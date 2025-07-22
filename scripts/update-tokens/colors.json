@@ -35089,12 +35089,12 @@
       "textColor": "#fff"
     },
     "stellar-testnet_cdbbr6bvvzo32nmfcjjwrjftkv3qq2zlitkkginp2onuqctk7pct4m3w": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "stellar-testnet_cdlzfc3syjydzt7k67vz75hpjvieuvnixf47zg2fb2rmqqvu2hhgcysc": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "80094_0xc3827a4bc8224ee2d116637023b124ced6db6e90": {
       "bgColor": "rgb(22,22,22)",
@@ -36361,12 +36361,12 @@
       "textColor": "#000"
     },
     "stellar-mainnet_cas3j7gylgxmf6tdjbbyyse3hq6bbsmlnuq34t6tzmymw2evh34xowma": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "elys-1_ibc8464a63954c0350a26c8588e20719f3a0ac8705e4ca0f7450b60c3f16b2d3421": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "3338_0x6694340fc020c5e6b96567843da2df01b2ce1eb6": {
       "bgColor": "rgb(255,255,255)",
