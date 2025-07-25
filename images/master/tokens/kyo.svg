@@ -1,0 +1,27 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_775_2)">
+<mask id="mask0_775_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+<path d="M256 128C256 57.3075 198.692 0 128 0C57.3075 0 0 57.3075 0 128C0 198.692 57.3075 256 128 256C198.692 256 256 198.692 256 128Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_775_2)">
+<path d="M256 128C256 57.3075 198.692 0 128 0C57.3075 0 0 57.3075 0 128C0 198.692 57.3075 256 128 256C198.692 256 256 198.692 256 128Z" fill="url(#paint0_radial_775_2)" fill-opacity="0.2"/>
+<path d="M256 128C256 57.3075 198.692 0 128 0C57.3075 0 0 57.3075 0 128C0 198.692 57.3075 256 128 256C198.692 256 256 198.692 256 128Z" fill="black"/>
+<mask id="mask1_775_2" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+<path d="M256 0H0V256H256V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_775_2)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M256 128C256 198.692 198.692 256 128 256C57.3074 256 0 198.692 0 128C0 57.3074 57.3074 0 128 0C198.692 0 256 57.3074 256 128ZM89.6 192V164.572H102.4V155.428H115.2V146.286H140.8V155.428H153.6V164.572H166.4V192H192V155.428H179.2V146.286H166.4V137.142H153.6V118.858H166.4V109.714H179.2V100.571H192V64H166.4V91.4288H153.6V100.571H140.8V109.714H115.2V100.571H102.4V91.4288H89.6V64H64V100.571H76.8V109.714H89.6V118.858H102.4V137.142H89.6V146.286H76.8V155.428H64V192H89.6Z" fill="#FF4D00"/>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_775_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(128 128) rotate(90) scale(128)">
+<stop stop-color="#9FA2FF"/>
+<stop offset="0.54" stop-color="#161618"/>
+<stop offset="1" stop-color="#9FA2FF"/>
+</radialGradient>
+<clipPath id="clip0_775_2">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
+</svg>
