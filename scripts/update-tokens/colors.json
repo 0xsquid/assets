@@ -37035,6 +37035,34 @@
     "solana-mainnet-beta_4qqez5lwsz6huupuu8jctgxyw1myqcnbfaw1swzp89hl": {
       "bgColor": "",
       "textColor": ""
+    },
+    "8453_0x963737a1f2e3daeb7a26bbc8b1caeb68da162308": {
+      "bgColor": "rgb(240,222,137)",
+      "textColor": "#000"
+    },
+    "8453_0x023e80343e204289d1d2a4144afe96fd9bce0ba0": {
+      "bgColor": "rgb(5,11,13)",
+      "textColor": "#fff"
+    },
+    "8453_0x89e5e589ec5d454f9b31727736746349a62c24cd": {
+      "bgColor": "rgb(7,12,12)",
+      "textColor": "#fff"
+    },
+    "1_0xcdf7028ceab81fa0c6971208e83fa7872994bee5": {
+      "bgColor": "rgb(125,0,255)",
+      "textColor": "#fff"
+    },
+    "56_0x7a986ba67227acfab86385ff33436a80e2bb4cc5": {
+      "bgColor": "rgb(252,251,252)",
+      "textColor": "#000"
+    },
+    "ssc-1_ibc7cd259b3fd2cd239eab680725c4fcb9fd562eeb86ed5f87cddd3ef8b831c7af0": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "axelar-dojo-1_mog-wei": {
+      "bgColor": "",
+      "textColor": ""
     }
   },
   "chains": {
