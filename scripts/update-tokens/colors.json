@@ -32817,8 +32817,8 @@
       "textColor": "#fff"
     },
     "solana-mainnet-beta_26vfkb7jjtdedvfovobijscozmjbwwasfzkgfud5w7cy": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(1,15,85)",
+      "textColor": "#fff"
     },
     "solana-mainnet-beta_2frdnctkmjs9fkqvqmnjdvxvnjhw8f7ys3xqbrknr2zq": {
       "bgColor": "rgb(0,0,0)",
@@ -37057,12 +37057,12 @@
       "textColor": "#000"
     },
     "ssc-1_ibc7cd259b3fd2cd239eab680725c4fcb9fd562eeb86ed5f87cddd3ef8b831c7af0": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(1,15,85)",
+      "textColor": "#fff"
     },
     "axelar-dojo-1_mog-wei": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(1,15,85)",
+      "textColor": "#fff"
     },
     "42161_0xb6ad6eb0b4d673b3cc4a1da446fa3bcfea04d4e8": {
       "bgColor": "rgb(14,59,35)",
