@@ -6953,8 +6953,8 @@
       "textColor": "#fff"
     },
     "osmosis-1_ibc8e697bdabe97ace8773c6df7402b2d1d5104dd1eeabe12608e3469b7f64c15ba": {
-      "bgColor": "rgb(4,26,63)",
-      "textColor": "#fff"
+      "bgColor": "#DDDCCE",
+      "textColor": "#000"
     },
     "osmosis-1_ibcb547dc9b897e7c3aa5b824696110b8e3d2c31e3ed3f02ff363dcbad82457e07e": {
       "bgColor": "rgb(0,0,255)",
@@ -8901,8 +8901,8 @@
       "textColor": "#fff"
     },
     "archway-1_ibc926432ae1c5fa4f857b36d970be7774c7472079506820b857b75c5de041dd7a3": {
-      "bgColor": "rgb(4,26,63)",
-      "textColor": "#fff"
+      "bgColor": "#DDDCCE",
+      "textColor": "#000"
     },
     "archway-1_ibcc0336ecf2df64e7d2c98b1422ec2b38de9ef33c34aaadf18c6f2e3ffc7be3615": {
       "bgColor": "rgb(24,26,32)",
@@ -9313,8 +9313,8 @@
       "textColor": "#000"
     },
     "jackal-1_ujkl": {
-      "bgColor": "rgb(4,26,63)",
-      "textColor": "#fff"
+      "bgColor": "#DDDCCE",
+      "textColor": "#000"
     },
     "perun-1_ibc8e27ba2d5493af5636760e354e46004562c46ab7ec0cc4c1ca14e9e20e2545b5": {
       "bgColor": "rgb(39,117,202)",
@@ -32513,8 +32513,8 @@
       "textColor": "#000"
     },
     "8453_0x4eed0d2deb4c588393c80869b122327581b0d98e": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#DDDCCE",
+      "textColor": "#000"
     },
     "1_0x657e8c867d8b37dcc18fa4caead9c45eb088c642": {
       "bgColor": "rgb(15,11,49)",
@@ -32553,8 +32553,8 @@
       "textColor": "#fff"
     },
     "axelar-dojo-1_ibc2027ec8cd73eb3f0e7e46fffd71f5a06f91067be188adc9d5f512cd8f2145226": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#DDDCCE",
+      "textColor": "#000"
     },
     "axelar-dojo-1_stbtc-wei": {
       "bgColor": "rgb(12,16,19)",
