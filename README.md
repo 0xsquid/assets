@@ -54,12 +54,18 @@ yarn setup:linux
 │   │   └── wallets
 │   │       └── metamask.png
 ├   └── webp
-│       ├── chains
-│       │   └── ethereum.webp
-│       ├── tokens
-│       │   └── eth.webp
-│       └── wallets
-│           └── metamask.webp
+│   │   ├── chains
+│   │   │   └── ethereum.webp
+│   │   ├── tokens
+│   │   │   └── eth.webp
+│   │   └── wallets
+│   │       └── metamask.webp
+│   │
+│   └── migration
+│       └── webp
+│           └── 1_0x...0.webp
+│
+│
 └── scripts
     └── convert.sh
 ```
