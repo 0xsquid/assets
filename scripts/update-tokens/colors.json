@@ -3328,6 +3328,10 @@
       "bgColor": "rgb(255,255,255)",
       "textColor": "#000"
     },
+    "43114_0xf5f02001b1b1d068f6d1cb3ca5904778fb024d99": {
+      "bgColor": "#fff",
+      "textColor": "#000"
+    },
     "xrpl_5741564158000000000000000000000000000000.rnrjh1kgzk2jbr3wpfaqnoidtffyqkbqn2": {
       "bgColor": "rgb(255,255,255)",
       "textColor": "#000"
@@ -5635,6 +5639,10 @@
     "13371_0xfb457ea0990468fab7ee53ecb9239dc45bd5a7d8": {
       "bgColor": "rgb(7,7,7)",
       "textColor": "#fff"
+    },
+    "13371_0xfe94c5e28b633904ef7b82534ee9a0f528d14b6c": {
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "0x9f6884b94c36cb32519440f0497e12a8f0de7130": {
       "bgColor": "#D8B442",
