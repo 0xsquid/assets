@@ -41,7 +41,9 @@ const errorTokensFilePath = "url_fetch_errors.json"
     JSON.stringify(
       newTokens.map(t => ({
         fileName: getTokenAssetsKey(t),
-        imageUrl: t.logoURI
+        // Escape spaces so curl doesn't break
+        imageUrl: encodeURI(t.logoURI)
+        // imageUrl: t.logoURI
       })),
       null,
       2
