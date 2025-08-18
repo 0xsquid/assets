@@ -38669,12 +38669,12 @@
       "textColor": "#000"
     },
     "osmosis-1_ibc46579c587a0b8cf8b0a1ff6b0efa2082f11876578e47fc81a9caad31f424af98": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#132452",
+      "textColor": "#fff"
     },
     "columbus-5_terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#132452",
+      "textColor": "#fff"
     }
   },
   "chains": {
