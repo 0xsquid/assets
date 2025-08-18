@@ -38545,8 +38545,8 @@
       "textColor": "#fff"
     },
     "ssc-1_ibc254cc83fe5340088d7c7f37a66dd77d4fc638493d85c03519d923f882a456516": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "ssc-1_ibc057b3a7019c228cd2f9ed054b5a97383357e77d20a11999ef3bf85438bab97e5": {
       "bgColor": "rgb(0,0,0)",
@@ -38579,6 +38579,14 @@
     "ssc-1_ibc87065d4987f59a87bb3cc0c900c660c28cf8d4e7f57adb0891dccb047e3cea7b": {
       "bgColor": "rgb(255,255,255)",
       "textColor": "#000"
+    },
+    "ssc-1_ibcd1fa39f7e0c6f2c76c2f1bde9c653555eb71366cd62fa9d6416e8b6e44dfbbe0": {
+      "bgColor": "#D3D3D3",
+      "textColor": "#000"
+    },
+    "ssc-1_ibcc2af11c91e661135a793bdcf1a70e07bc4ba27b2b60a06478121be94e2bc6132": {
+      "bgColor": "rgb(235 98 56)",
+      "textColor": "#fff"
     },
     "solana-mainnet-beta_bdn2af7h555titpxasirvbhg21dwcr5vnccnw2bjbdg6": {
       "bgColor": "",
