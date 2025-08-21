@@ -32166,7 +32166,7 @@
     },
     "1_0x3073f7aaa4db83f95e9fff17424f71d4751a3073": {
       "bgColor": "rgb(243,188,22)",
-      "textColor": "#fff"
+      "textColor": "#000"
     },
     "1_0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a": {
       "bgColor": "rgb(220,38,38)",
@@ -32186,11 +32186,11 @@
     },
     "osmosis-1_ibcd19da6ae5b3cb19a035fcb51dee5a36392e0d64d51c20d159a155d1581911a39": {
       "bgColor": "rgb(243,188,22)",
-      "textColor": "#fff"
+      "textColor": "#000"
     },
     "axelar-dojo-1_unit-move": {
       "bgColor": "rgb(243,188,22)",
-      "textColor": "#fff"
+      "textColor": "#000"
     },
     "8453_0x2659631cfbe9b1b6dcbc1384a3864509356e7b4d": {
       "bgColor": "rgb(0,37,47)",
