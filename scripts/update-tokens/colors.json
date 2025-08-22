@@ -38751,6 +38751,70 @@
     "solana-mainnet-beta_gatemuraxe4yfour6j63gxgktkbtfdkmdljzrcmthfp": {
       "bgColor": "rgb(218,6,50)",
       "textColor": "#fff"
+    },
+    "5464_0xd3d94a06fdccdedf7c0e32bd4ef71dffeff3f982": {
+      "bgColor": "rgb(157,221,136)",
+      "textColor": "#000"
+    },
+    "5464_0xa04d2f10453885b4be47cb94041861bc77270682": {
+      "bgColor": "rgb(30,30,30)",
+      "textColor": "#fff"
+    },
+    "5464_0xda54014ea6b6b56e3e26c6c82aec1718b4a85099": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "5464_0xa740e6758e309840ffffe58f749f018386a3b70b": {
+      "bgColor": "rgb(29,35,42)",
+      "textColor": "#fff"
+    },
+    "5464_0x58d9fbbc6037dedfba99cafa28e4c371b795ad97": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "5464_0x974bfb11308b69ae54da17afd1a509113313d160": {
+      "bgColor": "rgb(135,194,67)",
+      "textColor": "#fff"
+    },
+    "5464_0x49eaff1c907674aa6c138c34522f499701f95591": {
+      "bgColor": "rgb(19,19,19)",
+      "textColor": "#fff"
+    },
+    "5464_0xa791cb4132213bd22ab92cfcd21c1e76b0416a60": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "5464_0x679121f168488185eca6aaa3871687ff6d38edb6": {
+      "bgColor": "rgb(250,173,115)",
+      "textColor": "#fff"
+    },
+    "5464_0xdf52bb69f135fefda4650949b9217ef915df0c18": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "5464_0x77cb75b6ab3b74b02dd568c56eec64030346a92d": {
+      "bgColor": "rgb(7,43,99)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_76rtxzztxjje7auabi7jq5j61mfgpqgb4cc934swbonk": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_24qzxupdcu1dvdx64x2pgovzeuv8w3jn5by7yz59bonk": {
+      "bgColor": "rgb(23,30,39)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_2mgvnbrfv5ajvyrjgx7w8lu54oic9o31r2h3x4qrbags": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "1440000_0xdaf4556169c4f3f2231d8ab7bc8772ddb7d4c84c": {
+      "bgColor": "rgb(40,117,202)",
+      "textColor": "#fff"
+    },
+    "xrpl-mainnet_5553444300000000000000000000000000000000.rgm7wcvp9gb4jzhwtetgur4dd74z2xuwhe": {
+      "bgColor": "rgb(40,117,202)",
+      "textColor": "#fff"
     }
   },
   "chains": {
