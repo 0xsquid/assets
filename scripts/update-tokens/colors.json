@@ -32073,8 +32073,8 @@
       "textColor": "#fff"
     },
     "elys-1_uelys": {
-      "bgColor": "rgb(0,0,0)",
-      "textColor": "#fff"
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "elys-1_ibc6490a7eab61059bfc1cddeb05917dd70bdf3a611654162a1a47db930d40d8af4": {
       "bgColor": "rgb(40,117,202)",
