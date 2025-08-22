@@ -5269,8 +5269,8 @@
       "textColor": "#fff"
     },
     "5000_0xc96de26018a54d51c097160568752c4e3bd6c364": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "#0066FF",
+      "textColor": "#fff"
     },
     "5000_0xf793ac038e7688aa3220005852836108cddb065c": {
       "bgColor": "#fff",
@@ -7249,8 +7249,8 @@
       "textColor": "#000"
     },
     "osmosis-1_ibc22c342a34dd0189ac2b2697ee76c360a9fba53748aba76e12c3a9e9f5f1e130f": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "#0066FF",
+      "textColor": "#fff"
     },
     "osmosis-1_ibc4ac81c97bbb5482536f6401328e0e10bccd98f0f471dcf64319a811e25e53cab": {
       "bgColor": "rgb(24,43,49)",
@@ -9997,8 +9997,8 @@
       "textColor": "#000"
     },
     "axelar-dojo-1_fbtc-satoshi": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "#0066FF",
+      "textColor": "#fff"
     },
     "axelar-dojo-1_lbtc-satoshi": {
       "bgColor": "rgb(24,43,49)",
@@ -32445,8 +32445,8 @@
       "textColor": "#fff"
     },
     "bbn-1_ibc5172b439cffa3b418b695bae4031609ef2c3fc4b4beb2a7229ba4ddababfa882": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "#0066FF",
+      "textColor": "#fff"
     },
     "bbn-1_ibc37fbfbaa22b6218ec322e511990bd756497f920a90bee3d497dfbc3f5a0b791b": {
       "bgColor": "rgb(21,46,46)",
@@ -37881,8 +37881,8 @@
       "textColor": "#000"
     },
     "80094_0xbac93a69c62a1518136ff840b788ba715cbdfe2b": {
-      "bgColor": "rgb(255,255,255)",
-      "textColor": "#000"
+      "bgColor": "#0066FF",
+      "textColor": "#fff"
     },
     "solana-mainnet-beta_7vyxbsqa79bubrutcdkmxjodt8tls7adv6chaf3sbonk": {
       "bgColor": "rgb(24,25,22)",
@@ -38545,8 +38545,8 @@
       "textColor": "#fff"
     },
     "ssc-1_ibc254cc83fe5340088d7c7f37a66dd77d4fc638493d85c03519d923f882a456516": {
-      "bgColor": "#fff",
-      "textColor": "#000"
+      "bgColor": "#0066FF",
+      "textColor": "#fff"
     },
     "ssc-1_ibc057b3a7019c228cd2f9ed054b5a97383357e77d20a11999ef3bf85438bab97e5": {
       "bgColor": "rgb(0,0,0)",
