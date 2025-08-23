@@ -32101,8 +32101,8 @@
       "textColor": "#fff"
     },
     "elys-1_ibc640c351655113012304dc20c7cd1621b49876dd026fc4ce82d3d01ce4956b2ac": {
-      "bgColor": "rgb(0,0,0)",
-      "textColor": "#fff"
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "elys-1_ibc2b5d096f5732f3badbfb987fe42fda24b3569514bc5dfdea1bc042b223a0ced3": {
       "bgColor": "#8347E6",
@@ -32125,8 +32125,8 @@
       "textColor": "#fff"
     },
     "elys-1_ibcd007a40c2efcebed44b5f3a538e30297e75b211cfa1136a25da1d2849ffbe7c4": {
-      "bgColor": "rgb(118,217,251)",
-      "textColor": "#000"
+      "bgColor": "#67DBD8",
+      "textColor": "#fff"
     },
     "elys-1_ibcca349353bb9f865cb32fbb24abd186465862257d82f45929fe346534b3b62794": {
       "bgColor": "rgb(43,91,218)",
@@ -32141,8 +32141,8 @@
       "textColor": "#fff"
     },
     "elys-1_ibcd3bf5bedeb10553da0d8d1ece1f64f1056454a4efcd1a7f2cbceb99c9eb7d293": {
-      "bgColor": "rgb(0,0,0)",
-      "textColor": "#fff"
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "elys-1_ibc641cf777780be2abe8624e34c0728f5e57caba61d74961ad3cb6be9f10cf4744": {
       "bgColor": "rgb(241,4,0)",
@@ -36389,8 +36389,8 @@
       "textColor": "#000"
     },
     "elys-1_ibc8464a63954c0350a26c8588e20719f3a0ac8705e4ca0f7450b60c3f16b2d3421": {
-      "bgColor": "#fff",
-      "textColor": "#000"
+      "bgColor": "#202226",
+      "textColor": "#fff"
     },
     "3338_0x6694340fc020c5e6b96567843da2df01b2ce1eb6": {
       "bgColor": "rgb(255,255,255)",
@@ -38833,7 +38833,7 @@
       "textColor": "#000"
     },
     "elys-1_ibc0e293a7622dc9a6439db60e6d234b5af446962e27ca3ab44d0590603dff6968e": {
-      "bgColor": "rgb(0,0,0)",
+      "bgColor": "#282138",
       "textColor": "#fff"
     },
     "elys-1_ibc68b5e8da9270fa00245484bb1c07ad75399ad67d54a1344f6e998b5fb69b664f": {
@@ -38861,8 +38861,8 @@
       "textColor": "#000"
     },
     "elys-1_ibc343182f79e6450836403252d1122288d480605885a01426085859b43f5ecd3ef": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(30,30,30)",
+      "textColor": "#fff"
     },
     "elys-1_ibc45d6b52cad911a15bd9c2f5ffda80e26afcb05c7cd520070790abc86d2b24229": {
       "bgColor": "rgb(123,44,250)",
