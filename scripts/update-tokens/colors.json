@@ -21884,8 +21884,16 @@
       "bgColor": "rgb(48,51,48)",
       "textColor": "#fff"
     },
+    "1_0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38": {
+      "bgColor": "#1F1F23",
+      "textColor": "#fff"
+    },
     "56_0x49f1d4db3ea1a64390e990c6debeac88eac007ca": {
       "bgColor": "rgb(15,21,24)",
+      "textColor": "#fff"
+    },
+    "56_0x502676cb33ecf9faceff67d92a019d5ccfcb186e": {
+      "bgColor": "#1F1F23",
       "textColor": "#fff"
     },
     "56_0x2d060ef4d6bf7f9e5edde373ab735513c0e4f944": {
@@ -32688,10 +32696,6 @@
       "bgColor": "rgb(23,23,23)",
       "textColor": "#fff"
     },
-    "sui-mainnet_0x0000000000000000000000000000000000000000000000000000000000000002suisui": {
-      "bgColor": "rgb(76,162,254)",
-      "textColor": "#fff"
-    },
     "11155111_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
       "bgColor": "rgb(98,126,235)",
       "textColor": "#fff"
@@ -32706,6 +32710,14 @@
     },
     "sui-testnet_0x0000000000000000000000000000000000000000000000000000000000000002suisui": {
       "bgColor": "rgb(76,162,254)",
+      "textColor": "#fff"
+    },
+    "sui-mainnet_0x0000000000000000000000000000000000000000000000000000000000000002suisui": {
+      "bgColor": "rgb(76,162,254)",
+      "textColor": "#fff"
+    },
+    "sui-mainnet_0xa8871e2b78b9e2462fd2d44560cefcc5d2ecba97028a1ad06a4c63b55fc49e81ithacaithaca": {
+      "bgColor": "rgb(15,21,24)",
       "textColor": "#fff"
     },
     "sui-mainnet_0x8aa81f1ca9233c1ab7ed9144067a1ee0f2efab5b4d1c2ac2f3f048f8cdbc69b7inkink": {
