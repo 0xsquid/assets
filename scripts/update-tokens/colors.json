@@ -2216,6 +2216,10 @@
       "bgColor": "#D3B25B",
       "textColor": "#fff"
     },
+    "1_0x1789e0043623282d5dcc7f213d703c6d8bafbb04": {
+      "bgColor": "#61DFFF",
+      "textColor": "#000"
+    },
     "10_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
       "bgColor": "rgb(98,126,234)",
       "textColor": "#fff"
@@ -5062,6 +5066,10 @@
     },
     "59144_0xec859566fc5d7ed84ac823509f3f7db06c461b20": {
       "bgColor": "#fff",
+      "textColor": "#000"
+    },
+    "59144_0x1789e0043623282d5dcc7f213d703c6d8bafbb04": {
+      "bgColor": "#61DFFF",
       "textColor": "#000"
     },
     "5000_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
