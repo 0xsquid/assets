@@ -40663,6 +40663,122 @@
     "solana-mainnet-beta_zgqnq6geuwueea2qvqt69amjtkaj7ou4nkdp4ctpump": {
       "bgColor": "rgb(20,20,20)",
       "textColor": "#fff"
+    },
+    "8453_0x08df470d41c11ba5cb60242747d76c65ca52c94c": {
+      "bgColor": "rgb(225,224,229)",
+      "textColor": "#000"
+    },
+    "8453_0xecc2a75027063a0c2769ecd6b133a8683128c8b3": {
+      "bgColor": "rgb(15,5,27)",
+      "textColor": "#fff"
+    },
+    "1_0xb0ac2b5a73da0e67a8e5489ba922b3f8d582e058": {
+      "bgColor": "rgb(128,194,221)",
+      "textColor": "#fff"
+    },
+    "1_0xda67b4284609d2d48e5d10cfac411572727dc1ed": {
+      "bgColor": "rgb(108,119,234)",
+      "textColor": "#fff"
+    },
+    "1_0x2e3c5e514eef46727de1fe44618027a9b70d92fc": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "1_0xe24a3dc889621612422a64e6388927901608b91d": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "ssc-1_ibccbaa10e2fb73fe523a6d68e9826d3d66aadd74e4b25653fac409d66d9acaeb85": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "ssc-1_ibc23c13d1201266b6b6762262c869c50b443d5edaf564d3ab903fe9502e5945902": {
+      "bgColor": "rgb(108,119,234)",
+      "textColor": "#fff"
+    },
+    "ssc-1_ibcd50fa7814b9fe7aa0c7da31ff6489568ab08b374a911edbb93eee761968a2007": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "ssc-1_ibc43141cef5eb91cb2b0680551d605f3641edbfc4e06f72e25cdf5591bace2c94a": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_orcaso6gzwvvxvahvjqvrxwmhepccgp7swvx1ytbuoj": {
+      "bgColor": "rgb(255,200,61)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_defidymamcywjrxkslep27xjhvnvqt6eswxuccgcyhq": {
+      "bgColor": "rgb(8,6,29)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_5ekckr582fkapvnrmaddnkekttnnrznnsxmqxqrfpump": {
+      "bgColor": "rgb(168,176,112)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_r6jvvlcdfpz7tplhqxz4uzrfhbce2l6aqopgijuv7j9": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_gxxlxmofjpkxhyjaz8xtbbvtnjrbvegursdwz8fcpump": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_dp4omjjy94nrjrechbzyuqspgrjtukodyubqb9zzpump": {
+      "bgColor": "rgb(119,119,119)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_mawahpssecqqzfhqsjmznagoupuzupkeduxue7u4cjx": {
+      "bgColor": "rgb(200,227,245)",
+      "textColor": "#000"
+    },
+    "5464_0xb76144f87df95816e8c55c240f874c554b4553c3": {
+      "bgColor": "rgb(187,246,174)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_sntn1ovhhkuytg42jyjnemyngatzkpjsbxhnesktfgp": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_9ttrfq88nezfpd2dcszdmevkvhtlivbeyd1w5chfpump": {
+      "bgColor": "rgb(0,8,36)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_6nr8wbnfsmxfcddr1hovjkjvfqxnsidn6xfyfafzpump": {
+      "bgColor": "rgb(185,199,194)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_2wu1g2ft7qzhftpfzp3wldfpev1is4ewq3cxbfryacid": {
+      "bgColor": "rgb(13,18,44)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_bwtu5zjqeylyawwyogtwt7uxc85elyqwrcta1giebonk": {
+      "bgColor": "rgb(5,23,42)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_5pwse1yxavanamqbywm6zowryknw8rz74tzssxngu4vq": {
+      "bgColor": "rgb(255,202,8)",
+      "textColor": "#000"
+    },
+    "axelar-dojo-1_unibtc-satoshi": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "axelar-dojo-1_usn-wei": {
+      "bgColor": "rgb(108,119,234)",
+      "textColor": "#fff"
+    },
+    "axelar-dojo-1_vyusd-wei": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "axelar-dojo-1_susn-wei": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_8aq4fwmgpqjbf3w8w8pnldrvuafe4mzscvpkxaarbonk": {
+      "bgColor": "rgb(28,28,28)",
+      "textColor": "#fff"
     }
   },
   "chains": {
