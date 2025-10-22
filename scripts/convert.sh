@@ -13,6 +13,9 @@ MASTER_DIR="images/master"
 PNG_DIR="images/png"
 WEBP_DIR="images/webp"
 
+# Folders to include (only these will be converted)
+INCLUDE_FOLDERS=("chains" "wallets" "providers")
+
 # ANSI color codes
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -131,10 +134,22 @@ convert_files() {
     done
 }
 
-# Loop through all directories in the master folder
-echo "Converting images"
-for dir in $(find "$MASTER_DIR" -type d); do
-    convert_files "$dir" "$PNG_DIR" "$WEBP_DIR"
+# Loop through only the specified folders
+echo "Converting images from: ${INCLUDE_FOLDERS[*]}"
+for folder in "${INCLUDE_FOLDERS[@]}"; do
+    folder_path="$MASTER_DIR/$folder"
+    
+    if [ ! -d "$folder_path" ]; then
+        print_color_message "Warning: Folder $folder_path does not exist, skipping..." "$YELLOW"
+        continue
+    fi
+    
+    print_color_message "Processing folder: $folder" "$YELLOW"
+    
+    # Process the folder and all its subdirectories
+    for dir in $(find "$folder_path" -type d); do
+        convert_files "$dir" "$PNG_DIR" "$WEBP_DIR"
+    done
 done
 
 echo "Conversion completed."
