@@ -41455,6 +41455,30 @@
     "solana-mainnet-beta_6tph3sxbaw12bsjdcevvv9zujh97x69d5mj4xjwkmray": {
       "bgColor": "rgb(0,0,0)",
       "textColor": "#fff"
+    },
+    "8453_0x269cae7dc59803e5c596c95756faeebb6030e0af": {
+      "bgColor": "rgb(35,35,35)",
+      "textColor": "#fff"
+    },
+    "8453_0xa66f68ef2d8091e13585a502464bd11a159cf710": {
+      "bgColor": "rgb(34,34,32)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_payzp1w3umdesnljwmh61tnqacyjtvhxy8scn4tmeta": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "solana-mainnet-beta_6zygzrt7x2wi9a9nemtuvuwllmf2a8vbsbykocydb9wa": {
+      "bgColor": "rgb(35,35,35)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_dmfunvbja71vzu2l1h74exji6avs9tsl63unecdlocx": {
+      "bgColor": "rgb(171,113,255)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_nomubwkjevj8d4dsaq7nzohaxwxzkcfke1c7y8rufyl": {
+      "bgColor": "rgb(252,104,58)",
+      "textColor": "#fff"
     }
   },
   "chains": {
