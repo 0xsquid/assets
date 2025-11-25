@@ -37073,7 +37073,7 @@
       "textColor": "#fff"
     },
     "1868_0x0555e30da8f98308edb960aa94c0db47230d2b9c": {
-      "bgColor": "rgb(0,0,0)",
+      "bgColor": "#282138",
       "textColor": "#fff"
     },
     "1868_0x6c460b2c6d6719562d5da43e5152b375e79b9a8b": {
@@ -42205,7 +42205,7 @@
       "textColor": "#fff"
     },
     "143_0xf8eb4ed0d4cf2bb707c0272f8c6827deb6e4c0a9": {
-      "bgColor": "rgb(0,0,0)",
+      "bgColor": "#282138",
       "textColor": "#fff"
     }
   },
@@ -42226,7 +42226,7 @@
       "bgColor": "rgb(130,71,229)"
     },
     "143": {
-      "bgColor": "rgb(32,0,83)"
+      "bgColor": "#6E54FF"
     },
     "146": {
       "bgColor": "#fff"
