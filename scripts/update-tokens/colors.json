@@ -26061,8 +26061,8 @@
       "textColor": "#fff"
     },
     "ssc-1_ibc825357229bd1f2ee8b5bb56d241c99e74b2ac4f6be8850bb850173e93482f437": {
-      "bgColor": "#627EEA",
-      "textColor": "#fff"
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "ssc-1_ibce4859520008f30cab8a6548a390bc10c45f667a26a5a22d8891a79589df57c41": {
       "bgColor": "#fff",
@@ -31177,12 +31177,12 @@
       "textColor": "#fff"
     },
     "hub_5464111-1_ibc094fb70c3006906f67f5d674073d2dafafb41537e7033098f5c752f211e7b6c45": {
-      "bgColor": "rgb(255,255,255)",
+      "bgColor": "#fff",
       "textColor": "#000"
     },
     "5464_0xeb41d53f14cb9a67907f2b8b5dbc223944158ccb": {
-      "bgColor": "rgb(98,126,235)",
-      "textColor": "#fff"
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "hub_5464111-1_ibc094fb70c3006906f67f5d674073d2dafafb41537e7033098f5c752f211e7b6c46": {
       "bgColor": "rgb(0,0,0)",
