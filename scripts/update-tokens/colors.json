@@ -36452,6 +36452,10 @@
       "bgColor": "#7667EB",
       "textColor": "#fff"
     },
+    "stellar-mainnet_cckckcphyvxqd4necbfjtfscu2amsjgcng4o6k4jvre2blpr7wndbqiq": {
+      "bgColor": "#fff",
+      "textColor": "#000"
+    },
     "elys-1_ibc8464a63954c0350a26c8588e20719f3a0ac8705e4ca0f7450b60c3f16b2d3421": {
       "bgColor": "#202226",
       "textColor": "#fff"
