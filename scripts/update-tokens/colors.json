@@ -44987,6 +44987,22 @@
     "4114_0x3100000000000000000000000000000000000006": {
       "bgColor": "#fff",
       "textColor": "#000"
+    },
+    "4114_0xdf240dc08b0fdad1d93b74d5048871232f6bea3d": {
+      "bgColor": "#282138",
+      "textColor": "#fff"
+    },
+    "4114_0x9f3096bac87e7f03dc09b0b416eb0df837304dc4": {
+      "bgColor": "rgb(83,174,148)",
+      "textColor": "#fff"
+    },
+    "4114_0xe045e6c36cf77faa2cfb54466d71a3aef7bbe839": {
+      "bgColor": "rgb(39,117,202)",
+      "textColor": "#fff"
+    },
+    "4114_ctusd": {
+      "bgColor": "#F7931A",
+      "textColor": "#fff"
     }
   },
   "chains": {
