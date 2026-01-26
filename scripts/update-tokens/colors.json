@@ -45115,6 +45115,30 @@
     "4114_0x384157027b1cdeac4e26e3709667bb28735379bb": {
       "bgColor": "rgb(158,121,211)",
       "textColor": "#fff"
+    },
+    "42161_0x139ecfce5c1494ee27ee2864f21a585dbbb35db1": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "42161_0x00b06c4467d512379488e5031e3ce19760d8a350": {
+      "bgColor": "rgb(42,42,42)",
+      "textColor": "#fff"
+    },
+    "42161_0xf1dde8540c69a990b33a1a141c88539c8cb36f5e": {
+      "bgColor": "rgb(9,58,66)",
+      "textColor": "#fff"
+    },
+    "42161_0x09ad12552ec45f82be90b38dfe7b06332a680864": {
+      "bgColor": "rgb(158,121,211)",
+      "textColor": "#fff"
+    },
+    "43114_0x6c7d727a0432d03351678f91faa1126a5b871df5": {
+      "bgColor": "rgb(117,103,235)",
+      "textColor": "#fff"
+    },
+    "137_0x77719eaa4b9c24425bfcd39ac84f1e2e9c88568f": {
+      "bgColor": "rgb(158,121,211)",
+      "textColor": "#fff"
     }
   },
   "chains": {
