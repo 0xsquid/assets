@@ -45749,8 +45749,8 @@
       "textColor": "#fff"
     },
     "1_0x8cf74fc1ec7b2187dda77ea289f78cc54e2b7c8b": {
-      "bgColor": "rgb(0,0,0)",
-      "textColor": "#fff"
+      "bgColor": "#fff",
+      "textColor": "000"
     },
     "56_0xce24439f2d9c6a2289f741120fe202248b666666": {
       "bgColor": "rgb(1,1,1)",
@@ -45817,8 +45817,8 @@
       "textColor": "#fff"
     },
     "xrpl-mainnet_shx.rfms3zqrqrka8wvyhxifeeytwe8amz2yhw": {
-      "bgColor": "rgb(0,0,0)",
-      "textColor": "#fff"
+      "bgColor": "#fff",
+      "textColor": "#000"
     },
     "solana-mainnet-beta_nn944ofmxshg9aneubhwxtbpgjrx3drxx86pseudrpj": {
       "bgColor": "rgb(180,212,224)",
