@@ -46817,8 +46817,68 @@
       "textColor": "#fff"
     },
     "8453_0xaa7aa38c4198e2de584c8597797df8e51bbc7deb": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(158,121,211)",
+      "textColor": "#fff"
+    },
+    "42161_0x989b76f327945737f99afa62f4842c3ec0cc0075": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "8453_0xadf53c24eeba057ea87b4c01f92f46c401a5dc75": {
+      "bgColor": "rgb(240,240,240)",
+      "textColor": "#000"
+    },
+    "8453_0x4d2733d362323120c51446b82d0a3ded84e1987c": {
+      "bgColor": "rgb(16,96,247)",
+      "textColor": "#fff"
+    },
+    "8453_0xadfd9d127ed6a57b0dd61702dbdd4786dd58964d": {
+      "bgColor": "rgb(240,240,240)",
+      "textColor": "#000"
+    },
+    "8453_0xadf6b18e02a5976caf3b8175b2e36247c804ee32": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "8453_0xadfbf4fa964b9b6435d687319b9bafc2aec55962": {
+      "bgColor": "rgb(42,42,42)",
+      "textColor": "#fff"
+    },
+    "8453_0x401c30cf29aa4ee424b0945acf9aa3667da0a964": {
+      "bgColor": "rgb(158,121,211)",
+      "textColor": "#fff"
+    },
+    "8453_0xadffd81683033348209ec91d000c8bcc317fc302": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "8453_0xadfa169264e84eebb3150543941779b956230ba5": {
+      "bgColor": "rgb(253,253,253)",
+      "textColor": "#000"
+    },
+    "8453_0xadfe9ecbe622a995543e244d367d415ce3261e1b": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "8453_0xadfef40fad3731365fa8d5d2ab054cdc928947a2": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "8453_0xadf3a252a72066965b03af9f850613bee13bb575": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "8453_0xadf99cbd5d58ea25ab0babae11171da9c39ebd1f": {
+      "bgColor": "rgb(47,49,146)",
+      "textColor": "#fff"
+    },
+    "8453_0xadfc90bc7f798c14a6450fb547a89307c670f3a6": {
+      "bgColor": "rgb(36,25,35)",
+      "textColor": "#fff"
+    },
+    "8453_0xadf6dfa27569a27bf65d9bcb1590afab8587ab2e": {
+      "bgColor": "rgb(57,57,57)",
+      "textColor": "#fff"
     }
   },
   "chains": {
