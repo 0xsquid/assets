@@ -61,12 +61,12 @@ for image in ${images[@]}; do
     case $mimeType in
         image/svg+xml)
             rsvg-convert /tmp/$fileName -o /tmp/$fileName.png
-            magick /tmp/$fileName.png -resize 128x128 /tmp/$fileName_resized.png
-            cwebp /tmp/$fileName_resized.png -o "$destination" -quiet
+            magick /tmp/$fileName.png -resize 128x128 /tmp/${fileName}_resized.png
+            cwebp /tmp/${fileName}_resized.png -o "$destination" -quiet
             ;;
         image/png|image/jpeg)
-            magick /tmp/$fileName -resize 128x128 /tmp/$fileName_resized.png
-            cwebp /tmp/$fileName_resized.png -o "$destination" -quiet
+            magick /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.png
+            cwebp /tmp/${fileName}_resized.png -o "$destination" -quiet
             ;;
         image/gif)
             # Get gif fps
@@ -79,14 +79,14 @@ for image in ${images[@]}; do
             ffmpeg -i /tmp/$fileName -vf "scale=128:128:force_original_aspect_ratio=decrease,fps=$fps_value" -loop 0 "$destination" -hide_banner -loglevel error
             ;;
         image/webp)
-            magick /tmp/$fileName -resize 128x128 /tmp/$fileName_resized.webp
-            mv /tmp/$fileName_resized.webp "$destination"
+            magick /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.webp
+            mv /tmp/${fileName}_resized.webp "$destination"
             ;;
         image/avif)
             ffmpeg -i /tmp/$fileName -vf "scale=128:128" "$destination" -hide_banner -loglevel error
             ;;
         *)
-            magick /tmp/$fileName -resize 128x128 /tmp/$fileName_resized.webp
+            magick /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.webp
             ;;
     esac
 
@@ -97,7 +97,7 @@ for image in ${images[@]}; do
     fi
 
     # Clean up temporary files
-    rm -f /tmp/$fileName_resized.png /tmp/$fileName_resized.webp /tmp/$fileName
+    rm -f /tmp/${fileName}_resized.png /tmp/${fileName}_resized.webp /tmp/$fileName
 done
 
 # Final message
