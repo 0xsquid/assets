@@ -43,6 +43,11 @@ const errorTokensFilePath = "url_fetch_errors.json"
       continue
     }
 
+    if (!token.logoURI) {
+      console.log(`Skipping token with missing logoURI: ${token.symbol}`)
+      continue
+    }
+
     console.log(`New token added: ${token.symbol}`)
     newTokens.push(token)
   }
