@@ -87,6 +87,7 @@ for image in ${images[@]}; do
             ;;
         *)
             magick /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.webp
+            mv /tmp/${fileName}_resized.webp "$destination"
             ;;
     esac
 
