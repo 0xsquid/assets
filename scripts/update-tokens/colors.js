@@ -92,6 +92,18 @@ async function main() {
   // Add safety checks for destructuring
   const { tokens = [], chains = [] } = squidData || {}
 
+  // Squid returned nothing (all retries failed). Abort before writing anything
+  // — otherwise we would overwrite url_fetch_errors.json with an empty list,
+  // erasing the skip-list that fetch-new-tokens.js depends on next run.
+  if (chains.length === 0 && tokens.length === 0) {
+    console.log(
+      chalk.red(
+        "No Squid data available — leaving colors.json and url_fetch_errors.json untouched."
+      )
+    )
+    return
+  }
+
   if (chains.length === 0) {
     console.log(chalk.yellow("No chains data available. Skipping chain processing."))
   }
