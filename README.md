@@ -2,36 +2,62 @@
 
 Token and chain images for front ends built with the Squid SDK
 
+## First-time setup
+
+1. Install system dependencies (`librsvg`, `webp`, `imagemagick`, `jq`, `wget`, `ffmpeg`):
+
+   ```bash
+   yarn setup:macos   # macOS
+   yarn setup:linux   # Linux
+   ```
+
+2. Install Node dependencies (uses Yarn 1, pinned via `packageManager`):
+
+   ```bash
+   yarn install
+   ```
+
+3. Create a `.env` file in the repo root with credentials from the team:
+
+   ```
+   SQUID_API_URL=
+   SQUID_INTEGRATOR_ID=
+   ```
+
+   These are required by `yarn update-tokens` to call the Squid API.
+
 ## Scripts
 
-Token images are stored in the `images/migration/webp` folder.
-File names in this folder follow the format `<chainId>_<tokenAddress.toLowerCase().replace(/[/\:]/g, "")>.webp`.
+### `yarn update-tokens`
 
-To update token images, run:
+Refreshes tokens from the Squid API. Runs three steps:
 
-```sh
-yarn update-tokens
-```
+1. Fetch tokens from Squid (`/v2/sdk-info`) and list anything missing from `images/migration/webp` (skipping previously failed URLs in `url_fetch_errors.json`).
+2. Download each new image, resize to 128×128, and write it to `images/migration/webp/<chainId>_<tokenAddress>.webp`. Handles SVG, PNG/JPEG, GIF (animated WebP), WebP, and AVIF inputs.
+3. Run `yarn update-colors` (see below).
 
-This script will:
+Token file names follow `<chainId>_<tokenAddress.toLowerCase().replace(/[/\:]/g, "")>.webp`.
 
-1. fetch all tokens from Squid API
-2. Download and save every token image (unless it already exists in `images/migration/webp`)
-3. Save new token colors to `scripts/update-tokens/colors.json` (previous conversion to png is needed because of a limitation in the canvas library and webp)
+### `yarn update-colors`
 
-## Install rsvg-convert, cwebp, and imagemagick
+Recomputes colors without downloading new images:
 
-Mac:
+1. Converts WebPs in `images/migration/webp` to PNGs in `images/migration/png` (the `canvas` lib used next doesn't read WebP).
+2. For each chain and token, computes `bgColor` (average) and `textColor` (contrast) and saves them to `scripts/update-tokens/colors.json`. Failed URLs are recorded in `scripts/update-tokens/url_fetch_errors.json`. Entries that already have a non-empty `bgColor` are skipped.
 
-```bash
-yarn setup:macos
-```
+Also requires `SQUID_API_URL` and `SQUID_INTEGRATOR_ID`.
 
-Linux:
+### `yarn convert [--size=N]`
 
-```bash
-yarn setup:linux
-```
+Converts SVGs (and resizes PNGs) under `images/master/{chains,wallets,providers}` into `images/png<SIZE>/...` and `images/webp<SIZE>/...`. Default size is 128. Other master folders (`tokens`, `onramps`) are not processed by this script.
+
+### `yarn compare`
+
+Prints `du -sh` for every subfolder under `images/`. Read-only.
+
+### `yarn test:colors`
+
+Unit tests for the color utility helpers. No network, no file writes.
 
 ## Folder Structure
 
@@ -39,33 +65,25 @@ yarn setup:linux
 .
 ├── package.json
 ├── images
-│   ├── master
-│   │   ├── chains
-│   │   │   └── ethereum.svg
-│   │   ├── tokens
-│   │   │   └── eth.svg
-│   │   └── wallets
-│   │       └── metamask.svg
-│   ├── png
-│   │   ├── chains
-│   │   │   └── ethereum.png
-│   │   ├── tokens
-│   │   │   └── eth.png
-│   │   └── wallets
-│   │       └── metamask.png
-├   └── webp
-│   │   ├── chains
-│   │   │   └── ethereum.webp
-│   │   ├── tokens
-│   │   │   └── eth.webp
-│   │   └── wallets
-│   │       └── metamask.webp
-│   │
+│   ├── master                      # source SVGs (input to `yarn convert`)
+│   │   ├── chains/
+│   │   ├── wallets/
+│   │   ├── providers/
+│   │   ├── onramps/
+│   │   └── tokens/
+│   ├── png128/                     # output of `yarn convert` (size suffix matches --size)
+│   ├── webp128/
 │   └── migration
-│       └── webp
-│           └── 1_0x...0.webp
-│
-│
+│       ├── webp/                   # `yarn update-tokens` output — e.g. 1_0x...0.webp
+│       └── png/                    # intermediate PNGs for color extraction
 └── scripts
-    └── convert.sh
+    ├── convert.sh
+    ├── compare_folders_size.sh
+    └── update-tokens/
+        ├── fetch-new-tokens.js
+        ├── save-new-tokens.sh
+        ├── convert-webp-to-png.sh
+        ├── colors.js
+        ├── colors.json             # generated: bgColor / textColor per chain & token
+        └── url_fetch_errors.json   # generated: URLs that failed during fetch
 ```
