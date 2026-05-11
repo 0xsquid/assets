@@ -47,23 +47,15 @@ const getSavedColors = () => {
 }
 
 async function saveColors(colors) {
-  try {
-    await fsp.writeFile(colorsFilePath, JSON.stringify(colors, null, 2))
-    console.log(chalk.greenBright(`\nColors saved to ${colorsFilePath}`))
-  } catch (err) {
-    console.error("Error writing colors to file:", err)
-  }
+  await fsp.writeFile(colorsFilePath, JSON.stringify(colors, null, 2))
+  console.log(chalk.greenBright(`\nColors saved to ${colorsFilePath}`))
 }
 
 async function saveFailedUrls(failedUrls) {
-  try {
-    await fsp.writeFile(failedUrlsFilePath, JSON.stringify(failedUrls, null, 2))
-    console.log(
-      chalk.greenBright(`\nFailed urls saved to ${failedUrlsFilePath}`)
-    )
-  } catch (err) {
-    console.error("Error writing failed urls to file:", err)
-  }
+  await fsp.writeFile(failedUrlsFilePath, JSON.stringify(failedUrls, null, 2))
+  console.log(
+    chalk.greenBright(`\nFailed urls saved to ${failedUrlsFilePath}`)
+  )
 }
 
 function getRgbKeys(color) {
@@ -244,4 +236,7 @@ async function main() {
   await Promise.all([saveColors(colors), saveFailedUrls(failedUrls)])
 }
 
-main()
+main().catch(err => {
+  console.error(chalk.red("colors.js failed:"), err)
+  process.exitCode = 1
+})
