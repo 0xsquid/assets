@@ -175,18 +175,10 @@ async function main() {
     }
   }
 
-  // Tokens with no logoURI can never have their image loaded. Record default
-  // colors once and exclude them from the main extraction loop — otherwise
-  // every run wastes an I/O attempt and logs a misleading "at null" error.
-  for (const token of tokens) {
-    if (!token.logoURI && !colors.tokens[getTokenAssetsKey(token)]?.bgColor) {
-      colors.tokens[getTokenAssetsKey(token)] = {
-        bgColor: defaultTokenBgColor,
-        textColor: defaultTokenTextColor
-      }
-    }
-  }
-
+  // Tokens with no logoURI can never have their image loaded right now, but
+  // Squid may add one later — leave their colors.json entry untouched so the
+  // next run picks them up if a URL appears. Just skip the extraction call so
+  // we do not waste an I/O attempt or log a misleading "at null" error.
   const tokensToProcess = tokens.filter(
     token =>
       token.logoURI && !colors.tokens[getTokenAssetsKey(token)]?.bgColor
