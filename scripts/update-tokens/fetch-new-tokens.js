@@ -1,7 +1,18 @@
+// ENTRY SCRIPT — do not import this file from anywhere.
+// Shared helpers live in `./squid-api.js` and `./colors-utils.js`.
+
 import "dotenv/config"
 import fs from "node:fs"
+import { pathToFileURL } from "node:url"
 import { getTokenAssetsKey } from "./colors-utils.js"
-import { getSquidAssets } from "./colors.js"
+import { getSquidAssets } from "./squid-api.js"
+
+if (import.meta.url !== pathToFileURL(process.argv[1]).href) {
+  throw new Error(
+    "fetch-new-tokens.js is an entry script and must not be imported. " +
+      "Import shared helpers from ./squid-api.js or ./colors-utils.js instead."
+  )
+}
 
 const newTokensFilePath = "new-token-images.json"
 const errorTokensFilePath = "url_fetch_errors.json"
