@@ -175,8 +175,21 @@ async function main() {
     }
   }
 
+  // Tokens with no logoURI can never have their image loaded. Record default
+  // colors once and exclude them from the main extraction loop — otherwise
+  // every run wastes an I/O attempt and logs a misleading "at null" error.
+  for (const token of tokens) {
+    if (!token.logoURI && !colors.tokens[getTokenAssetsKey(token)]?.bgColor) {
+      colors.tokens[getTokenAssetsKey(token)] = {
+        bgColor: defaultTokenBgColor,
+        textColor: defaultTokenTextColor
+      }
+    }
+  }
+
   const tokensToProcess = tokens.filter(
-    token => !colors.tokens[getTokenAssetsKey(token)]?.bgColor
+    token =>
+      token.logoURI && !colors.tokens[getTokenAssetsKey(token)]?.bgColor
   )
 
   const processToken = async token => {
