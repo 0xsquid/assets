@@ -6,6 +6,7 @@
 import "dotenv/config"
 import chalk from "chalk"
 import fs from "node:fs"
+import fsp from "node:fs/promises"
 import { pathToFileURL } from "node:url"
 import {
   getTokenAssetsKey,
@@ -45,26 +46,24 @@ const getSavedColors = () => {
   }
 }
 
-function saveColors(colors) {
-  fs.writeFile(colorsFilePath, JSON.stringify(colors, null, 2), err => {
-    if (err) {
-      console.error("Error writing colors to file:", err)
-    } else {
-      console.log(chalk.greenBright(`\nColors saved to ${colorsFilePath}`))
-    }
-  })
+async function saveColors(colors) {
+  try {
+    await fsp.writeFile(colorsFilePath, JSON.stringify(colors, null, 2))
+    console.log(chalk.greenBright(`\nColors saved to ${colorsFilePath}`))
+  } catch (err) {
+    console.error("Error writing colors to file:", err)
+  }
 }
 
-function saveFailedUrls(failedUrls) {
-  fs.writeFile(failedUrlsFilePath, JSON.stringify(failedUrls, null, 2), err => {
-    if (err) {
-      console.error("Error writing failed urls to file:", err)
-    } else {
-      console.log(
-        chalk.greenBright(`\nFailed urls saved to ${failedUrlsFilePath}`)
-      )
-    }
-  })
+async function saveFailedUrls(failedUrls) {
+  try {
+    await fsp.writeFile(failedUrlsFilePath, JSON.stringify(failedUrls, null, 2))
+    console.log(
+      chalk.greenBright(`\nFailed urls saved to ${failedUrlsFilePath}`)
+    )
+  } catch (err) {
+    console.error("Error writing failed urls to file:", err)
+  }
 }
 
 function getRgbKeys(color) {
