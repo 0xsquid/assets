@@ -16,14 +16,14 @@ function validateSdkInfo(data) {
 
 export const getSquidAssets = async (retries = 3) => {
   for (let attempt = 1; attempt <= retries; attempt++) {
+    // Add timeout to the fetch request
+    const controller = new AbortController()
+    const timeoutId = setTimeout(() => controller.abort(), 30000) // 30 second timeout
+
     try {
       console.log(`Attempting to fetch Squid data (attempt ${attempt}/${retries})...`)
 
       const url = new URL("/v2/sdk-info", process.env.SQUID_API_URL)
-
-      // Add timeout to the fetch request
-      const controller = new AbortController()
-      const timeoutId = setTimeout(() => controller.abort(), 30000) // 30 second timeout
 
       const response = await fetch(url, {
         headers: {
@@ -32,8 +32,6 @@ export const getSquidAssets = async (retries = 3) => {
         },
         signal: controller.signal
       })
-
-      clearTimeout(timeoutId)
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
@@ -100,6 +98,10 @@ export const getSquidAssets = async (retries = 3) => {
       const waitTime = Math.pow(2, attempt) * 1000
       console.log(chalk.yellow(`Waiting ${waitTime}ms before retry...`))
       await sleep(waitTime)
+    } finally {
+      // Always clear the timeout so it does not keep the event loop alive
+      // for up to 30s after the function returns on a failed fetch.
+      clearTimeout(timeoutId)
     }
   }
 }
