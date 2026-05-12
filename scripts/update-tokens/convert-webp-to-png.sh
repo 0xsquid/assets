@@ -6,6 +6,11 @@ PNG_FOLDER="images/migration/png"
 COLORS_JSON="scripts/update-tokens/colors.json"
 PARALLELISM=8
 
+# Prefer ImageMagick 7's `magick`, fall back to IM6's `convert`. Both
+# implement the same operators; this avoids IM7's deprecation warning.
+MAGICK=$(command -v magick 2>/dev/null || command -v convert)
+export MAGICK
+
 # Ensure the source folder exists
 if [ ! -d "$WEBP_FOLDER" ]; then
   echo "Error: Source folder '$WEBP_FOLDER' does not exist."
@@ -65,7 +70,7 @@ echo "Converting $total file(s) with $PARALLELISM parallel workers..."
 # lines are safe to feed to xargs. Each worker emits a marker on stdout when
 # it finishes so the progress bar can advance. Use stdin redirect (not -a) for
 # BSD/macOS xargs compatibility.
-xargs -P "$PARALLELISM" -L 1 bash -c 'magick "$0[0]" "$1" && echo done' < "$WORK_LIST" | \
+xargs -P "$PARALLELISM" -L 1 bash -c '"$MAGICK" "$0[0]" "$1" && echo done' < "$WORK_LIST" | \
   while read -r _; do
     processed_count=$((${processed_count:-0} + 1))
 
