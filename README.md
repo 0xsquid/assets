@@ -59,6 +59,14 @@ Prints `du -sh` for every subfolder under `images/`. Read-only.
 
 Unit tests for the color utility helpers. No network, no file writes.
 
+### `yarn test:smoke`
+
+Regression suite for the update-tokens pipeline. Static checks plus end-to-end
+runs that delete part of the local state and verify `yarn update-tokens`
+restores it. Individual tests live under `scripts/smoke-test/tests/` and can
+be run directly (e.g. `bash scripts/smoke-test/tests/05-api-failure.sh`).
+Integration tests are skipped if `.env` or `SQUID_API_URL` is not configured.
+
 ## Folder Structure
 
 ```
