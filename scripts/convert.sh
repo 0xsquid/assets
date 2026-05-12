@@ -2,8 +2,13 @@
 
 # check if required tools are installed
 command -v rsvg-convert >/dev/null || { echo "rsvg-convert is required"; exit 1; }
-command -v magick >/dev/null || { echo "ImageMagick (magick) is required"; exit 1; }
 command -v cwebp >/dev/null || { echo "cwebp is required"; exit 1; }
+
+# Prefer ImageMagick 7's `magick`, fall back to IM6's `convert`. Both implement
+# the same operators our scripts use; the indirection avoids IM7's deprecation
+# warning that fires on every `convert` invocation.
+MAGICK=$(command -v magick 2>/dev/null || command -v convert)
+[ -n "$MAGICK" ] || { echo "ImageMagick is required (install via brew or apt)"; exit 1; }
 
 # Default size for the images
 SIZE=128
@@ -112,7 +117,7 @@ convert_files() {
             # Omit conversion if resized PNG file already exists
             if [ ! -f "$output_dir_png/$subdir/$filename.png" ]; then
                 # Resize PNG
-                magick "$png_file" -resize "${SIZE}x${SIZE}" "$output_dir_png/$subdir/$filename.png"
+                "$MAGICK" "$png_file" -resize "${SIZE}x${SIZE}" "$output_dir_png/$subdir/$filename.png"
                 if [ $? -eq 0 ]; then
                     print_color_message "Resized $png_file to $output_dir_png/$subdir/$filename.png" "$GREEN"
                 else

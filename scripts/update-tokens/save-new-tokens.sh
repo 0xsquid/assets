@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Prefer ImageMagick 7's `magick`, fall back to IM6's `convert`. Both
+# implement the same operators; this avoids IM7's deprecation warning.
+MAGICK=$(command -v magick 2>/dev/null || command -v convert)
+
 echo "Converting images to webp"
 
 # Create the destination folder if it doesn't exist
@@ -61,11 +65,11 @@ for image in ${images[@]}; do
     case $mimeType in
         image/svg+xml)
             rsvg-convert /tmp/$fileName -o /tmp/$fileName.png
-            magick /tmp/$fileName.png -resize 128x128 /tmp/${fileName}_resized.png
+            "$MAGICK" /tmp/$fileName.png -resize 128x128 /tmp/${fileName}_resized.png
             cwebp /tmp/${fileName}_resized.png -o "$destination" -quiet
             ;;
         image/png|image/jpeg)
-            magick /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.png
+            "$MAGICK" /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.png
             cwebp /tmp/${fileName}_resized.png -o "$destination" -quiet
             ;;
         image/gif)
@@ -79,14 +83,14 @@ for image in ${images[@]}; do
             ffmpeg -i /tmp/$fileName -vf "scale=128:128:force_original_aspect_ratio=decrease,fps=$fps_value" -loop 0 "$destination" -hide_banner -loglevel error
             ;;
         image/webp)
-            magick /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.webp
+            "$MAGICK" /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.webp
             mv /tmp/${fileName}_resized.webp "$destination"
             ;;
         image/avif)
             ffmpeg -i /tmp/$fileName -vf "scale=128:128" "$destination" -hide_banner -loglevel error
             ;;
         *)
-            magick /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.webp
+            "$MAGICK" /tmp/$fileName -resize 128x128 /tmp/${fileName}_resized.webp
             mv /tmp/${fileName}_resized.webp "$destination"
             ;;
     esac
