@@ -63,8 +63,9 @@ echo "Converting $total file(s) with $PARALLELISM parallel workers..."
 # Convert WEBP to PNG in parallel (extracting only the first frame if animated).
 # File names are <chainId>_<address>.webp — no spaces — so whitespace-separated
 # lines are safe to feed to xargs. Each worker emits a marker on stdout when
-# it finishes so the progress bar can advance.
-xargs -P "$PARALLELISM" -L 1 -a "$WORK_LIST" bash -c 'magick "$0[0]" "$1" && echo done' | \
+# it finishes so the progress bar can advance. Use stdin redirect (not -a) for
+# BSD/macOS xargs compatibility.
+xargs -P "$PARALLELISM" -L 1 bash -c 'magick "$0[0]" "$1" && echo done' < "$WORK_LIST" | \
   while read -r _; do
     processed_count=$((${processed_count:-0} + 1))
 
