@@ -1,7 +1,13 @@
+// ENTRY SCRIPT — do not import this file from anywhere.
+// Shared helpers live in `./squid-api.js` and `./colors-utils.js`.
+
 import "dotenv/config"
 import fs from "node:fs"
 import { getTokenAssetsKey } from "./colors-utils.js"
-import { getSquidAssets } from "./colors.js"
+import { getSquidAssets } from "./squid-api.js"
+import { assertEntry } from "./assert-entry.js"
+
+assertEntry(import.meta)
 
 const newTokensFilePath = "new-token-images.json"
 const errorTokensFilePath = "url_fetch_errors.json"
@@ -29,6 +35,11 @@ const errorTokensFilePath = "url_fetch_errors.json"
 
     if (errorTokensSet.has(tokenKey)) {
       console.log(`Skipping token due to fetch error: ${token.symbol}`)
+      continue
+    }
+
+    if (!token.logoURI) {
+      console.log(`Skipping token with missing logoURI: ${token.symbol}`)
       continue
     }
 

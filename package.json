@@ -7,7 +7,8 @@
     "setup:linux": "sudo apt-get update && sudo apt-get install librsvg2-bin webp imagemagick jq wget ffmpeg",
     "update-tokens": "node scripts/update-tokens/fetch-new-tokens.js && bash scripts/update-tokens/save-new-tokens.sh && yarn update-colors",
     "update-colors": "bash scripts/update-tokens/convert-webp-to-png.sh && node scripts/update-tokens/colors.js",
-    "test:colors": "node scripts/update-tokens/color-utils.test.js"
+    "test:colors": "node scripts/update-tokens/color-utils.test.js",
+    "test:smoke": "bash scripts/smoke-test/run.sh"
   },
   "dependencies": {
     "canvas": "3.1.0",

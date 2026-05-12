@@ -115,6 +115,15 @@ export function getAverageColor(url, { saveHighlight = false } = {}) {
           }
         }
 
+        if (!dominantColor) {
+          reject(
+            new Error(
+              "No pixels sampled — image may be empty, fully transparent, or smaller than the sampling ring."
+            )
+          )
+          return
+        }
+
         resolve(`rgb(${dominantColor})`)
       })
       .catch(err => reject(err))

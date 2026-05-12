@@ -59,6 +59,14 @@ Prints `du -sh` for every subfolder under `images/`. Read-only.
 
 Unit tests for the color utility helpers. No network, no file writes.
 
+### `yarn test:smoke`
+
+Regression suite for the update-tokens pipeline. Static checks plus end-to-end
+runs that delete part of the local state and verify `yarn update-tokens`
+restores it. Individual tests live under `scripts/smoke-test/tests/` and can
+be run directly (e.g. `bash scripts/smoke-test/tests/05-api-failure.sh`).
+Integration tests are skipped if `.env` or `SQUID_API_URL` is not configured.
+
 ## Folder Structure
 
 ```
@@ -80,10 +88,17 @@ Unit tests for the color utility helpers. No network, no file writes.
     ├── convert.sh
     ├── compare_folders_size.sh
     └── update-tokens/
-        ├── fetch-new-tokens.js
-        ├── save-new-tokens.sh
-        ├── convert-webp-to-png.sh
-        ├── colors.js
-        ├── colors.json             # generated: bgColor / textColor per chain & token
-        └── url_fetch_errors.json   # generated: URLs that failed during fetch
+        ├── fetch-new-tokens.js      # entry: queues missing webps for download
+        ├── save-new-tokens.sh       # downloads + converts queued images
+        ├── convert-webp-to-png.sh   # webp → png so node-canvas can read them
+        ├── colors.js                # entry: extracts bgColor / textColor
+        ├── squid-api.js             # library: Squid /v2/sdk-info client
+        ├── colors-utils.js          # library: color math + token key helpers
+        ├── assert-entry.js          # library: guard against importing entry scripts
+        ├── colors.json              # generated: bgColor / textColor per chain & token
+        └── url_fetch_errors.json    # generated: URLs that failed during fetch
 ```
+
+## Automation
+
+The token refresh pipeline runs automatically every 6 hours via the GitHub Actions workflow at `.github/workflows/update-tokens.yml`. It calls `yarn update-tokens` and pushes any image / color diffs to `main`. You can also trigger it manually from the Actions tab ("Run workflow"). Repo variables `SQUID_API_URL` and `SQUID_INTEGRATOR_ID` must be configured (Settings → Secrets and variables → Actions → Variables) for the workflow to authenticate.
