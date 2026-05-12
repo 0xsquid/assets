@@ -7,23 +7,15 @@ import "dotenv/config"
 import chalk from "chalk"
 import fs from "node:fs"
 import fsp from "node:fs/promises"
-import { pathToFileURL } from "node:url"
 import {
   getTokenAssetsKey,
   getAverageColor,
   getContrastColor
 } from "./colors-utils.js"
 import { getSquidAssets } from "./squid-api.js"
+import { assertEntry } from "./assert-entry.js"
 
-if (
-  !process.argv[1] ||
-  import.meta.url !== pathToFileURL(process.argv[1]).href
-) {
-  throw new Error(
-    "colors.js is an entry script and must not be imported. " +
-      "Import shared helpers from ./squid-api.js or ./colors-utils.js instead."
-  )
-}
+assertEntry(import.meta)
 
 const colorsFilePath = "scripts/update-tokens/colors.json"
 const failedUrlsFilePath = "scripts/update-tokens/url_fetch_errors.json"

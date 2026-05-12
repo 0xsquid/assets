@@ -3,19 +3,11 @@
 
 import "dotenv/config"
 import fs from "node:fs"
-import { pathToFileURL } from "node:url"
 import { getTokenAssetsKey } from "./colors-utils.js"
 import { getSquidAssets } from "./squid-api.js"
+import { assertEntry } from "./assert-entry.js"
 
-if (
-  !process.argv[1] ||
-  import.meta.url !== pathToFileURL(process.argv[1]).href
-) {
-  throw new Error(
-    "fetch-new-tokens.js is an entry script and must not be imported. " +
-      "Import shared helpers from ./squid-api.js or ./colors-utils.js instead."
-  )
-}
+assertEntry(import.meta)
 
 const newTokensFilePath = "new-token-images.json"
 const errorTokensFilePath = "url_fetch_errors.json"
