@@ -23,8 +23,27 @@ jobs:
           node-version: 20
           cache: yarn
 
-      - name: Install system dependencies
-        run: yarn setup:linux
+      - name: Cache file-only system dependencies
+        # ffmpeg + its codec deps are ~80 MB of the 111 MB apt download. Cache
+        # those .deb files so the slow apt path only runs on cache miss. The
+        # day the Azure mirror was throttled to 96 kB/s, this single step took
+        # 19m 37s — caching makes the bad path bounded to first run. `version`
+        # is the cache key — bump to invalidate.
+        #
+        # imagemagick is NOT here: its postinst registers `convert`/`magick`
+        # via update-alternatives, and the cache action cannot reliably restore
+        # those symlinks even with `execute_install_scripts: true` (the
+        # action's README documents this caveat). It is installed separately
+        # below; ~10 MB on its own, a few seconds.
+        #
+        # jq and wget are dropped — both are pre-installed on ubuntu-latest.
+        uses: awalsh128/cache-apt-pkgs-action@v1
+        with:
+          packages: librsvg2-bin webp ffmpeg
+          version: 1.0
+
+      - name: Install imagemagick
+        run: sudo apt-get install -y imagemagick
 
       - name: Install Node dependencies
         run: yarn install --frozen-lockfile
