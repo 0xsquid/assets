@@ -48543,6 +48543,10 @@
     "solana-mainnet-beta_7hgfxftrbbqsytaeycqjglqrnjll6tww9ek4re3apump": {
       "bgColor": "",
       "textColor": ""
+    },
+    "56_0xac23b90a79504865d52b49b327328411a23d4db2": {
+      "bgColor": "rgb(239,239,239)",
+      "textColor": "#000"
     }
   },
   "chains": {
