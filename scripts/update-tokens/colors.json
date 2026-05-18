@@ -48579,6 +48579,38 @@
     "solana-mainnet-beta_12y35e6btjazuasjjwq99mobbycbkfsfvm8s5qpashft": {
       "bgColor": "rgb(43,43,43)",
       "textColor": "#fff"
+    },
+    "8453_0xeab49138ba2ea6dd776220fe26b7b8e446638956": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "1_0xe343167631d89b6ffc58b88d6b7fb0228795491d": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "137_0x27f6c8289550fce67f6b50bed1f519966afe5287": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "1_0xcb56b52316041a62b6b5d0583dce4a8ae7a3c629": {
+      "bgColor": "rgb(240,134,15)",
+      "textColor": "#fff"
+    },
+    "56_0xe014d1c27934a59c1ff2cd2a3320afd635fcbdfd": {
+      "bgColor": "rgb(33,7,13)",
+      "textColor": "#fff"
+    },
+    "56_0xbb1106c7deb7cc60efa51391760b14aed8cb5bed": {
+      "bgColor": "rgb(99,19,64)",
+      "textColor": "#fff"
+    },
+    "56_0x1a4d41219c547f3a0ee36cf3d9e68f80699cf283": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_8m5hzx9hprtwwpuvzl4daczfggwykc6fhsjddpiqpump": {
+      "bgColor": "rgb(253,252,243)",
+      "textColor": "#000"
     }
   },
   "chains": {
