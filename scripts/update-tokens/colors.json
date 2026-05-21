@@ -48581,16 +48581,16 @@
       "textColor": "#fff"
     },
     "8453_0xeab49138ba2ea6dd776220fe26b7b8e446638956": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(64,251,81)",
+      "textColor": "#fff"
     },
     "1_0xe343167631d89b6ffc58b88d6b7fb0228795491d": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(50,64,18)",
+      "textColor": "#fff"
     },
     "137_0x27f6c8289550fce67f6b50bed1f519966afe5287": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
     },
     "1_0xcb56b52316041a62b6b5d0583dce4a8ae7a3c629": {
       "bgColor": "rgb(240,134,15)",
@@ -48613,12 +48613,12 @@
       "textColor": "#000"
     },
     "1_0x27f6c8289550fce67f6b50bed1f519966afe5287": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
     },
     "56_0x27f6c8289550fce67f6b50bed1f519966afe5287": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
     },
     "solana-mainnet-beta_8a295dwfrhfbbmmmetjqwxjsdnue3wfh6qx6gk4tpump": {
       "bgColor": "rgb(255,255,255)",
@@ -48635,6 +48635,22 @@
     "solana-mainnet-beta_3jsl5nnnycrlmtqfmwvy1mikh42fqst7p7nvxpyzanon": {
       "bgColor": "",
       "textColor": ""
+    },
+    "1_0x07041776f5007aca2a54844f50503a18a72a8b68": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_biywh8eq2cbghwmhkwcnfticcwjwn7r1q4qn9hsypump": {
+      "bgColor": "rgb(15,15,17)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_fjgxcl8ov5bkvzgoy2qthvhumx82mvksmhni6ncjpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_28q3tolkjvvkepp8dyv1hbgepq23xcekcktszwsnvirl": {
+      "bgColor": "rgb(28,30,29)",
+      "textColor": "#fff"
     }
   },
   "chains": {
@@ -48982,6 +48998,9 @@
     },
     "2716446429837000": {
       "bgColor": "#101847"
+    },
+    "canton": {
+      "bgColor": "rgb(243,255,151)"
     }
   }
 }
