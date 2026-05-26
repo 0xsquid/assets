@@ -48901,8 +48901,8 @@
       "textColor": "#fff"
     },
     "canton_dso1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc": {
-      "bgColor": "",
-      "textColor": ""
+      "bgColor": "rgb(243,255,151)",
+      "textColor": "#000"
     }
   },
   "chains": {
