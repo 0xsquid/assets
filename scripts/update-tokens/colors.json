@@ -48791,6 +48791,118 @@
     "solana-mainnet-beta_6v1rcrmaw4bz32dk9wrbg1k9fa2h9yw64dv9v9ph1y3x": {
       "bgColor": "rgb(0,0,0)",
       "textColor": "#fff"
+    },
+    "42161_0x83a32f2818b6754f7d58af0e559fa9d3fa99ce13": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "42161_0x313f4d30d27d7577b12b65e56a91c63dababe90f": {
+      "bgColor": "rgb(30,34,81)",
+      "textColor": "#fff"
+    },
+    "8453_0x096746e984e57ae9a2922a08fc969bbe76963a72": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "8453_0x129966d7d25775b57e3c5b13b2e1c2045fbc4926": {
+      "bgColor": "rgb(37,59,92)",
+      "textColor": "#fff"
+    },
+    "8453_0x6c8c8e945c2ccb997b88259b2890ba95f740debe": {
+      "bgColor": "rgb(2,37,57)",
+      "textColor": "#fff"
+    },
+    "8453_0x9a574ea719b5e69df7c783d15c9514a26f3faf53": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "8453_0x072915a43ac255cde1fa568218e5b6b10d0cb10f": {
+      "bgColor": "rgb(213,219,226)",
+      "textColor": "#000"
+    },
+    "8453_0xef97260ac8c6b9dd5bd366582225dd059e2aad50": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "8453_0x797f214a2cd64a4963a91fa21c8c55ec3eba4714": {
+      "bgColor": "rgb(2,4,6)",
+      "textColor": "#fff"
+    },
+    "8453_0xaf79b22c0994b5e9188dea5b4321b3d99fadbee9": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "8453_0xefc6fd02b39142ffc4a42d1078157f609be0a5b8": {
+      "bgColor": "rgb(9,11,12)",
+      "textColor": "#fff"
+    },
+    "8453_0x10c56f005a379f8eafc88ff5c3f40d30f0031ac9": {
+      "bgColor": "rgb(232,232,232)",
+      "textColor": "#000"
+    },
+    "8453_0x4b1b0ce9613cd9ffc490b0ea7947238a056d73b9": {
+      "bgColor": "rgb(217,177,130)",
+      "textColor": "#fff"
+    },
+    "8453_0x853a7c99227499dba9db8c3a02aa691afdebf841": {
+      "bgColor": "rgb(18,18,43)",
+      "textColor": "#fff"
+    },
+    "8453_0xf4d97f2da56e8c3098f3a8d538db630a2606a024": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "8453_0xb8b7dfacec9abbcb0093f1344c41cb7263c4795a": {
+      "bgColor": "",
+      "textColor": ""
+    },
+    "1_0xbdf43ecadc5cef51b7d1772f722e40596bc1788b": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "1_0xf11b570114886311263ec42030b0d7e5f02fa951": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "1_0x5f0e628b693018f639d10e4a4f59bd4d8b2b6b44": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "1_0xa0b07ab8b765643403b3f247fc06784d7fc11918": {
+      "bgColor": "rgb(247,245,216)",
+      "textColor": "#000"
+    },
+    "1_0xae0f1b6a369608f5dd05e968f6c78bcd3eb77777": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "56_0x2789033dfe80593f69d689f65892a75afa491111": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "56_0xf11b570114886311263ec42030b0d7e5f02fa951": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "sentinelhub-2_udvpn": {
+      "bgColor": "rgb(20,45,82)",
+      "textColor": "#fff"
+    },
+    "canton_usdcxdecentralized-usdc-interchain-rep12208115f1e168dd7e792320be9c4ca720c751a02a3053c7606e1c1cd3dad9bf60ef": {
+      "bgColor": "rgb(40,117,202)",
+      "textColor": "#fff"
+    },
+    "canton_cbtccbtc-network12205af3b949a04776fc48cdcc05a060f6bda2e470632935f375d1049a8546a3b262": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "1440000_0x8616fce6c7e066a9f87a4e2779e1651ea1a43ffc": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "canton_dso1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc": {
+      "bgColor": "",
+      "textColor": ""
     }
   },
   "chains": {
