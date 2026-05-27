@@ -48903,6 +48903,18 @@
     "canton_dso1220b1431ef217342db44d516bb9befde802be7d8899637d290895fa58880f19accc": {
       "bgColor": "rgb(243,255,151)",
       "textColor": "#000"
+    },
+    "8453_0x5cbfc46eb22aa38069f9de48a1c7a536ded62652": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_cvxywjrq3zxqifmzauyuomdvj8pf8nitxx8hxrlgpump": {
+      "bgColor": "rgb(139,63,180)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_96egratcizrpznx4wvmmhpjf7tks7w5kuheenmd1xfun": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
     }
   },
   "chains": {
