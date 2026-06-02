@@ -49083,6 +49083,34 @@
     "solana-mainnet-beta_fxdwyhavxuufidfea3kpyvzjsyoq16eub1edpfbakxx5": {
       "bgColor": "rgb(255,255,255)",
       "textColor": "#000"
+    },
+    "8453_0x97be14dd8f994a5364573bc035d85309e7cb34de": {
+      "bgColor": "rgb(54,155,123)",
+      "textColor": "#fff"
+    },
+    "4114_0xac8c1aeb584765db16ac3e08d4736cfce198589b": {
+      "bgColor": "rgb(64,123,253)",
+      "textColor": "#fff"
+    },
+    "4114_0x547afd93b9c47d552059feb556909e017f8a9b25": {
+      "bgColor": "rgb(240,125,25)",
+      "textColor": "#fff"
+    },
+    "stellar-mainnet_cciwrr5whlxkn22b26zxqxs255gqz5ck347wohpfgcgsv2i3uxdribzg": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_efchnnkbvh4gsy5zqdgqrfupr7mstblvkbxpq5jujcmp": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_gzxen6rmbdthmqc1wz2jadbjly2jddakduwap7cod9eq": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_fgnub1bwh4kpshxgd9pae5dg6ejvax8wh6912ymysu9v": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
     }
   },
   "chains": {
