@@ -20,11 +20,10 @@ assertEntry(import.meta)
 const colorsFilePath = "scripts/update-tokens/colors.json"
 const failedUrlsFilePath = "scripts/update-tokens/url_fetch_errors.json"
 const defaultChainBgColor = ""
-const defaultTokenBgColor = ""
-const defaultTokenTextColor = ""
 const TOKEN_CONCURRENCY = 16
 
 const defaultColors = { tokens: {}, chains: {} }
+const defaultFailedUrls = { tokens: [], chains: [] }
 const getSavedColors = () => {
   try {
     const data = fs.readFileSync(colorsFilePath, "utf8")
@@ -38,6 +37,20 @@ const getSavedColors = () => {
 
     console.error("Error reading colors file:", error)
     return defaultColors
+  }
+}
+
+const getSavedFailedUrls = () => {
+  try {
+    const data = fs.readFileSync(failedUrlsFilePath, "utf8")
+    return { ...defaultFailedUrls, ...JSON.parse(data) }
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return defaultFailedUrls
+    }
+
+    console.error("Error reading failed urls file:", error)
+    return defaultFailedUrls
   }
 }
 
@@ -105,10 +118,12 @@ async function main() {
   }, {})
 
   const colors = getSavedColors()
+  const savedFailedUrls = getSavedFailedUrls()
   const failedUrls = {
     chains: [],
-    tokens: []
+    tokens: savedFailedUrls.tokens || []
   }
+  const failedTokenKeys = new Set(failedUrls.tokens.map(getTokenAssetsKey))
 
   const chainColorPromises = []
 
@@ -162,21 +177,15 @@ async function main() {
     }
   }
 
-  // Tokens with no logoURI can never have their image loaded. Record default
-  // colors once and exclude them from the main extraction loop — otherwise
-  // every run wastes an I/O attempt and logs a misleading "at null" error.
-  for (const token of tokens) {
-    if (!token.logoURI && !colors.tokens[getTokenAssetsKey(token)]?.bgColor) {
-      colors.tokens[getTokenAssetsKey(token)] = {
-        bgColor: defaultTokenBgColor,
-        textColor: defaultTokenTextColor
-      }
-    }
-  }
-
   const tokensToProcess = tokens.filter(
-    token =>
-      token.logoURI && !colors.tokens[getTokenAssetsKey(token)]?.bgColor
+    token => {
+      const tokenKey = getTokenAssetsKey(token)
+      return (
+        token.logoURI &&
+        !colors.tokens[tokenKey]?.bgColor &&
+        !failedTokenKeys.has(tokenKey)
+      )
+    }
   )
 
   const processToken = async token => {
@@ -209,10 +218,11 @@ async function main() {
         "\n"
       )
 
-      colors.tokens[getTokenAssetsKey(token)] = {
-        bgColor: defaultTokenBgColor,
-        textColor: defaultTokenTextColor
-      }
+      // Leave failed tokens out of colors.json; the frontend treats a missing
+      // key as the default color.
+      const tokenKey = getTokenAssetsKey(token)
+      delete colors.tokens[tokenKey]
+      failedTokenKeys.add(tokenKey)
       failedUrls.tokens.push({
         symbol: token.symbol,
         chainId: token.chainId,

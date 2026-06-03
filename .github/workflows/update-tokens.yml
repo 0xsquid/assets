@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      tokens:
+        description: "Image keys to refresh: chainId_address, space- or comma-separated. The backend logoURI must already point to the corrected image. Leave empty for a normal full update."
+        required: false
+        default: ""
 
 concurrency:
   group: update-tokens
@@ -48,11 +53,60 @@ jobs:
       - name: Install Node dependencies
         run: yarn install --frozen-lockfile
 
+      - name: Prepare images to refresh
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.tokens != '' }}
+        env:
+          # Pass the input through the environment (never interpolate ${{ }}
+          # into the script) so it cannot be used for shell injection.
+          TOKENS: ${{ inputs.tokens }}
+        run: |
+          set -euo pipefail
+          refresh_keys="$RUNNER_TEMP/token-refresh-keys.txt"
+          backup_dir="$RUNNER_TEMP/token-refresh-backup"
+          mkdir -p "$backup_dir"
+          : > "$refresh_keys"
+
+          for key in $(printf '%s' "$TOKENS" | tr ',' ' '); do
+            # Keys are <chainId>_<address>; reject anything else to prevent
+            # path traversal via the constructed file path.
+            if ! printf '%s' "$key" | grep -qE '^[A-Za-z0-9_-]+$'; then
+              echo "Skipping invalid token key: $key"
+              continue
+            fi
+            target="images/migration/webp/${key}.webp"
+            printf '%s\n' "$key" >> "$refresh_keys"
+            if [ -f "$target" ]; then
+              echo "Refreshing $key"
+              cp "$target" "$backup_dir/${key}.webp"
+              rm -f "$target"
+            else
+              echo "No existing image for $key — it will be fetched if the API has it"
+            fi
+          done
+
       - name: Run update-tokens
         env:
           SQUID_API_URL: ${{ vars.SQUID_API_URL }}
           SQUID_INTEGRATOR_ID: ${{ vars.SQUID_INTEGRATOR_ID }}
         run: yarn update-tokens
+
+      - name: Restore refresh images that were not replaced
+        if: ${{ always() && github.event_name == 'workflow_dispatch' && inputs.tokens != '' }}
+        run: |
+          set -euo pipefail
+          refresh_keys="$RUNNER_TEMP/token-refresh-keys.txt"
+          backup_dir="$RUNNER_TEMP/token-refresh-backup"
+          [ -f "$refresh_keys" ] || exit 0
+
+          while IFS= read -r key; do
+            [ -n "$key" ] || continue
+            target="images/migration/webp/${key}.webp"
+            backup="$backup_dir/${key}.webp"
+            if [ ! -f "$target" ] && [ -f "$backup" ]; then
+              echo "Restoring previous image for $key because no replacement was created"
+              cp "$backup" "$target"
+            fi
+          done < "$refresh_keys"
 
       - name: Commit and push changes
         run: |

@@ -9,6 +9,14 @@ echo "Converting images to webp"
 # Create the destination folder if it doesn't exist
 mkdir -p images/migration/webp
 
+COLORS_JSON="scripts/update-tokens/colors.json"
+PNG_FOLDER="images/migration/png"
+
+# Collects keys of tokens whose image was just (re)fetched, so their stale
+# color can be recomputed downstream. See the invalidation pass after the loop.
+INVALIDATED_KEYS=$(mktemp)
+trap 'rm -f "$INVALIDATED_KEYS"' EXIT
+
 # Read the JSON file and parse it
 images=$(jq -c '.[]' ./scripts/update-tokens/new-token-images.json)
 
@@ -97,6 +105,11 @@ for image in ${images[@]}; do
 
     if [ $? -eq 0 ]; then
         echo -e "\nImage saved for $fileName"
+        # The webp was missing above, so this is a fresh fetch. Drop the cached
+        # png and queue the colors.json entry for removal so the color step
+        # derives the color from this image.
+        rm -f "$PNG_FOLDER/${fileName}.png"
+        printf '%s\n' "$fileName" >> "$INVALIDATED_KEYS"
     else
         echo -e "\nImage saving failed for $imageUrl"
     fi
@@ -104,6 +117,23 @@ for image in ${images[@]}; do
     # Clean up temporary files
     rm -f /tmp/${fileName}_resized.png /tmp/${fileName}_resized.webp /tmp/$fileName
 done
+
+# Remove the colors.json entry for every freshly fetched token so the color
+# step recomputes it — colors.js and convert-webp-to-png.sh skip tokens that
+# already have a non-empty bgColor. One pass to avoid rewriting the large JSON
+# file per token.
+if [ -s "$INVALIDATED_KEYS" ] && [ -f "$COLORS_JSON" ]; then
+    tmp=$(mktemp)
+    if jq --rawfile keys "$INVALIDATED_KEYS" \
+        'reduce ($keys | split("\n") | map(select(length > 0))[]) as $k (.; del(.tokens[$k]))' \
+        "$COLORS_JSON" > "$tmp"; then
+        mv "$tmp" "$COLORS_JSON"
+        echo -e "\nInvalidated $(grep -c . "$INVALIDATED_KEYS") stale color entr(ies) for recompute."
+    else
+        rm -f "$tmp"
+        echo -e "\nWarning: failed to invalidate stale color entries in $COLORS_JSON."
+    fi
+fi
 
 # Final message
 echo -e "\nAll images processed."

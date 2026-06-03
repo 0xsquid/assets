@@ -52,7 +52,10 @@ export function getAverageColor(url, { saveHighlight = false } = {}) {
         const radius = Math.min(width, height) / 2 // Circle radius
         const innerRadius = radius - 7 // Padding
 
-        const colorCounts = {}
+        let rSum = 0
+        let gSum = 0
+        let bSum = 0
+        let sampledCount = 0
 
         // Process pixels and highlight relevant parts
         for (let y = 0; y < height; y++) {
@@ -65,11 +68,17 @@ export function getAverageColor(url, { saveHighlight = false } = {}) {
             // Check if the pixel is within the circular border
             if (distance >= innerRadius && distance <= radius) {
               const index = (y * width + x) * 4 // Get pixel index
-              const r = data[index]
-              const g = data[index + 1]
-              const b = data[index + 2]
-              const color = `${r},${g},${b}`
-              colorCounts[color] = (colorCounts[color] || 0) + 1
+
+              // Fully transparent pixels carry no visible color (the canvas
+              // reports them as 0,0,0), so they are excluded from the average.
+              if (data[index + 3] === 0) {
+                continue
+              }
+
+              rSum += data[index]
+              gSum += data[index + 1]
+              bSum += data[index + 2]
+              sampledCount++
 
               // Highlight the pixel in red
               data[index] = 255 // Red
@@ -105,26 +114,22 @@ export function getAverageColor(url, { saveHighlight = false } = {}) {
           })
         }
 
-        // Find the dominant color
-        let dominantColor
-        let maxCount = 0
-        for (const color in colorCounts) {
-          if (colorCounts[color] > maxCount) {
-            dominantColor = color
-            maxCount = colorCounts[color]
-          }
-        }
-
-        if (!dominantColor) {
+        if (sampledCount === 0) {
           reject(
             new Error(
-              "No pixels sampled — image may be empty, fully transparent, or smaller than the sampling ring."
+              "No opaque pixels sampled — image may be empty, fully transparent, or smaller than the sampling ring."
             )
           )
           return
         }
 
-        resolve(`rgb(${dominantColor})`)
+        // Represent the icon by the mean of its opaque edge pixels, so a shaded
+        // or gradient body resolves to its average color.
+        const r = Math.round(rSum / sampledCount)
+        const g = Math.round(gSum / sampledCount)
+        const b = Math.round(bSum / sampledCount)
+
+        resolve(`rgb(${r},${g},${b})`)
       })
       .catch(err => reject(err))
   })
