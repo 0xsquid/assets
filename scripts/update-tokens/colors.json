@@ -44635,6 +44635,22 @@
     "solana-mainnet-beta_bpiecasntw8lvgyimofpncu5ekrjrsvkz5vy7mr9pump": {
       "bgColor": "rgb(12,14,18)",
       "textColor": "#fff"
+    },
+    "solana-mainnet-beta_dxxcq4ty5e4pbxybybmnxzjhvmzv1gvraxow5tcc5kbu": {
+      "bgColor": "rgb(1,1,0)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_bm3dgkzrjh7eaz1gbh1r2zhkp7nzuopnjhjekoxepump": {
+      "bgColor": "rgb(116,155,174)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_9kwt8guemkqhnmc4mvb2iuaybfjzvvmm5lwffkfcpump": {
+      "bgColor": "rgb(0,0,0)",
+      "textColor": "#fff"
+    },
+    "canton_usdc.bcantonwallet-asset-relayer-instrument-operator12202e6dd1f885994b22ca64e10582328bcd1a31b4fe69bf529982d31d57c8cab71c": {
+      "bgColor": "rgb(40,117,202)",
+      "textColor": "#fff"
     }
   },
   "chains": {
