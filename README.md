@@ -101,4 +101,4 @@ Integration tests are skipped if `.env` or `SQUID_API_URL` is not configured.
 
 ## Automation
 
-The token refresh pipeline runs automatically every 6 hours via the GitHub Actions workflow at `.github/workflows/update-tokens.yml`. It calls `yarn update-tokens` and pushes any image / color diffs to `main`. You can also trigger it manually from the Actions tab ("Run workflow"). Repo variables `SQUID_API_URL` and `SQUID_INTEGRATOR_ID` must be configured (Settings → Secrets and variables → Actions → Variables) for the workflow to authenticate.
+The token refresh pipeline runs automatically once per day via the GitHub Actions workflow defined in `.github/workflows/update-tokens.yml`. It calls `yarn update-tokens` and pushes any image / color diffs to `main`. You can also trigger it manually from the Actions tab ("Run workflow"). Repo variables `SQUID_API_URL` and `SQUID_INTEGRATOR_ID` must be configured (Settings → Secrets and variables → Actions → Variables) for the workflow to authenticate.
