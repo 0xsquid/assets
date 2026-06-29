@@ -44651,6 +44651,14 @@
     "canton_usdc.bcantonwallet-asset-relayer-instrument-operator12202e6dd1f885994b22ca64e10582328bcd1a31b4fe69bf529982d31d57c8cab71c": {
       "bgColor": "rgb(40,117,202)",
       "textColor": "#fff"
+    },
+    "solana-mainnet-beta_9crcn9rgt8v2imem2baks13yhmeais3rum3rpvtgpump": {
+      "bgColor": "rgb(29,27,28)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_bs532krucxbmnqxurptgqya7dhesenye2z9qkkceasy": {
+      "bgColor": "rgb(14,15,19)",
+      "textColor": "#fff"
     }
   },
   "chains": {
