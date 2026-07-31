@@ -45159,6 +45159,10 @@
     "solana-mainnet-beta_2uxayt1fvrp6fg2brxqcyksw91hefm6dg9krpbediirt": {
       "bgColor": "rgb(151,254,222)",
       "textColor": "#000"
+    },
+    "91342_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "bgColor": "rgb(98,126,234)",
+      "textColor": "#fff"
     }
   },
   "chains": {
@@ -45509,6 +45513,9 @@
     },
     "canton": {
       "bgColor": "rgb(243,255,151)"
+    },
+    "91342": {
+      "bgColor": "rgb(0,0,0)"
     }
   }
 }
