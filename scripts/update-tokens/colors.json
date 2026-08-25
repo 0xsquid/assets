@@ -46267,6 +46267,10 @@
     "999_0xb75d5ee14708e7efbea939311090061d72265608": {
       "bgColor": "rgb(15,52,51)",
       "textColor": "#fff"
+    },
+    "56_0x2859e4544c4bb03966803b044a93563bd2d0dd4d": {
+      "bgColor": "rgb(251,33,3)",
+      "textColor": "#fff"
     }
   },
   "chains": {
