@@ -47027,6 +47027,10 @@
     "8217_0xa9999999c3d05fb75ce7230e0d22f5625527d583": {
       "bgColor": "rgb(0,0,0)",
       "textColor": "#fff"
+    },
+    "danal-testnet_pci": {
+      "bgColor": "rgb(246,244,245)",
+      "textColor": "#000"
     }
   },
   "chains": {
