@@ -48515,6 +48515,9 @@
     },
     "canton": {
       "bgColor": "rgb(243,255,151)"
+    },
+    "danal-testnet": {
+      "bgColor": ""
     }
   }
 }
