@@ -48207,6 +48207,10 @@
     "999_0xddfed493a114d610c5709fefd22baef40dc23428": {
       "bgColor": "rgb(36,71,67)",
       "textColor": "#fff"
+    },
+    "solana-mainnet-beta_ponsfqukq512apeyjvghwvisun4x1mhcqhvh2paq4jn": {
+      "bgColor": "rgb(171,174,171)",
+      "textColor": "#fff"
     }
   },
   "chains": {
@@ -48263,6 +48267,9 @@
     },
     "4217": {
       "bgColor": "#000"
+    },
+    "4663": {
+      "bgColor": "rgb(204,255,0)"
     },
     "5000": {
       "bgColor": "rgb(0,0,0)"
