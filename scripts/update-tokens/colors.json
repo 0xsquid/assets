@@ -43348,6 +43348,10 @@
       "bgColor": "rgb(39,117,202)",
       "textColor": "#fff"
     },
+    "xrpl-testnet_524c555344000000000000000000000000000000.rphtf2gdhqmnmjj6dzkbdj3clime6vzqas": {
+      "bgColor": "rgb(0,105,254)",
+      "textColor": "#fff"
+    },
     "8453_0x2b8126fa772931157c1ee3508eed6616ca755d0d": {
       "bgColor": "rgb(255,255,255)",
       "textColor": "#000"
