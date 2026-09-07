@@ -48383,6 +48383,10 @@
     "solana-mainnet-beta_dlvpmv8r4otbc1dixu5yhlbbcmnvftckgf3xfzltpump": {
       "bgColor": "rgb(181,170,158)",
       "textColor": "#fff"
+    },
+    "solana-mainnet-beta_hcrlc9vdgjlek154xdawfb1dmvj98dosqcwthgqidejr": {
+      "bgColor": "rgb(181,166,148)",
+      "textColor": "#fff"
     }
   },
   "chains": {
