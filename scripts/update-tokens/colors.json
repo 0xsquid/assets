@@ -49031,6 +49031,22 @@
     "solana-mainnet-beta_xsdmtc5epfzjoczdn2sjp98xpcssr2cqdzaujsvhnxt": {
       "bgColor": "rgb(181,20,47)",
       "textColor": "#fff"
+    },
+    "5042_0x3600000000000000000000000000000000000000": {
+      "bgColor": "rgb(39,117,202)",
+      "textColor": "#fff"
+    },
+    "130_0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+      "bgColor": "rgb(98,126,234)",
+      "textColor": "#fff"
+    },
+    "130_0x4200000000000000000000000000000000000006": {
+      "bgColor": "rgb(255,255,255)",
+      "textColor": "#000"
+    },
+    "130_0x078d782b760474a361dda0af3839290b0ef57ad6": {
+      "bgColor": "rgb(39,117,202)",
+      "textColor": "#fff"
     }
   },
   "chains": {
@@ -49393,6 +49409,12 @@
     },
     "danal-testnet": {
       "bgColor": "rgb(245,243,244)"
+    },
+    "130": {
+      "bgColor": "rgb(245,15,180)"
+    },
+    "5042": {
+      "bgColor": "rgb(27,49,88)"
     }
   }
 }
