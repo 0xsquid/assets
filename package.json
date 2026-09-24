@@ -2,7 +2,6 @@
   "type": "module",
   "scripts": {
     "convert": "bash scripts/convert.sh",
-    "compare": "bash scripts/compare_folders_size.sh",
     "setup:macos": "brew install librsvg webp imagemagick jq wget ffmpeg",
     "setup:linux": "sudo apt-get update && sudo apt-get install librsvg2-bin webp imagemagick jq wget ffmpeg",
     "update-tokens": "node scripts/update-tokens/fetch-new-tokens.js && bash scripts/update-tokens/save-new-tokens.sh && yarn update-colors",
