@@ -10,9 +10,9 @@ set -euo pipefail
 prefix=${1:?usage: purge-list.sh <destination-prefix>}
 base="https://assets.squidrouter.com/$prefix"
 
-sed -nE 's/^.* INFO  : (.*): (Copied \(replaced\)|Deleted)$/\1/p' \
+sed -nE 's/^.* INFO  : (.*): (Copied \(replaced existing\)|Deleted)$/\1/p' \
   | jq -Rn --arg base "$base" '
-      [inputs | select(length > 0) | "\($base)/\(.)"]
+      [inputs | select(length > 0) | "\($base)/\(split("/") | map(@uri) | join("/"))"]
       | select(length > 0)
       | _nwise(30)
       | {files: .}

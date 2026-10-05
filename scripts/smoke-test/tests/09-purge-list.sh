@@ -11,14 +11,16 @@ script=scripts/sync/purge-list.sh
 base="https://assets.squidrouter.com"
 
 fixture=$(cat <<'LOG'
+2026/10/05 10:00:00 NOTICE: Config file "/home/runner/.config/rclone/rclone.conf" not found - using defaults
 2026/10/05 10:00:00 INFO  : webp128/chains/chain-a.webp: Copied (new)
-2026/10/05 10:00:00 INFO  : webp128/chains/chain-b.webp: Copied (replaced)
+2026/10/05 10:00:00 INFO  : webp128/chains/chain-b.webp: Copied (replaced existing)
 2026/10/05 10:00:01 INFO  : png128/wallets/wallet-c.png: Deleted
-2026/10/05 10:00:01 INFO  : master/providers/provider d.svg: Copied (replaced)
+2026/10/05 10:00:01 INFO  : master/providers/provider d.svg: Copied (replaced existing)
 2026/10/05 10:00:01 INFO  : There was nothing to transfer
-2026/10/05 10:00:02 INFO  :
+2026/10/05 10:00:01 INFO  : migration/webp/1_ 0x1111.webp: Copied (replaced existing)
+2026/10/05 10:00:02 INFO  : 
 Transferred:   	  1.234 KiB / 1.234 KiB, 100%, 0 B/s, ETA -
-Checks:              3 / 3, 100%
+Checks:              3 / 3, 100%, Listed 4
 Deleted:             1 (files), 0 (dirs), 0 B (freed)
 Transferred:            2 / 2, 100%
 Elapsed time:         0.5s
@@ -33,12 +35,16 @@ files=$(printf '%s\n' "$out" | jq -r '.files[]')
 expected=$(printf '%s\n' \
   "$base/images/webp128/chains/chain-b.webp" \
   "$base/images/png128/wallets/wallet-c.png" \
-  "$base/images/master/providers/provider d.svg")
+  "$base/images/master/providers/provider%20d.svg" \
+  "$base/images/migration/webp/1_%200x1111.webp")
 [ "$files" = "$expected" ] || { echo "unexpected files:"; echo "$files"; exit 1; }
+
+# Paths with spaces must be percent-encoded.
+case "$files" in *" "*) echo "unencoded space in: $files"; exit 1;; esac
 
 # 31 replaced entries must produce 2 batches: 30 + 1.
 big=$(for i in $(seq 1 31); do
-  printf '2026/10/05 10:00:00 INFO  : pfps/webp/pfp%s.webp: Copied (replaced)\n' "$i"
+  printf '2026/10/05 10:00:00 INFO  : pfps/webp/pfp%s.webp: Copied (replaced existing)\n' "$i"
 done)
 out=$(printf '%s\n' "$big" | bash "$script" squid-brand-assets) || { echo "script failed on 31 entries"; exit 1; }
 sizes=$(printf '%s\n' "$out" | jq -c '.files | length' | tr '\n' ' ')

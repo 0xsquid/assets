@@ -140,9 +140,9 @@ The repo Variables `SQUID_API_URL` and `SQUID_INTEGRATOR_ID` must be set (Settin
 
 The workflow `.github/workflows/sync-assets.yml` copies `images/`, `squid-brand-assets/` and `scripts/update-tokens/colors.json` to a Cloudflare R2 bucket. The bucket serves `https://assets.squidrouter.com`. The paths are the same as in this repo.
 
-It runs on each push to `main` that changes those paths. The "Update tokens" workflow also calls it after its commit. You can start it from the Actions tab.
+It runs on each push to `main` that changes those paths. The "Update tokens" workflow also calls it after its commit. You can start it from the Actions tab. The sync always reads `main`, so a run of "Update tokens" on another branch does not sync that branch.
 
-It uses `rclone sync`, so it also deletes bucket files that you remove from `main`. After the sync, it purges the replaced and deleted URLs from the Cloudflare cache. New files need no purge.
+It uses `rclone sync`, so it also deletes bucket files that you remove from `main`. The first run deletes every bucket object that is not in the repo. After the sync, it purges the replaced and deleted URLs from the Cloudflare cache. New files need no purge.
 
 Browsers cache each image for 1 day. If a consumer must show a replaced image before that, add a query string, for example `?v=2`.
 
