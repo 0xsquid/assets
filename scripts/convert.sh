@@ -21,9 +21,9 @@ WEBP_DIR="images/webp"
 # Folders to include (only these will be converted)
 INCLUDE_FOLDERS=("chains" "wallets" "providers" "cash")
 
-# Extra sources outside images/master: "<source dir>:<output base>:<size>".
-# Outputs go to <output base>/png and <output base>/webp.
-EXTRA_TARGETS=("squid-brand-assets/pfps:squid-brand-assets/pfps:256")
+# Extra sources outside images/master: "<source dir>:<output base>:<size>[:<formats>]".
+# <formats> is "png,webp" (default) or "webp". Outputs go to <output base>/<format>.
+EXTRA_TARGETS=("squid-brand-assets/pfps:squid-brand-assets/pfps:256:webp")
 
 # ANSI color codes
 RED='\033[0;31m'
@@ -75,6 +75,7 @@ convert_files() {
     local output_dir_webp=$3
     local base_dir=${4:-$MASTER_DIR}
     local size=${5:-$SIZE}
+    local want_png=${6:-1}
 
     # Convert SVG files
     for svg_file in "$input_dir"/*.svg; do
@@ -88,7 +89,7 @@ convert_files() {
             mkdir -p "$output_dir_webp/$subdir"
 
             # Omit conversion if PNG file already exists
-            if [ ! -f "$output_dir_png/${subdir:+$subdir/}$filename.png" ]; then
+            if [ ! -f "$output_dir_png/${subdir:+$subdir/}$filename.png" ] && { [ "$want_png" = 1 ] || [ ! -f "$output_dir_webp/${subdir:+$subdir/}$filename.webp" ]; }; then
                 # Convert SVG to PNG
                 rsvg-convert -w "$size" -h "$size" "$svg_file" -o "$output_dir_png/${subdir:+$subdir/}$filename.png"
                 if [ $? -eq 0 ]; then
@@ -123,7 +124,7 @@ convert_files() {
             mkdir -p "$output_dir_webp/$subdir"
 
             # Omit conversion if resized PNG file already exists
-            if [ ! -f "$output_dir_png/${subdir:+$subdir/}$filename.png" ]; then
+            if [ ! -f "$output_dir_png/${subdir:+$subdir/}$filename.png" ] && { [ "$want_png" = 1 ] || [ ! -f "$output_dir_webp/${subdir:+$subdir/}$filename.webp" ]; }; then
                 # Resize PNG
                 "$MAGICK" "$png_file" -resize "${size}x${size}" "$output_dir_png/${subdir:+$subdir/}$filename.png"
                 if [ $? -eq 0 ]; then
@@ -166,7 +167,8 @@ for folder in "${INCLUDE_FOLDERS[@]}"; do
 done
 
 for target in "${EXTRA_TARGETS[@]}"; do
-    IFS=: read -r source_dir output_base target_size <<< "$target"
+    IFS=: read -r source_dir output_base target_size target_formats <<< "$target"
+    target_formats=${target_formats:-png,webp}
 
     if [ ! -d "$source_dir" ]; then
         print_color_message "Warning: Folder $source_dir does not exist, skipping..." "$YELLOW"
@@ -174,8 +176,16 @@ for target in "${EXTRA_TARGETS[@]}"; do
     fi
 
     print_color_message "Processing folder: $source_dir at ${target_size}px" "$YELLOW"
-    mkdir -p "$output_base/png" "$output_base/webp"
-    convert_files "$source_dir" "$output_base/png" "$output_base/webp" "$source_dir" "$target_size"
+    if [[ ",$target_formats," == *,png,* ]]; then
+        mkdir -p "$output_base/png" "$output_base/webp"
+        convert_files "$source_dir" "$output_base/png" "$output_base/webp" "$source_dir" "$target_size"
+    else
+        # WebP is encoded from an intermediate PNG; keep it out of the repo.
+        tmp_png_dir=$(mktemp -d)
+        mkdir -p "$output_base/webp"
+        convert_files "$source_dir" "$tmp_png_dir" "$output_base/webp" "$source_dir" "$target_size" 0
+        rm -rf "$tmp_png_dir"
+    fi
 done
 
 echo "Conversion completed."

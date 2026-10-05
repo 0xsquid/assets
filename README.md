@@ -1,6 +1,6 @@
 # Squid Assets
 
-Token, chain, wallet, provider, cash and avatar images for Squid front ends. Consumers load them from `https://assets.squidrouter.com`.
+Token, chain, wallet, provider and cash images, and WebP avatars, for Squid front ends. Consumers load them from `https://assets.squidrouter.com`.
 
 ## Local setup
 
@@ -36,11 +36,11 @@ A designer or developer drops the source image into `images/master/<type>/`. `ya
 images/master/<type>/<name>.svg  ──yarn convert──▶  images/png128/<type>/<name>.png + images/webp128/<type>/<name>.webp
 ```
 
-`yarn convert` only processes `chains`, `wallets`, `providers` and `cash`. It skips outputs that already exist.
+`yarn convert` only processes `chains`, `wallets`, `providers` and `cash`. It skips outputs that already exist. To refresh an existing image, delete its `png128` and `webp128` outputs first. Then run `yarn convert`.
 
 ### Avatars (manual)
 
-The avatar SVGs live in `squid-brand-assets/pfps/`. `yarn convert` renders them to `squid-brand-assets/pfps/png/` and `squid-brand-assets/pfps/webp/` at 256x256. Keep the SVGs.
+The avatar SVGs live in `squid-brand-assets/pfps/`. `yarn convert` renders them to `squid-brand-assets/pfps/webp/` at 256x256. It does not write PNG avatars. Keep the SVGs.
 
 ### Tokens (automated)
 
@@ -97,7 +97,7 @@ These folders exist for old consumers. Do not add new work there. `yarn convert`
 3. Name the file after the Squid API identifier (see [Naming](#naming)).
 4. Drop it in `images/master/<type>/`.
 5. Run `yarn convert`. It writes `images/png128/<type>/<name>.png` and `images/webp128/<type>/<name>.webp`. It needs only the system dependencies from [Local setup](#local-setup). It does not need a `.env` file.
-6. To replace an existing icon, delete the old files in `png128` and `webp128` first. Then run `yarn convert` again.
+6. To refresh an existing chain, wallet or provider image, delete its old files in `png128` and `webp128` first. `yarn convert` skips outputs that already exist. Then run `yarn convert` again.
 7. Commit the master together with the generated PNG and WebP files. Open a PR.
 
 ### Fix or refresh a token image
@@ -126,7 +126,7 @@ Needs `SQUID_API_URL` and `SQUID_INTEGRATOR_ID`.
 
 ### `yarn convert [--size=N]`
 
-Converts SVGs and resizes PNGs under `images/master/{chains,wallets,providers,cash}`. Writes to `images/png<SIZE>/` and `images/webp<SIZE>/`. Default size is 128. Also renders `squid-brand-assets/pfps/*.svg` to `squid-brand-assets/pfps/{png,webp}/` at 256. Skips outputs that already exist.
+Converts SVGs and resizes PNGs under `images/master/{chains,wallets,providers,cash}`. Writes to `images/png<SIZE>/` and `images/webp<SIZE>/`. Default size is 128. Also renders `squid-brand-assets/pfps/*.svg` to `squid-brand-assets/pfps/webp/` at 256 (WebP only). Skips outputs that already exist.
 
 ## Automation
 
@@ -143,6 +143,8 @@ The workflow `.github/workflows/sync-assets.yml` copies `images/`, `squid-brand-
 It runs on each push to `main` that changes those paths. The "Update tokens" workflow also calls it after its commit. You can start it from the Actions tab. The sync always reads `main`, so a run of "Update tokens" on another branch does not sync that branch.
 
 It uses `rclone sync`, so it also deletes bucket files that you remove from `main`. The first run deletes every bucket object that is not in the repo. After the sync, it purges the replaced and deleted URLs from the Cloudflare cache. New files need no purge.
+
+To refresh an existing chain, wallet or provider image, delete its `png128` and `webp128` outputs before you run `yarn convert`. `yarn convert` skips outputs that already exist, so it does not replace them. Commit the new outputs. The sync then replaces and purges them.
 
 Browsers cache each image for 1 day. If a consumer must show a replaced image before that, add a query string, for example `?v=2`.
 
@@ -174,8 +176,7 @@ The secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `CF_ZON
 ├── squid-brand-assets
 │   └── pfps
 │       ├── pfp<N>.svg              # avatar sources
-│       ├── png/                    # `yarn convert` output, 256x256
-│       └── webp/                   # `yarn convert` output, 256x256
+│       └── webp/                   # `yarn convert` output, 256x256 WebP only
 └── scripts
     ├── convert.sh
     ├── smoke-test/
