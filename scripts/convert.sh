@@ -19,7 +19,7 @@ PNG_DIR="images/png"
 WEBP_DIR="images/webp"
 
 # Folders to include (only these will be converted)
-INCLUDE_FOLDERS=("chains" "wallets" "providers")
+INCLUDE_FOLDERS=("chains" "wallets" "providers" "cash")
 
 # ANSI color codes
 RED='\033[0;31m'
