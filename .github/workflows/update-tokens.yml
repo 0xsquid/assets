@@ -130,5 +130,6 @@ jobs:
     # The commit above uses GITHUB_TOKEN and [skip ci], so it never triggers
     # the push event of sync-assets.yml. Call it from here instead.
     needs: update-tokens
+    if: ${{ !cancelled() }}
     uses: ./.github/workflows/sync-assets.yml
     secrets: inherit

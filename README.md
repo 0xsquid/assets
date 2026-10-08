@@ -143,15 +143,17 @@ The workflow `.github/workflows/sync-assets.yml` copies `images/`, `squid-brand-
 
 It runs on each push to `main` that changes those paths. The "Update tokens" workflow also calls it after its commit. You can start it from the Actions tab. The sync always reads `main`, so a run of "Update tokens" on another branch does not sync that branch.
 
-It uses `rclone sync`, so it also deletes bucket files that you remove from `main`. The first run deletes every bucket object that is not in the repo. After the sync, it purges the replaced and deleted URLs from the Cloudflare cache. New files need no purge.
+It uses `rclone sync`, so it also deletes bucket files that you remove from `main`. The first run deletes every bucket object that is not in the repo. If the sync replaces or deletes a file, the job purges the whole CDN hostname from the Cloudflare cache. New files need no purge.
 
-To refresh an existing image, delete its generated WebP before you run `yarn convert`. `yarn convert` skips outputs that already exist, so it does not replace them. Commit the new outputs. The sync then replaces and purges them.
+If a sync's purge failed or was cancelled, run Sync assets with `purge_host`.
+
+To refresh an existing image, delete its generated WebP before you run `yarn convert`. `yarn convert` skips outputs that already exist, so it does not replace them. Commit the new outputs. The sync then replaces them and purges the hostname.
 
 Browsers cache each image for 1 day. If a consumer must show a replaced image before that, add a query string, for example `?v=2`.
 
 The old `raw.githubusercontent.com/0xsquid/assets/main/...` paths stay valid for old clients. New code must use `https://assets.squidrouter.com`.
 
-The secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `CF_ZONE_ID` and `CF_API_TOKEN` must be set.
+The job uses the GitHub Environment `cdn`. It must have the secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `CF_ZONE_ID` and `CF_PURGE_TOKEN`, and the variables `R2_BUCKET` and `PUBLIC_BASE_URL`.
 
 ## Folder structure
 
@@ -181,8 +183,6 @@ The secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `CF_ZON
 └── scripts
     ├── convert.sh
     ├── smoke-test/
-    ├── sync/
-    │   └── purge-list.sh           # rclone log to Cloudflare purge bodies
     └── update-tokens/
         ├── fetch-new-tokens.js      # entry: queues missing webps
         ├── save-new-tokens.sh       # downloads and converts queued images
