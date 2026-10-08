@@ -129,7 +129,8 @@ jobs:
   sync:
     # The commit above uses GITHUB_TOKEN and [skip ci], so it never triggers
     # the push event of sync-assets.yml. Call it from here instead.
+    # The cdn environment only deploys from main, so skip other branches.
     needs: update-tokens
-    if: ${{ !cancelled() }}
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
     uses: ./.github/workflows/sync-assets.yml
     secrets: inherit
