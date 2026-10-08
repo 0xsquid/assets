@@ -5,4 +5,5 @@ scripts/update-tokens/url_fetch_errors.json
 images/migration/png/
 images/highlighted-area/
 bun.lock
-package-lock.json*:Zone.Identifier
+package-lock.json
+*:Zone.Identifier
