@@ -66,6 +66,7 @@ jobs:
           sync scripts/update-tokens/colors.json scripts/update-tokens colors
 
       - name: Purge the CDN hostname if anything was replaced or deleted
+        if: ${{ !cancelled() }}
         env:
           CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
           CF_PURGE_TOKEN: ${{ secrets.CF_PURGE_TOKEN }}
