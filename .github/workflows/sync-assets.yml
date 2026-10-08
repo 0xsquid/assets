@@ -80,9 +80,11 @@ jobs:
           if [ "$FORCE" = "true" ] || grep -qE ': (Copied \(replaced existing\)|Deleted)$' "$RUNNER_TEMP"/rclone-*.log; then
             host=${PUBLIC_BASE_URL#*://}
             host=${host%%/*}
-            curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" \
+            response=$(curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" \
               -H "Authorization: Bearer $CF_PURGE_TOKEN" -H "Content-Type: application/json" \
-              --data "$(jq -nc --arg host "$host" '{hosts: [$host]}')" | jq -e '.success == true'
+              --data "$(jq -nc --arg host "$host" '{hosts: [$host]}')")
+            echo "$response"
+            echo "$response" | jq -e '.success == true' > /dev/null
           else
             echo "Nothing replaced or deleted; no purge needed"
           fi
