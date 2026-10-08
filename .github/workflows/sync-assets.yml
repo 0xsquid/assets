@@ -37,10 +37,13 @@ jobs:
           RCLONE_RELEASE: v1.75.1
         run: |
           set -euo pipefail
-          curl -fsSLo "$RUNNER_TEMP/rclone.zip" \
-            "https://downloads.rclone.org/$RCLONE_RELEASE/rclone-$RCLONE_RELEASE-linux-amd64.zip"
-          unzip -q "$RUNNER_TEMP/rclone.zip" -d "$RUNNER_TEMP"
-          sudo install "$RUNNER_TEMP/rclone-$RCLONE_RELEASE-linux-amd64/rclone" /usr/local/bin/rclone
+          cd "$RUNNER_TEMP"
+          zip="rclone-$RCLONE_RELEASE-linux-amd64.zip"
+          curl -fsSLO "https://downloads.rclone.org/$RCLONE_RELEASE/$zip"
+          curl -fsSLO "https://downloads.rclone.org/$RCLONE_RELEASE/SHA256SUMS"
+          awk -v f="$zip" '$2 == f' SHA256SUMS | sha256sum -c -
+          unzip -q "$zip"
+          sudo install "rclone-$RCLONE_RELEASE-linux-amd64/rclone" /usr/local/bin/rclone
           rclone version
 
       - name: Sync to R2
