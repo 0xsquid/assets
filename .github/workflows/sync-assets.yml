@@ -58,7 +58,6 @@ jobs:
             rclone sync "$1" "$BUCKET/$2" \
               --checksum \
               --exclude .DS_Store \
-              --exclude "*:Zone.Identifier" \
               --header-upload "Cache-Control: public, max-age=86400" \
               -v 2>&1 | tee "$RUNNER_TEMP/rclone-$3.log"
           }
