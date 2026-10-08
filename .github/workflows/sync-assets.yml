@@ -34,13 +34,13 @@ jobs:
 
       - name: Install rclone
         env:
-          RCLONE_VERSION: v1.75.1
+          RCLONE_RELEASE: v1.75.1
         run: |
           set -euo pipefail
           curl -fsSLo "$RUNNER_TEMP/rclone.zip" \
-            "https://downloads.rclone.org/$RCLONE_VERSION/rclone-$RCLONE_VERSION-linux-amd64.zip"
+            "https://downloads.rclone.org/$RCLONE_RELEASE/rclone-$RCLONE_RELEASE-linux-amd64.zip"
           unzip -q "$RUNNER_TEMP/rclone.zip" -d "$RUNNER_TEMP"
-          sudo install "$RUNNER_TEMP/rclone-$RCLONE_VERSION-linux-amd64/rclone" /usr/local/bin/rclone
+          sudo install "$RUNNER_TEMP/rclone-$RCLONE_RELEASE-linux-amd64/rclone" /usr/local/bin/rclone
           rclone version
 
       - name: Sync to R2
