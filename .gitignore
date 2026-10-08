@@ -6,3 +6,4 @@ images/migration/png/
 images/highlighted-area/
 bun.lock
 package-lock.json
+*:Zone.Identifier

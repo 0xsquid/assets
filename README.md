@@ -1,6 +1,6 @@
 # Squid Assets
 
-Token, chain, wallet and provider images for Squid front ends.
+Images for Squid front ends.
 
 ## Local setup
 
@@ -24,19 +24,23 @@ Token, chain, wallet and provider images for Squid front ends.
    SQUID_INTEGRATOR_ID=
    ```
 
-To add chains, wallets or providers, you need only step 1 and `yarn convert`.
+To add an image of a manual type, you need only step 1 and `yarn convert`.
 
 ## How the pipeline works
 
-### Chains, wallets and providers (manual)
+### Manual types
 
-A designer or developer drops the source image into `images/master/<type>/`. `yarn convert` renders it to `images/png128/<type>/` and `images/webp128/<type>/` at 128x128. The master and the generated outputs are committed together in a PR.
+A designer or developer drops the source image into `images/master/<type>/`. `yarn convert` renders it to `images/webp128/<type>/` at 128x128. The master and the generated outputs are committed together in a PR.
 
 ```
-images/master/<type>/<name>.svg  ──yarn convert──▶  images/png128/<type>/<name>.png + images/webp128/<type>/<name>.webp
+images/master/<type>/<name>.svg  ──yarn convert──▶  images/webp128/<type>/<name>.webp
 ```
 
-`yarn convert` only processes `chains`, `wallets` and `providers`. It skips outputs that already exist.
+The manual types are the folders in `INCLUDE_FOLDERS` in `scripts/convert.sh`. `yarn convert` processes only these folders. It skips outputs that already exist. To refresh an existing image, delete its `webp128` output first. Then run `yarn convert`.
+
+### Avatars (manual)
+
+The avatar SVGs live in `squid-brand-assets/pfps/`. `yarn convert` renders them to `squid-brand-assets/pfps/webp/` at 256x256. Keep the SVGs.
 
 ### Tokens (automated)
 
@@ -52,17 +56,21 @@ Do not add token files by hand. If you need to fix a token image, see [Fix or re
 
 ### Shape
 
-Chains, wallets and providers: square, full canvas, no rounded corners, solid brand background, glyph centered with some padding. Tokens: rounded or circular. Front ends require these shapes.
+Manual types: square, full canvas, no rounded corners, solid brand background, glyph centered with some padding. Tokens: rounded or circular. Front ends require these shapes.
 
 Backgrounds must be one solid flat color. Do not use gradients. `yarn update-colors` computes `bgColor` as the average color of the image for each chain and token, and a gradient gives a wrong or muddy color.
 
+### URL
+
+Consumers must load images from `https://assets.squidrouter.com`. Do not use `raw.githubusercontent.com`.
+
 ### Format and quality
 
-The master is the official SVG whenever it exists, so we keep the highest quality. Use a PNG master only when no SVG exists. Outputs are always 128x128 PNG and WebP. Never edit files in `png128` or `webp128` by hand. Regenerate them.
+The master is the official SVG whenever it exists, so we keep the highest quality. Use a PNG master only when no SVG exists. Outputs are always WebP. Never edit files in `webp128` by hand. Regenerate them.
 
 ### Naming
 
-Chain, wallet and provider file name = the Squid API identifier, lowercase, with the `.svg` extension. Examples:
+Manual type file name = the Squid API identifier, lowercase, with the `.svg` extension. Examples:
 
 - `images/master/chains/arbitrum.svg`
 - `images/master/providers/uniswap.svg`
@@ -77,20 +85,21 @@ These folders exist for old consumers. Do not add new work there. `yarn convert`
 - `images/tokens/`
 - `images/chainIcons/`
 - `images/stocks/`
+- `images/png128/`: kept for old widget deployments. `yarn convert` does not write it anymore.
 - `images/master/tokens/`
 - `images/master/onramps/`
 
 ## How to
 
-### Add a chain, wallet or provider image
+### Add an image of a manual type
 
 1. Get the official SVG. Use a PNG only when no SVG exists.
 2. Apply the [shape convention](#shape).
 3. Name the file after the Squid API identifier (see [Naming](#naming)).
 4. Drop it in `images/master/<type>/`.
-5. Run `yarn convert`. It writes `images/png128/<type>/<name>.png` and `images/webp128/<type>/<name>.webp`. It needs only the system dependencies from [Local setup](#local-setup). It does not need a `.env` file.
-6. To replace an existing icon, delete the old files in `png128` and `webp128` first. Then run `yarn convert` again.
-7. Commit the master together with the generated PNG and WebP files. Open a PR.
+5. Run `yarn convert`. It writes `images/webp128/<type>/<name>.webp`. It needs only the system dependencies from [Local setup](#local-setup). It does not need a `.env` file.
+6. To refresh an existing image, delete its old file in `webp128` first. `yarn convert` skips outputs that already exist. Then run `yarn convert` again.
+7. Commit the master together with the generated WebP file. Open a PR.
 
 ### Fix or refresh a token image
 
@@ -118,7 +127,7 @@ Needs `SQUID_API_URL` and `SQUID_INTEGRATOR_ID`.
 
 ### `yarn convert [--size=N]`
 
-Converts SVGs and resizes PNGs under `images/master/{chains,wallets,providers}`. Writes to `images/png<SIZE>/` and `images/webp<SIZE>/`. Default size is 128. Skips outputs that already exist.
+Converts SVGs and resizes PNGs in the `images/master/` folders in `INCLUDE_FOLDERS`. Writes WebP only, to `images/webp<SIZE>/`. Default size is 128. Also renders the sources in `EXTRA_TARGETS`, for example the avatars. Skips outputs that already exist.
 
 ## Automation
 
@@ -127,6 +136,24 @@ The GitHub Actions workflow is `.github/workflows/update-tokens.yml`. It commits
 You can start it manually from the Actions tab ("Run workflow"). The optional `tokens` input takes `<chainId>_<address>` keys, separated by spaces or commas. The workflow removes those images before the run so they are fetched again. If no replacement is created, it restores the previous file. Leave the input empty for a normal full update.
 
 The repo Variables `SQUID_API_URL` and `SQUID_INTEGRATOR_ID` must be set (Settings > Secrets and variables > Actions > Variables).
+
+### Sync to assets.squidrouter.com
+
+The workflow `.github/workflows/sync-assets.yml` copies `images/`, `squid-brand-assets/` and `scripts/update-tokens/colors.json` to a Cloudflare R2 bucket. The bucket serves `https://assets.squidrouter.com`. The paths are the same as in this repo.
+
+It runs on each push to `main` that changes those paths. The "Update tokens" workflow also calls it after its commit. You can start it from the Actions tab. The sync always reads `main`, so a run of "Update tokens" on another branch does not sync that branch.
+
+It uses `rclone sync`, so it also deletes bucket files that you remove from `main`. The first run deletes every bucket object that is not in the repo. If the sync replaces or deletes a file, the job purges the whole CDN hostname from the Cloudflare cache. New files need no purge.
+
+If a sync's purge failed or was cancelled, run Sync assets with `purge_host`.
+
+To refresh an existing image, delete its generated WebP before you run `yarn convert`. `yarn convert` skips outputs that already exist, so it does not replace them. Commit the new outputs. The sync then replaces them and purges the hostname.
+
+Browsers cache each image for 1 day. If a consumer must show a replaced image before that, add a query string, for example `?v=2`.
+
+The old `raw.githubusercontent.com/0xsquid/assets/main/...` paths stay valid for old clients. New code must use `https://assets.squidrouter.com`.
+
+The job uses the GitHub Environment `cdn`. It must have the secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `CF_ZONE_ID` and `CF_PURGE_TOKEN`, and the variables `R2_BUCKET` and `PUBLIC_BASE_URL`.
 
 ## Folder structure
 
@@ -138,16 +165,21 @@ The repo Variables `SQUID_API_URL` and `SQUID_INTEGRATOR_ID` must be set (Settin
 │   │   ├── chains/
 │   │   ├── wallets/
 │   │   ├── providers/
+│   │   ├── cash/
 │   │   ├── onramps/                # legacy
 │   │   └── tokens/                 # legacy
-│   ├── png128/                     # `yarn convert` output (chains, wallets, providers)
-│   ├── webp128/                    # `yarn convert` output (chains, wallets, providers)
+│   ├── png128/                     # legacy, kept for old widget deployments
+│   ├── webp128/                    # `yarn convert` output, one folder per type
 │   ├── migration
 │   │   ├── webp/                   # `yarn update-tokens` output, committed
 │   │   └── png/                    # intermediate PNGs for colors, gitignored
 │   ├── tokens/                     # legacy
 │   ├── chainIcons/                 # legacy
 │   └── stocks/                     # legacy
+├── squid-brand-assets
+│   └── pfps
+│       ├── pfp<N>.svg              # avatar sources
+│       └── webp/                   # `yarn convert` output, 256x256
 └── scripts
     ├── convert.sh
     ├── smoke-test/

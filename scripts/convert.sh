@@ -10,151 +10,97 @@ command -v cwebp >/dev/null || { echo "cwebp is required"; exit 1; }
 MAGICK=$(command -v magick 2>/dev/null || command -v convert)
 [ -n "$MAGICK" ] || { echo "ImageMagick is required (install via brew or apt)"; exit 1; }
 
-# Default size for the images
 SIZE=128
-
-# Define the directories
 MASTER_DIR="images/master"
-PNG_DIR="images/png"
-WEBP_DIR="images/webp"
 
 # Folders to include (only these will be converted)
-INCLUDE_FOLDERS=("chains" "wallets" "providers")
+INCLUDE_FOLDERS=("chains" "wallets" "providers" "cash")
 
-# ANSI color codes
+# Extra sources outside images/master: "<source dir>:<output base>:<size>". Outputs go to <output base>/webp.
+EXTRA_TARGETS=("squid-brand-assets/pfps:squid-brand-assets/pfps:256")
+
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
-DIM_GREY='\033[2m'
-NC='\033[0m' # No Color
+NC='\033[0m'
 
-# Function to print messages in colors
 print_color_message() {
-    local message=$1
-    local color=$2
-    echo -e "${color}${message}${NC}"
+    echo -e "${2}${1}${NC}"
 }
 
-# Function to handle script termination
-cleanup() {
-    echo ""
-    print_color_message "Conversion process interrupted. Cleaning up..." "$RED"
-    # Add cleanup tasks here if necessary
-    exit 1
-}
+# cwebp encodes from an intermediate PNG; keep it out of the repo.
+TMP_DIR=$(mktemp -d)
+trap 'rm -rf "$TMP_DIR"' EXIT
+trap 'echo ""; print_color_message "Conversion process interrupted." "$RED"; exit 1' SIGINT
 
-# Trap SIGINT signal (Ctrl + C)
-trap cleanup SIGINT
-
-# Parse arguments
 for arg in "$@"; do
     case $arg in
-        --size=*)
-            SIZE="${arg#*=}"
-            shift # Remove --size=value from processing
-            ;;
-        *)
-            ;;
+        --size=*) SIZE="${arg#*=}" ;;
     esac
 done
 
-# Create the output directories if they don't exist
-PNG_DIR="images/png$SIZE"
 WEBP_DIR="images/webp$SIZE"
-mkdir -p "$PNG_DIR"
-mkdir -p "$WEBP_DIR"
 
-# Function to convert files (both SVG and PNG) to PNG and WebP
+# convert_files <input dir> <output dir> <base dir> <size>
 convert_files() {
     local input_dir=$1
-    local output_dir_png=$2
-    local output_dir_webp=$3
+    local output_dir=$2
+    local base_dir=$3
+    local size=$4
 
-    # Convert SVG files
-    for svg_file in "$input_dir"/*.svg; do
-        if [ -f "$svg_file" ]; then
-            local filename=$(basename "$svg_file" .svg)
-            local subpath=${svg_file#$MASTER_DIR/}
-            local subdir=$(dirname "$subpath")
+    for src in "$input_dir"/*.svg "$input_dir"/*.png; do
+        [ -f "$src" ] || continue
 
-            mkdir -p "$output_dir_png/$subdir"
-            mkdir -p "$output_dir_webp/$subdir"
+        local ext=${src##*.}
+        local filename=$(basename "$src" ".$ext")
+        local subdir=$(dirname "${src#$base_dir/}")
+        [ "$subdir" = "." ] && subdir=""
+        local out="$output_dir/${subdir:+$subdir/}$filename.webp"
 
-            # Omit conversion if PNG file already exists
-            if [ ! -f "$output_dir_png/$subdir/$filename.png" ]; then
-                # Convert SVG to PNG
-                rsvg-convert -w "$SIZE" -h "$SIZE" "$svg_file" -o "$output_dir_png/$subdir/$filename.png"
-                if [ $? -eq 0 ]; then
-                    print_color_message "Converted $svg_file to $output_dir_png/$subdir/$filename.png" "$GREEN"
-                else
-                    print_color_message "Error converting $svg_file to PNG" "$RED"
-                fi
-            fi
+        [ -f "$out" ] && continue
+        mkdir -p "$(dirname "$out")"
 
-            # Omit conversion if WebP file already exists
-            if [ ! -f "$output_dir_webp/$subdir/$filename.webp" ]; then
-                # Convert PNG to WebP
-                cwebp "$output_dir_png/$subdir/$filename.png" -o "$output_dir_webp/$subdir/$filename.webp" -quiet
-                if [ $? -eq 0 ]; then
-                    print_color_message "Converted $svg_file to $output_dir_webp/$subdir/$filename.webp" "$GREEN"
-                else
-                    print_color_message "Error converting $svg_file to WebP" "$RED"
-                fi
-            fi
+        local tmp_png="$TMP_DIR/$filename.png"
+        if [ "$ext" = "svg" ]; then
+            rsvg-convert -w "$size" -h "$size" "$src" -o "$tmp_png"
+        else
+            "$MAGICK" "$src" -resize "${size}x${size}" "$tmp_png"
         fi
-    done
 
-    # Convert PNG files
-    for png_file in "$input_dir"/*.png; do
-        if [ -f "$png_file" ]; then
-            local filename=$(basename "$png_file" .png)
-            local subpath=${png_file#$MASTER_DIR/}
-            local subdir=$(dirname "$subpath")
-
-            mkdir -p "$output_dir_png/$subdir"
-            mkdir -p "$output_dir_webp/$subdir"
-
-            # Omit conversion if resized PNG file already exists
-            if [ ! -f "$output_dir_png/$subdir/$filename.png" ]; then
-                # Resize PNG
-                "$MAGICK" "$png_file" -resize "${SIZE}x${SIZE}" "$output_dir_png/$subdir/$filename.png"
-                if [ $? -eq 0 ]; then
-                    print_color_message "Resized $png_file to $output_dir_png/$subdir/$filename.png" "$GREEN"
-                else
-                    print_color_message "Error resizing $png_file" "$RED"
-                fi
-            fi
-
-            # Omit conversion if WebP file already exists
-            if [ ! -f "$output_dir_webp/$subdir/$filename.webp" ]; then
-                # Convert resized PNG to WebP
-                cwebp "$output_dir_png/$subdir/$filename.png" -o "$output_dir_webp/$subdir/$filename.webp" -quiet
-                if [ $? -eq 0 ]; then
-                    print_color_message "Converted $png_file to $output_dir_webp/$subdir/$filename.webp" "$GREEN"
-                else
-                    print_color_message "Error converting $png_file to WebP" "$RED"
-                fi
-            fi
+        if [ $? -eq 0 ] && cwebp "$tmp_png" -o "$out" -quiet; then
+            print_color_message "Converted $src to $out" "$GREEN"
+        else
+            print_color_message "Error converting $src to WebP" "$RED"
         fi
+        rm -f "$tmp_png"
     done
 }
 
-# Loop through only the specified folders
 echo "Converting images from: ${INCLUDE_FOLDERS[*]}"
 for folder in "${INCLUDE_FOLDERS[@]}"; do
     folder_path="$MASTER_DIR/$folder"
-    
+
     if [ ! -d "$folder_path" ]; then
         print_color_message "Warning: Folder $folder_path does not exist, skipping..." "$YELLOW"
         continue
     fi
-    
+
     print_color_message "Processing folder: $folder" "$YELLOW"
-    
-    # Process the folder and all its subdirectories
     for dir in $(find "$folder_path" -type d); do
-        convert_files "$dir" "$PNG_DIR" "$WEBP_DIR"
+        convert_files "$dir" "$WEBP_DIR" "$MASTER_DIR" "$SIZE"
     done
+done
+
+for target in "${EXTRA_TARGETS[@]}"; do
+    IFS=: read -r source_dir output_base target_size <<< "$target"
+
+    if [ ! -d "$source_dir" ]; then
+        print_color_message "Warning: Folder $source_dir does not exist, skipping..." "$YELLOW"
+        continue
+    fi
+
+    print_color_message "Processing folder: $source_dir at ${target_size}px" "$YELLOW"
+    convert_files "$source_dir" "$output_base/webp" "$source_dir" "$target_size"
 done
 
 echo "Conversion completed."

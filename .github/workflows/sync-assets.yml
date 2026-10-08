@@ -1,0 +1,85 @@
+name: Sync assets to CDN
+
+on:
+  workflow_call:
+  workflow_dispatch:
+    inputs:
+      purge_host:
+        description: "Purge the CDN hostname even if nothing changed"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "images/**"
+      - "squid-brand-assets/**"
+      - "scripts/update-tokens/colors.json"
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    environment: cdn
+    concurrency:
+      group: sync-assets
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # When called from update-tokens, github.sha is the commit before the
+          # cron's push. Sync what is on main now.
+          ref: main
+
+      - name: Install rclone
+        env:
+          RCLONE_VERSION: v1.75.1
+        run: |
+          set -euo pipefail
+          curl -fsSLo "$RUNNER_TEMP/rclone.zip" \
+            "https://downloads.rclone.org/$RCLONE_VERSION/rclone-$RCLONE_VERSION-linux-amd64.zip"
+          unzip -q "$RUNNER_TEMP/rclone.zip" -d "$RUNNER_TEMP"
+          sudo install "$RUNNER_TEMP/rclone-$RCLONE_VERSION-linux-amd64/rclone" /usr/local/bin/rclone
+          rclone version
+
+      - name: Sync to R2
+        env:
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.eu.r2.cloudflarestorage.com
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RCLONE_CONFIG_R2_NO_CHECK_BUCKET: "true"
+          BUCKET: r2:${{ vars.R2_BUCKET }}
+        run: |
+          set -euo pipefail
+          sync() {
+            rclone sync "$1" "$BUCKET/$2" \
+              --checksum \
+              --exclude .DS_Store \
+              --header-upload "Cache-Control: public, max-age=86400" \
+              -v 2>&1 | tee "$RUNNER_TEMP/rclone-$3.log"
+          }
+          sync images images images
+          sync squid-brand-assets squid-brand-assets squid-brand-assets
+          sync scripts/update-tokens/colors.json scripts/update-tokens colors
+
+      - name: Purge the CDN hostname if anything was replaced or deleted
+        if: ${{ !cancelled() }}
+        env:
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_PURGE_TOKEN: ${{ secrets.CF_PURGE_TOKEN }}
+          PUBLIC_BASE_URL: ${{ vars.PUBLIC_BASE_URL }}
+          FORCE: ${{ inputs.purge_host || false }}
+        run: |
+          set -euo pipefail
+          if [ "$FORCE" = "true" ] || grep -qE ': (Copied \(replaced existing\)|Deleted)$' "$RUNNER_TEMP"/rclone-*.log; then
+            host=${PUBLIC_BASE_URL#*://}
+            host=${host%%/*}
+            curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" \
+              -H "Authorization: Bearer $CF_PURGE_TOKEN" -H "Content-Type: application/json" \
+              --data "$(jq -nc --arg host "$host" '{hosts: [$host]}')" | jq -e '.success == true'
+          else
+            echo "Nothing replaced or deleted; no purge needed"
+          fi
