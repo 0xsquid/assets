@@ -143,7 +143,7 @@ The workflow `.github/workflows/sync-assets.yml` copies `images/`, `squid-brand-
 
 It runs on each push to `main` that changes those paths. The "Update tokens" workflow also calls it after its commit. You can start it from the Actions tab. The sync always reads `main`, so a run of "Update tokens" on another branch does not sync that branch.
 
-It uses `rclone sync`, so it also deletes bucket files that you remove from `main`. The first run deletes every bucket object that is not in the repo. If the sync replaces or deletes a file, the job purges the whole CDN hostname from the Cloudflare cache. New files need no purge.
+It uses `rclone sync`, so it also deletes bucket files that you remove from `main`. The first run deletes every bucket object that is not in the repo. If the sync replaces or deletes a file under `images/` or `squid-brand-assets/`, the job purges the whole CDN hostname from the Cloudflare cache. New files need no purge. A change to `colors.json` alone does not trigger a purge, because it changes on most "Update tokens" runs. Instead, the Cloudflare Cache Response Rule "assets colors.json 5 min" caches it for only 5 minutes, at the edge and in browsers. The rule is set in the Cloudflare dashboard and overrides the `max-age` that rclone sets.
 
 If a sync's purge failed or was cancelled, run Sync assets with `purge_host`.
 
