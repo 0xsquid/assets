@@ -68,7 +68,7 @@ jobs:
           sync squid-brand-assets squid-brand-assets squid-brand-assets
           sync scripts/update-tokens/colors.json scripts/update-tokens colors
 
-      - name: Purge the CDN hostname if anything was replaced or deleted
+      - name: Purge the CDN hostname if an image was replaced or deleted
         if: ${{ !cancelled() }}
         env:
           CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
@@ -77,7 +77,14 @@ jobs:
           FORCE: ${{ inputs.purge_host || false }}
         run: |
           set -euo pipefail
-          if [ "$FORCE" = "true" ] || grep -qE ': (Copied \(replaced existing\)|Deleted)$' "$RUNNER_TEMP"/rclone-*.log; then
+          # A purge empties the cache for the whole hostname. colors.json changes
+          # on most Update tokens runs, so instead of purging for it, the Cloudflare
+          # Cache Response Rule "assets colors.json 5 min" gives it a 5-minute TTL
+          # (overriding the max-age set above). Logs of syncs that never ran don't
+          # exist and are skipped.
+          if [ "$FORCE" = "true" ] ||
+              grep -qsE --exclude=rclone-colors.log \
+                ': (Copied \(replaced existing\)|Deleted)$' "$RUNNER_TEMP"/rclone-*.log; then
             host=${PUBLIC_BASE_URL#*://}
             host=${host%%/*}
             response=$(curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache" \
@@ -86,5 +93,5 @@ jobs:
             echo "$response"
             echo "$response" | jq -e '.success == true' > /dev/null
           else
-            echo "Nothing replaced or deleted; no purge needed"
+            echo "No image replaced or deleted; no purge needed"
           fi
