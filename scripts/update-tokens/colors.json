@@ -51955,6 +51955,18 @@
     "solana-mainnet-beta_fraudp6yhtvjypxc2w255yabptspqd8bfhy9rc56jau5": {
       "bgColor": "rgb(197,158,94)",
       "textColor": "#fff"
+    },
+    "solana-mainnet-beta_woontsvfvdlmb5xxvtr446awcgsrzbddtya6usanwug": {
+      "bgColor": "rgb(254,254,254)",
+      "textColor": "#000"
+    },
+    "solana-mainnet-beta_a2ya6aftfkkfvkfsngpvskouv5kqppmybozsbpvmka9t": {
+      "bgColor": "rgb(52,38,34)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_dew9dsn6qpwynthphcpmmabzp1q4cekr9xqxari98wdp": {
+      "bgColor": "rgb(49,41,75)",
+      "textColor": "#fff"
     }
   },
   "chains": {
