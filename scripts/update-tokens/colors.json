@@ -52027,6 +52027,22 @@
     "solana-mainnet-beta_33jenuqnjoitkmfpvnjcshylahfwjuhwt6e3e8cnpump": {
       "bgColor": "rgb(107,103,108)",
       "textColor": "#fff"
+    },
+    "1_0x72dfb2e44f59c5ad2bafe84314e5b99a7cd5075e": {
+      "bgColor": "rgb(238,240,250)",
+      "textColor": "#000"
+    },
+    "56_0x21caef8a43163eea865baee23b9c2e327696a3bf": {
+      "bgColor": "rgb(207,151,3)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_runnqtdphey3pvpixr4zvknesqzp3czw7fnrkthners": {
+      "bgColor": "rgb(19,72,236)",
+      "textColor": "#fff"
+    },
+    "solana-mainnet-beta_t9bncgizvuysrkvx4d5dpcodcsyubm9c33zngnularp": {
+      "bgColor": "rgb(245,198,25)",
+      "textColor": "#000"
     }
   },
   "chains": {
