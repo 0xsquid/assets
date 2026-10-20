@@ -17,7 +17,7 @@ MASTER_DIR="images/master"
 INCLUDE_FOLDERS=("chains" "wallets" "providers" "cash")
 
 # Extra sources outside images/master: "<source dir>:<output base>:<size>". Outputs go to <output base>/webp.
-EXTRA_TARGETS=("squid-brand-assets/pfps:squid-brand-assets/pfps:256")
+EXTRA_TARGETS=("squid-brand-assets/pfps:squid-brand-assets/pfps:256" "squid-brand-assets/milestones:squid-brand-assets/milestones:256")
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
