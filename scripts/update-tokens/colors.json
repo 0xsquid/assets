@@ -54271,6 +54271,10 @@
     "solana-mainnet-beta_brsxqruagswjls7ewch7uxj3r7sgmfkssllxyckhztuo": {
       "bgColor": "rgb(0,61,47)",
       "textColor": "#fff"
+    },
+    "solana-mainnet-beta_2j5sas7xy776qcbpypqbzjyqsatkifgrwjferthnw2zm": {
+      "bgColor": "rgb(104,117,146)",
+      "textColor": "#fff"
     }
   },
   "chains": {
